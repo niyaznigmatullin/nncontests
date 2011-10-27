@@ -37,7 +37,7 @@
 		out.close();
 	}
 
-final int N = 9;
+    final int N = 9;
 	int[][] a;
 
 	void go(int m) {
