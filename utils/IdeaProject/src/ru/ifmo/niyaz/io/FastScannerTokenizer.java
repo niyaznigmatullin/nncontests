@@ -1,4 +1,4 @@
-package niyazio;
+package ru.ifmo.niyaz.io;
 
 import java.io.BufferedReader;
 import java.io.IOException;

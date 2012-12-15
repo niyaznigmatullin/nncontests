@@ -1,4 +1,4 @@
-package niyazio;
+package ru.ifmo.niyaz.io;
 
 import org.omg.CORBA.PUBLIC_MEMBER;
 

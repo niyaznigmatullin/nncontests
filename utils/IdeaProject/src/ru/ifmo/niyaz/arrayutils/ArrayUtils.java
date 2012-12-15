@@ -2,6 +2,7 @@ package arrayutils;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created by IntelliJ IDEA.
@@ -65,7 +66,7 @@ public class ArrayUtils {
         return ret;
     }
 
-    static public int[] toPrimitiveArray(List<Integer> list) {
+    static public int[] toPrimitiveArrayInteger(List<Integer> list) {
         int[] ret = new int[list.size()];
         for (int i = 0; i < ret.length; i++) {
             ret[i] = list.get(i);
@@ -73,7 +74,7 @@ public class ArrayUtils {
         return ret;
     }
 
-    static public long[] toPrimitiveArray(List<Long> list) {
+    static public long[] toPrimitiveArrayLong(List<Long> list) {
         long[] ret = new long[list.size()];
         for (int i = 0; i < ret.length; i++) {
             ret[i] = list.get(i);
@@ -81,7 +82,7 @@ public class ArrayUtils {
         return ret;
     }
 
-    static public double[] toPrimitiveArray(List<Double> list) {
+    static public double[] toPrimitiveArraysDouble(List<Double> list) {
         double[] ret = new double[list.size()];
         for (int i = 0; i < ret.length; i++) {
             ret[i] = list.get(i);
@@ -91,7 +92,7 @@ public class ArrayUtils {
 
     static public int[] sortAndUnique(int[] a) {
         int[] ret = a.clone();
-        Arrays.sort(ret);
+        sort(ret);
         if (ret.length == 0) {
             return ret;
         }
@@ -104,5 +105,40 @@ public class ArrayUtils {
             last = ret[i];
         }
         return Arrays.copyOf(ret, j);
+    }
+
+    public static void sort(int[] a) {
+        Random rand = new Random(System.nanoTime());
+        for (int i = 0; i < a.length; i++) {
+            int j = rand.nextInt(i + 1);
+            int t = a[i];
+            a[i] = a[j];
+            a[j] = t;
+        }
+        Arrays.sort(a);
+    }
+
+
+    public static void sort(double[] a) {
+        Random rand = new Random(System.nanoTime());
+        for (int i = 0; i < a.length; i++) {
+            int j = rand.nextInt(i + 1);
+            double t = a[i];
+            a[i] = a[j];
+            a[j] = t;
+        }
+        Arrays.sort(a);
+    }
+
+
+    public static void sort(long[] a) {
+        Random rand = new Random(System.nanoTime());
+        for (int i = 0; i < a.length; i++) {
+            int j = rand.nextInt(i + 1);
+            long t = a[i];
+            a[i] = a[j];
+            a[j] = t;
+        }
+        Arrays.sort(a);
     }
 }

@@ -1,4 +1,4 @@
-package niyazio;
+package ru.ifmo.niyaz.io;
 
 import java.io.OutputStream;
 import java.io.PrintWriter;
