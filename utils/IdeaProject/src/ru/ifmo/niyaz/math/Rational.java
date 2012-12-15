@@ -1,4 +1,4 @@
-package math;
+package ru.ifmo.niyaz.math;
 
 /**
  * Created by IntelliJ IDEA.

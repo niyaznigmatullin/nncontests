@@ -1,7 +1,7 @@
-package mypackage;
+package coding;
 
-import niyazio.FastScanner;
-import niyazio.FastPrinter;
+import ru.ifmo.niyaz.io.FastScanner;
+import ru.ifmo.niyaz.io.FastPrinter;
 
 public class TaskJ {
     public void solve(int testNumber, FastScanner in, FastPrinter out) {

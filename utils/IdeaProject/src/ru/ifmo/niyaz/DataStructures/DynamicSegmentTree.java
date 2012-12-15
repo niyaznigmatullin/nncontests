@@ -1,4 +1,4 @@
-package DataStructures;
+package ru.ifmo.niyaz.DataStructures;
 
 /**
  * Created by IntelliJ IDEA.

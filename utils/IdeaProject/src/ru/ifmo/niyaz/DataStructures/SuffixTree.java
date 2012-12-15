@@ -1,4 +1,4 @@
-package DataStructures;
+package ru.ifmo.niyaz.DataStructures;
 
 import java.util.Arrays;
 

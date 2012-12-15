@@ -1,4 +1,4 @@
-package geometry;
+package ru.ifmo.niyaz.geometry;
 
 import java.awt.geom.Point2D;
 

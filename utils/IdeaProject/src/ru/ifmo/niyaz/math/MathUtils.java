@@ -1,4 +1,6 @@
-package math;
+package ru.ifmo.niyaz.math;
+
+import ru.ifmo.niyaz.math.Factor;
 
 import java.util.ArrayList;
 import java.util.Arrays;

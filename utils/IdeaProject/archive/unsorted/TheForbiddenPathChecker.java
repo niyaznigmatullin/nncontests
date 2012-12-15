@@ -1,6 +1,6 @@
-package mypackage;
+package coding;
 
-import niyazio.FastScanner;
+import ru.ifmo.niyaz.io.FastScanner;
 import net.egork.chelper.task.Test;
 import net.egork.chelper.tester.Verdict;
 
