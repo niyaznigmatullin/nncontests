@@ -1,4 +1,4 @@
-package graphalgorithms;
+package ru.ifmo.niyaz.graphalgorithms;
 
 import java.util.Arrays;
 

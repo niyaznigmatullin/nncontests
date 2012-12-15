@@ -7,7 +7,7 @@ import net.egork.chelper.tester.Verdict;
 import java.util.Collection;
 import java.util.Collections;
 
-public class TheFlamesCalculationChecker {
+public class TaskChecker {
 	public Verdict check(FastScanner input, FastScanner expected, FastScanner actual) {
 		return Verdict.UNDECIDED;
 	}

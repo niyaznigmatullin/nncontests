@@ -1,4 +1,4 @@
-package arrayutils;
+package ru.ifmo.niyaz.arrayutils;
 
 import java.util.Arrays;
 import java.util.List;
@@ -97,6 +97,23 @@ public class ArrayUtils {
             return ret;
         }
         int last = ret[0];
+        int j = 1;
+        for (int i = 1; i < ret.length; i++) {
+            if (last != ret[i]) {
+                ret[j++] = ret[i];
+            }
+            last = ret[i];
+        }
+        return Arrays.copyOf(ret, j);
+    }
+
+    static public long[] sortAndUnique(long[] a) {
+        long[] ret = a.clone();
+        sort(ret);
+        if (ret.length == 0) {
+            return ret;
+        }
+        long last = ret[0];
         int j = 1;
         for (int i = 1; i < ret.length; i++) {
             if (last != ret[i]) {
