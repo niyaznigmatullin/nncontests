@@ -1,48 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c623840-0462-4410-bb74-c5be8b0ae6ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/TaskChecker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/arrayutils/ArrayUtils.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/arrayutils/ArrayUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/CondensationGraph.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/CondensationGraph.java" />
+    <list default="true" readonly="true" id="9c623840-0462-4410-bb74-c5be8b0ae6ee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/A" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/B" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/C" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/D" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/F" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/junit-4.10.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/A/A.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/A/A.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/B/B.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/B/B.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/C/C.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/C/C.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/D/D.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/D/D.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E/E.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E0/E.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E/E.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E0/E.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E0/EChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/F/F.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/F/F.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/A/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/B/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/C/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/D/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E0/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/F/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DemoProject.iml" afterPath="$PROJECT_DIR$/DemoProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/DijkstraGraph.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/DijkstraGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/DinicGraph.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/DinicGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DisjointSetUnion.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DisjointSetUnion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DynamicSegmentTree.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DynamicSegmentTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/math/Factor.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/math/Factor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick3D.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick3D.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/HungarianAlgorithm.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/HungarianAlgorithm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/KuhnMatchingGraph.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/KuhnMatchingGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/math/MathUtils.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/math/MathUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/math/Matrix.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/math/Matrix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MultiSegmentTree.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MultiSegmentTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MultiTreeSet.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MultiTreeSet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/geometry/Point2DInteger.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/geometry/Point2DInteger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/math/Rational.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/math/Rational.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTree.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/unsorted/TaskJ.java" afterPath="$PROJECT_DIR$/archive/unsorted/TaskJ.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/unsorted/TaskJChecker.java" afterPath="$PROJECT_DIR$/archive/unsorted/TaskJChecker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/unsorted/TheFlamesCalculation.java" afterPath="$PROJECT_DIR$/archive/unsorted/TheFlamesCalculation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/unsorted/TheFlamesCalculationChecker.java" afterPath="$PROJECT_DIR$/archive/unsorted/TheFlamesCalculationChecker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/unsorted/TheForbiddenPath.java" afterPath="$PROJECT_DIR$/archive/unsorted/TheForbiddenPath.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/unsorted/TheForbiddenPathChecker.java" afterPath="$PROJECT_DIR$/archive/unsorted/TheForbiddenPathChecker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chelper.properties" afterPath="$PROJECT_DIR$/chelper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/chelper.xml" afterPath="$PROJECT_DIR$/.idea/libraries/chelper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DemoProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/TaskD.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355567124867" ignored="false" />
     <file path="/MultiTreeSet.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355570269506" ignored="false" />
-    <file path="/fragment.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355574429168" ignored="false" />
+    <file path="/fragment.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355594807526" ignored="false" />
     <file path="/KnightCircuit2.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355570560535" ignored="false" />
     <file path="/ArrayUtils.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355574805434" ignored="false" />
     <file path="/Dummy.txt" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355575450861" ignored="false" />
+    <file path="/Sahovnica.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355580305252" ignored="false" />
+    <file path="/C.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355581354152" ignored="false" />
+    <file path="/Aerodrom.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355582139562" ignored="false" />
+    <file path="/Main.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355582088194" ignored="false" />
+    <file path="/B.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355582512771" ignored="false" />
+    <file path="/E.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355593599721" ignored="false" />
+    <file path="/EChecker.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355586510686" ignored="false" />
+    <file path="/E.task" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355589963094" ignored="false" />
+    <file path="/D.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355594779718" ignored="false" />
+    <file path="/F.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355595466216" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +81,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -97,7 +116,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -106,17 +125,7 @@
     <favorites_list name="DemoProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CondensationGraph.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/CondensationGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="0" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.78158456">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -126,22 +135,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/DijkstraGraph.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/DinicGraph.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/HungarianAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/KuhnMatchingGraph.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/math/Factor.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/math/MathUtils.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/math/Matrix.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/math/Rational.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DisjointSetUnion.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DynamicSegmentTree.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick3D.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MultiSegmentTree.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MultiTreeSet.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTree.java" />
+        <option value="$PROJECT_DIR$/src/coding/Sahovnica.java" />
+        <option value="$PROJECT_DIR$/src/coding/A.java" />
+        <option value="$PROJECT_DIR$/src/coding/C.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/coding/Aerodrom.java" />
+        <option value="$PROJECT_DIR$/src/coding/B.java" />
+        <option value="$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/tester/NewTester.java" />
+        <option value="$PROJECT_DIR$/src/coding/E.task" />
+        <option value="$PROJECT_DIR$/src/coding/EChecker.java" />
+        <option value="$PROJECT_DIR$/src/coding/E.java" />
+        <option value="$PROJECT_DIR$/src/coding/D.java" />
+        <option value="$PROJECT_DIR$/src/coding/F.java" />
       </list>
     </option>
   </component>
@@ -186,7 +195,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -219,16 +228,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,146 +250,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="niyaz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="math" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="niyaz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="niyaz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphalgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="niyaz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="niyaz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="niyaz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arrayutils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -400,14 +267,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="appearance" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.15 - unsorted/E.task" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -415,9 +282,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -426,6 +293,9 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject\src\niyazio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject\archive\unsorted\2012.12\2012.12.15 - unsorted" />
     </key>
   </component>
   <component name="RunManager">
@@ -538,6 +408,7 @@
     <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="true">C:\Users\niyaz.nigmatullin\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
     <option name="myMappingRoots">
@@ -596,18 +467,19 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.49741936" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3977747" sideWeight="0.49741936" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43949932" sideWeight="0.516129" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31432545" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31432545" sideWeight="0.4870968" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997844" sideWeight="0.23695976" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.8226257" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39971244" sideWeight="0.67058825" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20967741" sideWeight="0.68567455" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43949932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20967741" sideWeight="0.5605007" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43949932" sideWeight="0.47935483" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -615,7 +487,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -680,116 +551,91 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/CondensationGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+        <state line="94" column="0" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.78158456">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/io/FastPrinter.java">
+    <entry file="jar://$USER_HOME$/.IdeaIC12/config/plugins/chelper.jar!/net/egork/chelper/tester/StringInputStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="167" selection-end="167" vertical-scroll-proportion="0.24147727">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/math/Factor.java">
+    <entry file="jar://$USER_HOME$/.IdeaIC12/config/plugins/chelper.jar!/net/egork/chelper/task/Task.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/math/MathUtils.java">
+    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/task/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/util/InputReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="18" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.331565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/tester/NewTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="27" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.331565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/tester/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.63129973">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/task/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="0" selection-start="5044" selection-end="5044" vertical-scroll-proportion="0.33241758">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.18037136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/A/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="33" selection-start="293" selection-end="293" vertical-scroll-proportion="0.4960212">
           <folding>
-            <element signature="e#578#586#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/math/Matrix.java">
+    <entry file="file://$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.15 - unsorted/EChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="42" column="50" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#503#509#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/math/Rational.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DisjointSetUnion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DynamicSegmentTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MultiSegmentTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="340" selection-end="340" vertical-scroll-proportion="0.36796537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/io/FastScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="472" selection-end="472" vertical-scroll-proportion="0.26984128">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MultiTreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
+    <entry file="file://$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E/E.task">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/CondensationGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.78158456">
           <folding />
         </state>
       </provider>
@@ -870,7 +716,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>CHelper</last-edited>
+          <last-edited>chelper</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

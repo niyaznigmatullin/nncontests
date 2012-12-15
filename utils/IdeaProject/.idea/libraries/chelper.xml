@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="chelper">
+  <library name="CHelper">
     <CLASSES>
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/chelper2.33.jar!/" />
+      <root url="jar://$USER_HOME$/.IdeaIC12/config/plugins/chelper.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
