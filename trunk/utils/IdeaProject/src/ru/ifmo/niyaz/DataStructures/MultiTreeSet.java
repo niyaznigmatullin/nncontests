@@ -59,6 +59,14 @@ public class MultiTreeSet<T> {
         return map.containsKey(o);
     }
 
+    public int getCount(T t) {
+        Integer cnt = map.get(t);
+        if (cnt == null) {
+            cnt = 0;
+        }
+        return cnt;
+    }
+
     public boolean add(T t) {
         Integer e = map.get(t);
         if (e == null) {

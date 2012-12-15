@@ -27,4 +27,8 @@ public class Fenwick {
         }
         return ret;
     }
+
+    public int getSum(int l, int r) {
+        return getSum(r - 1) - getSum(l - 1);
+    }
 }
