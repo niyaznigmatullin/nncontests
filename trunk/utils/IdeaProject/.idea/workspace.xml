@@ -2,56 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="9c623840-0462-4410-bb74-c5be8b0ae6ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/A" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/B" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/C" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/D" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/F" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/junit-4.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/A/A.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/A/A.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/B/B.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/B/B.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/C/C.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/C/C.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/D/D.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/D/D.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E/E.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E0/E.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E/E.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E0/E.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E0/EChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/F/F.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/F/F.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/A/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/B/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/C/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/D/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E0/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/F/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DemoProject.iml" afterPath="$PROJECT_DIR$/DemoProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chelper.properties" afterPath="$PROJECT_DIR$/chelper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/chelper.xml" afterPath="$PROJECT_DIR$/.idea/libraries/chelper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/First" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Gangs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Runaway" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/TestSuffix" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/First.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/First/First.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/First.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/First/First.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/Gangs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Gangs/Gangs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/Gangs.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Gangs/Gangs.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/GangsChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Gangs/GangsChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/GangsGen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/First/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Gangs/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Runaway/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/TestSuffix/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/Runaway.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Runaway/Runaway.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/Runaway.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Runaway/Runaway.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTreeList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/TestSuffix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/TestSuffix/TestSuffix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/TestSuffix.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/TestSuffix/TestSuffix.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/TrieList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DemoProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/TaskD.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355567124867" ignored="false" />
+    <file path="/TaskD.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355602600922" ignored="false" />
     <file path="/MultiTreeSet.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355570269506" ignored="false" />
-    <file path="/fragment.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355594807526" ignored="false" />
+    <file path="/fragment.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355758133625" ignored="false" />
     <file path="/KnightCircuit2.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355570560535" ignored="false" />
     <file path="/ArrayUtils.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355574805434" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355575450861" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355758458309" ignored="false" />
     <file path="/Sahovnica.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355580305252" ignored="false" />
     <file path="/C.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355581354152" ignored="false" />
     <file path="/Aerodrom.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355582139562" ignored="false" />
@@ -62,6 +54,17 @@
     <file path="/E.task" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355589963094" ignored="false" />
     <file path="/D.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355594779718" ignored="false" />
     <file path="/F.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355595466216" ignored="false" />
+    <file path="/TaskC.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355601776593" ignored="false" />
+    <file path="/Task.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355678283403" ignored="false" />
+    <file path="/TaskRunaway.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355743827242" ignored="false" />
+    <file path="/Gangs.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355755729656" ignored="false" />
+    <file path="/GangsChecker.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355745556587" ignored="false" />
+    <file path="/Gangs.task" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355745895493" ignored="false" />
+    <file path="/GangsGen.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355745867876" ignored="false" />
+    <file path="/SuffixTreeList.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355753302714" ignored="false" />
+    <file path="/First.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355754478267" ignored="false" />
+    <file path="/TestSuffix.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355753334275" ignored="false" />
+    <file path="/TrieList.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355754110244" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -116,7 +119,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -135,22 +138,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick3D.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MultiSegmentTree.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MultiTreeSet.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTree.java" />
-        <option value="$PROJECT_DIR$/src/coding/Sahovnica.java" />
-        <option value="$PROJECT_DIR$/src/coding/A.java" />
-        <option value="$PROJECT_DIR$/src/coding/C.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/coding/Aerodrom.java" />
-        <option value="$PROJECT_DIR$/src/coding/B.java" />
-        <option value="$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/tester/NewTester.java" />
-        <option value="$PROJECT_DIR$/src/coding/E.task" />
-        <option value="$PROJECT_DIR$/src/coding/EChecker.java" />
         <option value="$PROJECT_DIR$/src/coding/E.java" />
         <option value="$PROJECT_DIR$/src/coding/D.java" />
         <option value="$PROJECT_DIR$/src/coding/F.java" />
+        <option value="$PROJECT_DIR$/src/coding/TaskC.java" />
+        <option value="$PROJECT_DIR$/src/coding/TaskD.java" />
+        <option value="$PROJECT_DIR$/src/coding/Task.java" />
+        <option value="$PROJECT_DIR$/src/coding/TaskRunaway.java" />
+        <option value="$PROJECT_DIR$/src/coding/Runaway.java" />
+        <option value="$PROJECT_DIR$/src/coding/GangsChecker.java" />
+        <option value="$PROJECT_DIR$/src/coding/Gangs.task" />
+        <option value="$PROJECT_DIR$/src/coding/GangsGen.java" />
+        <option value="$PROJECT_DIR$/src/coding/TestSuffix.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTreeList.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/TrieList.java" />
+        <option value="$PROJECT_DIR$/src/coding/First.java" />
+        <option value="$PROJECT_DIR$/src/coding/Gangs.java" />
       </list>
     </option>
   </component>
@@ -196,7 +199,7 @@
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="1" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <ConfirmationsSetting value="1" id="Remove" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -214,16 +217,12 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -250,14 +249,90 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="on2012_12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unsorted" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unsorted" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2012.12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -282,12 +357,13 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.ifmo.niyaz.DataStructures" />
       <recent name="mypackage" />
       <recent name="niyazio" />
     </key>
@@ -295,6 +371,7 @@
       <recent name="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject\src\niyazio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject\archive\unsorted\2012.12\2012.12.17 - unsorted" />
       <recent name="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject\archive\unsorted\2012.12\2012.12.15 - unsorted" />
     </key>
   </component>
@@ -464,22 +541,22 @@
     <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962447" sideWeight="0.4948387" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.49741936" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.4948387" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3977747" sideWeight="0.49741936" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43949932" sideWeight="0.516129" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962447" sideWeight="0.50064516" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31432545" sideWeight="0.4870968" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31432545" sideWeight="0.48451614" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997844" sideWeight="0.23695976" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.8226257" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39971244" sideWeight="0.67058825" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20967741" sideWeight="0.5605007" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43949932" sideWeight="0.47935483" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20967741" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43949932" sideWeight="0.47419354" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -496,8 +573,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -551,81 +628,42 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/CondensationGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E/E.task">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.78158456">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.331565">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.IdeaIC12/config/plugins/chelper.jar!/net/egork/chelper/tester/StringInputStream.class">
+    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/checkers/TokenChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="167" selection-end="167" vertical-scroll-proportion="0.24147727">
+        <state line="17" column="21" selection-start="503" selection-end="503" vertical-scroll-proportion="0.67639256">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.IdeaIC12/config/plugins/chelper.jar!/net/egork/chelper/task/Task.class">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_05/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/task/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/util/InputReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="18" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.331565">
+        <state line="2702" column="63" selection-start="110333" selection-end="110333" vertical-scroll-proportion="0.04509284">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/tester/NewTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="27" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.331565">
+        <state line="122" column="0" selection-start="5095" selection-end="5095" vertical-scroll-proportion="0.331565">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/tester/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.63129973">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/task/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="0" selection-start="5044" selection-end="5044" vertical-scroll-proportion="0.33241758">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.18037136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/A/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="293" selection-end="293" vertical-scroll-proportion="0.4960212">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.15 - unsorted/EChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="50" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0">
+        <state line="18" column="38" selection-start="371" selection-end="371" vertical-scroll-proportion="0.31564987">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#503#509#0" expanded="true" />
@@ -633,7 +671,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E/E.task">
+    <entry file="file://$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/Gangs.task">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="10" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/GangsGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#596#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/TrieList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="275" selection-end="275" vertical-scroll-proportion="0.54111403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTreeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="43" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.18037136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="22" selection-start="906" selection-end="906" vertical-scroll-proportion="0.54111403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/Task.task">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
