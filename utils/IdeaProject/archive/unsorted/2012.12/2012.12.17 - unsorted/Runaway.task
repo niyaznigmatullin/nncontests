@@ -1,0 +1,31 @@
+7 Runaway
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+15 4 5
+1 4
+2 3
+1 5
+8 3
+2
+1
+1
+
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+14 coding.Runaway
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.12.17
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
