@@ -1,4 +1,4 @@
-package ru.ifmo.niyaz.graphalgorithms;
+package graphalgorithms;
 
 import java.util.*;
 
@@ -32,20 +32,6 @@ public class MinCostMaxFlowGraph {
                     + ", cap=" + cap + ", cost=" + cost + "]";
         }
 
-    }
-
-    static class Vertex implements Comparable<Vertex> {
-        int num;
-        Edge last;
-        long d;
-
-        public Vertex(int num) {
-            this.num = num;
-        }
-
-        public int compareTo(Vertex o) {
-            return d < o.d ? -1 : d > o.d ? 1 : num - o.num;
-        }
     }
 
     int n;
@@ -82,35 +68,32 @@ public class MinCostMaxFlowGraph {
                 }
             }
         }
-        Vertex[] vertices = new Vertex[n];
+        Edge[] lastEdge = new Edge[n];
         long[] d = new long[n];
-        for (int i = 0; i < vertices.length; i++) {
-            vertices[i] = new Vertex(i);
-        }
         int flow = 0;
         long cost = 0;
         while (true) {
-            dijkstra(source, vertices, d, h);
+            dijkstra(source, lastEdge, d, h);
             if (d[target] == Long.MAX_VALUE) {
                 break;
-            }
-            int addFlow = Integer.MAX_VALUE;
-            Vertex v = vertices[target];
-            while (v != vertices[source]) {
-                addFlow = Math.min(addFlow, v.last.cap - v.last.flow);
-                v = vertices[v.last.from];
             }
             long curCost = d[target] + h[target] - h[source];
             if (curCost >= 0) {
                 break;
             }
+            int addFlow = Integer.MAX_VALUE;
+            for (int v = target; v != source; ) {
+                Edge e = lastEdge[v];
+                addFlow = Math.min(addFlow, e.cap - e.flow);
+                v = e.from;
+            }
             cost += curCost * addFlow;
             flow += addFlow;
-            v = vertices[target];
-            while (v != vertices[source]) {
-                v.last.flow += addFlow;
-                v.last.rev.flow -= addFlow;
-                v = vertices[v.last.from];
+            for (int v = target; v != source; ) {
+                Edge e = lastEdge[v];
+                e.flow += addFlow;
+                e.rev.flow -= addFlow;
+                v = e.from;
             }
             for (int i = 0; i < n; i++) {
                 h[i] += d[i] == Long.MAX_VALUE ? 0 : d[i];
@@ -224,35 +207,28 @@ public class MinCostMaxFlowGraph {
 
     public long[] getMinCostFlowAcyclic(int source, int target) {
         long[] h = getPotentialsAcyclic();
-        Vertex[] vertices = new Vertex[n];
+        Edge[] lastEdge = new Edge[n];
         long[] d = new long[n];
-        for (int i = 0; i < vertices.length; i++) {
-            vertices[i] = new Vertex(i);
-        }
         int flow = 0;
         long cost = 0;
         while (true) {
-            dijkstra(source, vertices, d, h);
+            dijkstra(source, lastEdge, d, h);
             if (d[target] == Long.MAX_VALUE) {
                 break;
             }
             int addFlow = Integer.MAX_VALUE;
-            Vertex v = vertices[target];
-            while (v != vertices[source]) {
-                addFlow = Math.min(addFlow, v.last.cap - v.last.flow);
-                v = vertices[v.last.from];
+            for (int v = target; v != source; ) {
+                Edge e = lastEdge[v];
+                addFlow = Math.min(addFlow, e.cap - e.flow);
+                v = e.from;
             }
-            long curCost = d[target] + h[target] - h[source];
-            if (curCost >= 0) {
-                break;
-            }
-            cost += curCost * addFlow;
+            cost += (d[target] + h[target] - h[source]) * addFlow;
             flow += addFlow;
-            v = vertices[target];
-            while (v != vertices[source]) {
-                v.last.flow += addFlow;
-                v.last.rev.flow -= addFlow;
-                v = vertices[v.last.from];
+            for (int v = target; v != source; ) {
+                Edge e = lastEdge[v];
+                e.flow += addFlow;
+                e.rev.flow -= addFlow;
+                v = e.from;
             }
             for (int i = 0; i < n; i++) {
                 h[i] += d[i] == Long.MAX_VALUE ? 0 : d[i];
@@ -274,31 +250,28 @@ public class MinCostMaxFlowGraph {
                 }
             }
         }
-        Vertex[] vertices = new Vertex[n];
+        Edge[] lastEdge = new Edge[n];
         long[] d = new long[n];
-        for (int i = 0; i < vertices.length; i++) {
-            vertices[i] = new Vertex(i);
-        }
         int flow = 0;
         long cost = 0;
         while (true) {
-            dijkstra(source, vertices, d, h);
+            dijkstra(source, lastEdge, d, h);
             if (d[target] == Long.MAX_VALUE) {
                 break;
             }
             int addFlow = Integer.MAX_VALUE;
-            Vertex v = vertices[target];
-            while (v != vertices[source]) {
-                addFlow = Math.min(addFlow, v.last.cap - v.last.flow);
-                v = vertices[v.last.from];
+            for (int v = target; v != source; ) {
+                Edge e = lastEdge[v];
+                addFlow = Math.min(addFlow, e.cap - e.flow);
+                v = e.from;
             }
             cost += (d[target] + h[target] - h[source]) * addFlow;
             flow += addFlow;
-            v = vertices[target];
-            while (v != vertices[source]) {
-                v.last.flow += addFlow;
-                v.last.rev.flow -= addFlow;
-                v = vertices[v.last.from];
+            for (int v = target; v != source; ) {
+                Edge e = lastEdge[v];
+                e.flow += addFlow;
+                e.rev.flow -= addFlow;
+                v = e.from;
             }
             for (int i = 0; i < n; i++) {
                 h[i] += d[i] == Long.MAX_VALUE ? 0 : d[i];
@@ -307,18 +280,21 @@ public class MinCostMaxFlowGraph {
         return new long[]{flow, cost};
     }
 
-    void dijkstra(int source, Vertex[] vertices, long[] d, long[] h) {
-        TreeSet<Vertex> ts = new TreeSet<Vertex>();
+    void dijkstra(int source, Edge[] lastEdge, final long[] d, long[] h) {
+        TreeSet<Integer> ts = new TreeSet<Integer>(new Comparator<Integer>() {
+            public int compare(Integer o1, Integer o2) {
+                if (d[o1] != d[o2]) {
+                    return d[o1] < d[o2] ? -1 : 1;
+                }
+                return o1 - o2;
+            }
+        });
         Arrays.fill(d, Long.MAX_VALUE);
-        for (int i = 0; i < vertices.length; i++) {
-            vertices[i].d = Long.MAX_VALUE;
-        }
         d[source] = 0;
-        vertices[source].d = 0;
-        ts.add(vertices[source]);
+        ts.add(source);
         while (!ts.isEmpty()) {
-            Vertex v = ts.pollFirst();
-            for (Edge e : edges[v.num]) {
+            int v = ts.pollFirst();
+            for (Edge e : edges[v]) {
                 if (e.flow >= e.cap) {
                     continue;
                 }
@@ -328,13 +304,10 @@ public class MinCostMaxFlowGraph {
                     if (e.cost + h[e.from] - h[e.to] < 0) {
                         throw new AssertionError();
                     }
-                    if (ts.contains(vertices[e.to])) {
-                        ts.remove(vertices[e.to]);
-                    }
+                    ts.remove(e.to);
                     d[e.to] = d[e.from] + e.cost + h[e.from] - h[e.to];
-                    vertices[e.to].d = d[e.to];
-                    vertices[e.to].last = e;
-                    ts.add(vertices[e.to]);
+                    lastEdge[e.to] = e;
+                    ts.add(e.to);
                 }
             }
         }
