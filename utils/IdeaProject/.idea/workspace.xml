@@ -2,38 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="9c623840-0462-4410-bb74-c5be8b0ae6ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/First" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Gangs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Runaway" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/TestSuffix" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/First.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/First/First.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/First.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/First/First.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/Gangs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Gangs/Gangs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/Gangs.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Gangs/Gangs.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/GangsChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Gangs/GangsChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/GangsGen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/First/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Gangs/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Runaway/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/TestSuffix/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/Runaway.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Runaway/Runaway.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/Runaway.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/Runaway/Runaway.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTreeList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/TestSuffix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/TestSuffix/TestSuffix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/TestSuffix.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_17_/TestSuffix/TestSuffix.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/TrieList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/LongHashMapOnlyAdd.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/LongHashMapOnlyAdd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MaxSegmentTree.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MaxSegmentTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MinSegmentTree.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MinSegmentTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixArray.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chelper.properties" afterPath="$PROJECT_DIR$/chelper.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DemoProject.iws" />
@@ -43,7 +17,7 @@
     <file path="/fragment.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355758133625" ignored="false" />
     <file path="/KnightCircuit2.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355570560535" ignored="false" />
     <file path="/ArrayUtils.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355574805434" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355758458309" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356544052189" ignored="false" />
     <file path="/Sahovnica.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355580305252" ignored="false" />
     <file path="/C.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355581354152" ignored="false" />
     <file path="/Aerodrom.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355582139562" ignored="false" />
@@ -65,6 +39,7 @@
     <file path="/First.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355754478267" ignored="false" />
     <file path="/TestSuffix.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355753334275" ignored="false" />
     <file path="/TrieList.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355754110244" ignored="false" />
+    <file path="/a.groovy" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356543888105" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +59,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -119,7 +94,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -128,7 +102,80 @@
     <favorites_list name="DemoProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="SuffixArray.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongHashMapOnlyAdd.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/LongHashMapOnlyAdd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fenwick.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicSegmentTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DynamicSegmentTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisjointSetUnion.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DisjointSetUnion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxSegmentTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MaxSegmentTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinSegmentTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MinSegmentTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinCostMaxFlowGraph.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="43" selection-start="343" selection-end="343" vertical-scroll-proportion="0.55282557">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -138,11 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/coding/E.java" />
-        <option value="$PROJECT_DIR$/src/coding/D.java" />
-        <option value="$PROJECT_DIR$/src/coding/F.java" />
-        <option value="$PROJECT_DIR$/src/coding/TaskC.java" />
-        <option value="$PROJECT_DIR$/src/coding/TaskD.java" />
         <option value="$PROJECT_DIR$/src/coding/Task.java" />
         <option value="$PROJECT_DIR$/src/coding/TaskRunaway.java" />
         <option value="$PROJECT_DIR$/src/coding/Runaway.java" />
@@ -154,6 +196,11 @@
         <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/TrieList.java" />
         <option value="$PROJECT_DIR$/src/coding/First.java" />
         <option value="$PROJECT_DIR$/src/coding/Gangs.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixArray.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/LongHashMapOnlyAdd.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MaxSegmentTree.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MinSegmentTree.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java" />
       </list>
     </option>
   </component>
@@ -168,10 +215,9 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -180,12 +226,16 @@
           <State>
             <id />
           </State>
-        </expanded-state>
-        <selected-state>
           <State>
-            <id>Abstraction issues</id>
+            <id>Android Lint</id>
           </State>
-        </selected-state>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+        </expanded-state>
       </profile-state>
     </entry>
   </component>
@@ -234,10 +284,6 @@
               <option name="myItemId" value="DemoProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -260,6 +306,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="niyaz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,46 +342,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="on2012_12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="archive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unsorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="archive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unsorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2012.12" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -348,7 +372,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.15 - unsorted/E.task" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -356,6 +380,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -376,10 +401,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -414,10 +435,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Task" factoryName="Task">
-      <taskConf />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -483,7 +500,7 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="true">C:\Users\niyaz.nigmatullin\AppData\Roaming\Subversion</configuration>
+    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
@@ -491,20 +508,20 @@
     <option name="myMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject" />
-          <option name="myCopyRoot" value="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject" />
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
         </SvnCopyRootSimple>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject\.idea" />
-          <option name="myCopyRoot" value="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject\.idea" />
+          <option name="myVcsRoot" value="$PROJECT_DIR$/.idea" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/.idea" />
         </SvnCopyRootSimple>
       </list>
     </option>
     <option name="myMoreRealMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject" />
-          <option name="myCopyRoot" value="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject" />
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
         </SvnCopyRootSimple>
       </list>
     </option>
@@ -538,24 +555,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="800" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962447" sideWeight="0.4948387" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32844576" sideWeight="0.4892396" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.4948387" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3977747" sideWeight="0.49741936" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962447" sideWeight="0.50064516" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32844576" sideWeight="0.50573885" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31432545" sideWeight="0.48451614" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997844" sideWeight="0.23695976" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.8226257" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39971244" sideWeight="0.67058825" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20967741" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20946915" sideWeight="0.67155427" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43949932" sideWeight="0.47419354" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -564,6 +579,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.4948387" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31432545" sideWeight="0.48451614" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -633,85 +650,88 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.331565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/checkers/TokenChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="503" selection-end="503" vertical-scroll-proportion="0.67639256">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_05/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2702" column="63" selection-start="110333" selection-end="110333" vertical-scroll-proportion="0.04509284">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/tester/NewTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="0" selection-start="5095" selection-end="5095" vertical-scroll-proportion="0.331565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.15 - unsorted/EChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="371" selection-end="371" vertical-scroll-proportion="0.31564987">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#503#509#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="18" column="38" selection-start="371" selection-end="371" vertical-scroll-proportion="0.31564987" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/Gangs.task">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="10" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="10" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/GangsGen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#596#602#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/TrieList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="275" selection-end="275" vertical-scroll-proportion="0.54111403">
-          <folding />
-        </state>
+        <state line="12" column="38" selection-start="275" selection-end="275" vertical-scroll-proportion="0.54111403" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTreeList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="43" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.18037136">
-          <folding />
-        </state>
+        <state line="48" column="43" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.18037136" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="22" selection-start="906" selection-end="906" vertical-scroll-proportion="0.54111403">
+        <state line="37" column="22" selection-start="906" selection-end="906" vertical-scroll-proportion="0.54111403" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.17 - unsorted/Task.task">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/LongHashMapOnlyAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DynamicSegmentTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DisjointSetUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MaxSegmentTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MinSegmentTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="43" selection-start="343" selection-end="343" vertical-scroll-proportion="0.55282557">
           <folding />
         </state>
       </provider>
