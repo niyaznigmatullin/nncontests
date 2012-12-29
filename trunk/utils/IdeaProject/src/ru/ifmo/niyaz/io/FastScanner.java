@@ -100,7 +100,12 @@ public class FastScanner extends BufferedReader {
 
     public String nextLine() {
         try {
-            return readLine();
+            int c = read();
+            String ret = readLine();
+            if (c != 13) {
+                return (char) c + ret;
+            }
+            return ret;
         } catch (IOException e) {
             return null;
         }
@@ -132,4 +137,46 @@ public class FastScanner extends BufferedReader {
     public int readTimeHMS(char delim) {
         return readTimeHMS(delim, delim);
     }
+
+    public int[] readIntArray(int n) {
+        int[] ret = new int[n];
+        for (int i = 0; i < n; i++) {
+            ret[i] = nextInt();
+        }
+        return ret;
+    }
+    public long[] readLongArray(int n) {
+        long[] ret = new long[n];
+        for (int i = 0; i < n; i++) {
+            ret[i] = nextLong();
+        }
+        return ret;
+    }
+    public double[] readDoubleArray(int n) {
+        double[] ret = new double[n];
+        for (int i = 0; i < n; i++) {
+            ret[i] = nextDouble();
+        }
+        return ret;
+    }
+
+    public String[] readTokenArray(int n) {
+        String[] ret = new String[n];
+        for (int i = 0; i < n; i++) {
+            ret[i] = next();
+        }
+        return ret;
+    }
+
+    public char[][] readCharacterFieldTokens(int n, int m) {
+        char[][] ret = new char[n][];
+        for (int i = 0; i < n; i++) {
+            ret[i] = next().toCharArray();
+            if (ret[i].length != m) {
+                throw new AssertionError("length expected " + m + ", found " + ret[i].length);
+            }
+        }
+        return ret;
+    }
+
 }

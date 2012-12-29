@@ -2,34 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="9c623840-0462-4410-bb74-c5be8b0ae6ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/LongHashMapOnlyAdd.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/LongHashMapOnlyAdd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MaxSegmentTree.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MaxSegmentTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MinSegmentTree.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MinSegmentTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixArray.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chelper.properties" afterPath="$PROJECT_DIR$/chelper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/A___Life_Without_Zeros" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_22_Codeforces_Round__157__Div__1_/A___Little_Elephant_and_Bits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/B___Facetook_Priority_Wall" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_22_Codeforces_Round__157__Div__1_/B___Little_Elephant_and_Elections" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/C___Modified_GCD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_25_Codeforces_Beta_Round__12__Div_2_Only_/D___Ball" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/D___Big_Maximum_Sum" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/E___Ships_Shortest_Path" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_20_Single_Round_Match_565/MonstersValley" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_20_Single_Round_Match_565/UnknownTree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_20_Single_Round_Match_565" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_20_TopCoder_SRM__565" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_22_Codeforces_Round__157__Div__1_" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_25_Codeforces_Beta_Round__12__Div_2_Only_" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/A___Life_Without_Zeros/A - Life Without Zeros.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_22_Codeforces_Round__157__Div__1_/A___Little_Elephant_and_Bits/A - Little Elephant and Bits.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/B___Facetook_Priority_Wall/B - Facetook Priority Wall.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_22_Codeforces_Round__157__Div__1_/B___Little_Elephant_and_Elections/B - Little Elephant and Elections.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/C___Modified_GCD/C - Modified GCD.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_25_Codeforces_Beta_Round__12__Div_2_Only_/D___Ball/D - Ball.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/D___Big_Maximum_Sum/D - Big Maximum Sum.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/E___Ships_Shortest_Path/E - Ships Shortest Path.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/FenwickMin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/GraphUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_20_Single_Round_Match_565/MonstersValley/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_20_Single_Round_Match_565/UnknownTree/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_22_Codeforces_Round__157__Div__1_/A___Little_Elephant_and_Bits/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_22_Codeforces_Round__157__Div__1_/B___Little_Elephant_and_Elections/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/A___Life_Without_Zeros/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/B___Facetook_Priority_Wall/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/C___Modified_GCD/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/D___Big_Maximum_Sum/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/E___Ships_Shortest_Path/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_25_Codeforces_Beta_Round__12__Div_2_Only_/D___Ball/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_20_Single_Round_Match_565/MonstersValley/MonstersValley.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_20_Single_Round_Match_565/MonstersValley/MonstersValley.tctask" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_22_Codeforces_Round__157__Div__1_/A___Little_Elephant_and_Bits/TaskA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/A___Life_Without_Zeros/TaskA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_22_Codeforces_Round__157__Div__1_/B___Little_Elephant_and_Elections/TaskB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/B___Facetook_Priority_Wall/TaskB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/C___Modified_GCD/TaskC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/D___Big_Maximum_Sum/TaskD.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_25_Codeforces_Beta_Round__12__Div_2_Only_/D___Ball/TaskD.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_24_Codeforces_Beta_Round__67__Div__2_/E___Ships_Shortest_Path/TaskE.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_22_Codeforces_Round__157__Div__1_/B___Little_Elephant_and_Elections/TestCase0.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_20_Single_Round_Match_565/UnknownTree/UnknownTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_20_Single_Round_Match_565/UnknownTree/UnknownTree.tctask" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/niyaz/io/FastScanner.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/niyaz/io/FastScanner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DemoProject.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <file path="/TaskD.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355602600922" ignored="false" />
+    <ignored path=".idea/" />
+    <file path="/TaskD.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356425321753" ignored="false" />
     <file path="/MultiTreeSet.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355570269506" ignored="false" />
-    <file path="/fragment.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355758133625" ignored="false" />
+    <file path="/fragment.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356423497205" ignored="false" />
     <file path="/KnightCircuit2.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355570560535" ignored="false" />
     <file path="/ArrayUtils.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355574805434" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356544052189" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356770415027" ignored="false" />
     <file path="/Sahovnica.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355580305252" ignored="false" />
     <file path="/C.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355581354152" ignored="false" />
     <file path="/Aerodrom.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355582139562" ignored="false" />
-    <file path="/Main.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355582088194" ignored="false" />
+    <file path="/Main.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356099631796" ignored="false" />
     <file path="/B.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355582512771" ignored="false" />
     <file path="/E.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355593599721" ignored="false" />
     <file path="/EChecker.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355586510686" ignored="false" />
     <file path="/E.task" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355589963094" ignored="false" />
     <file path="/D.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355594779718" ignored="false" />
     <file path="/F.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355595466216" ignored="false" />
-    <file path="/TaskC.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355601776593" ignored="false" />
-    <file path="/Task.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355678283403" ignored="false" />
+    <file path="/TaskC.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356423428107" ignored="false" />
+    <file path="/Task.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356103113606" ignored="false" />
     <file path="/TaskRunaway.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355743827242" ignored="false" />
     <file path="/Gangs.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355755729656" ignored="false" />
     <file path="/GangsChecker.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355745556587" ignored="false" />
@@ -39,7 +84,60 @@
     <file path="/First.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355754478267" ignored="false" />
     <file path="/TestSuffix.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355753334275" ignored="false" />
     <file path="/TrieList.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355754110244" ignored="false" />
-    <file path="/a.groovy" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356543888105" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/study/network/task2/Server.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356103447396" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/study/network/task2/Client.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356103659228" ignored="false" />
+    <file path="/Client.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356124892468" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/User.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1355951929202" ignored="false" />
+    <file path="/User.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356112974389" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/study/network/task2/User.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356103659228" ignored="false" />
+    <file path="/Server.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356164786275" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/study/network/task2/ByteArrayReader.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356001984799" ignored="false" />
+    <file path="/ByteArrayReader.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356121960066" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/study/network/task2/ByteArrayWriter.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356002964941" ignored="false" />
+    <file path="/ByteArrayWriter.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356120853151" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/study/network/task2/MessageReceiver.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356103447396" ignored="false" />
+    <file path="/MessageReceiver.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356002126073" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/Tugan tel.txt" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356004590419" ignored="false" />
+    <file path="/Tugan tel.txt" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356004589421" ignored="false" />
+    <file path="/MonstersValley.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356020172697" ignored="false" />
+    <file path="/TheDivisionGame.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356028886625" ignored="false" />
+    <file path="/UnknownTree.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356028572937" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/untitled2/main/src/Main.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356099667465" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/io/ByteArrayReader.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356103403834" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/io/ByteArrayWriter.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356103403834" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/ByteArrayReader.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356121960961" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/ByteArrayWriter.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356120855929" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/User.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356103458107" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/study/network/task3/MessageReceiver.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356103471936" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/study/network/task3/Client.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356114222882" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/study/network/task3/Server.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356114454283" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/study/network/task3/User.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356113205265" ignored="false" />
+    <file path="/a.dummy" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356112141356" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/study/network/task3/UserContents.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356113246515" ignored="false" />
+    <file path="/UserContents.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356113246515" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/study/network/task3/Hash.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356114378489" ignored="false" />
+    <file path="/Hash.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356123149773" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/Hash.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356123161729" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/task2/Server.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356164826295" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/task2/User.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356114464476" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/task2/Client.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356164633681" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/task2/MessageReceiver.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356115093522" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/task3/Server.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356123682156" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/task3/User.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356114471383" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/task3/MessageReceiver.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356114471383" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/task3/Client.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356165117900" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/MD5Hash.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356116977810" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/task4/MessageReceiver.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356161792747" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/task4/Server.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356161792754" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/task4/User.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356161792756" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Projects/NetworkProgramming/src/ru/ifmo/niyaz/study/network/task4/Client.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356163536274" ignored="false" />
+    <file path="/TaskA.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356375101769" ignored="false" />
+    <file path="/TaskB.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356375586522" ignored="false" />
+    <file path="/TestCase0.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356194071036" ignored="false" />
+    <file path="/TaskE.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356385916132" ignored="false" />
+    <file path="/FenwikMin.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356383586475" ignored="false" />
+    <file path="/GraphUtils.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356425173638" ignored="false" />
+    <file path="/FastScanner.java" changelist="9c623840-0462-4410-bb74-c5be8b0ae6ee" time="1356424365798" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,73 +201,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SuffixArray.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixArray.java">
+      <file leaf-file-name="TaskC.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/coding/TaskC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+            <state line="100" column="135" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongHashMapOnlyAdd.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/LongHashMapOnlyAdd.java">
+      <file leaf-file-name="GraphUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/GraphUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+            <state line="24" column="17" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fenwick.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick.java">
+      <file leaf-file-name="TaskD.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/coding/TaskD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+            <state line="44" column="23" selection-start="1021" selection-end="1021" vertical-scroll-proportion="-0.1006424">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DynamicSegmentTree.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DynamicSegmentTree.java">
+      <file leaf-file-name="FastPrinter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/io/FastPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+            <state line="13" column="13" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DisjointSetUnion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DisjointSetUnion.java">
+      <file leaf-file-name="FastScanner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/io/FastScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxSegmentTree.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MaxSegmentTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinSegmentTree.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MinSegmentTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinCostMaxFlowGraph.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="43" selection-start="343" selection-end="343" vertical-scroll-proportion="0.55282557">
+            <state line="178" column="19" selection-start="4599" selection-end="4599" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -185,22 +256,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/coding/Task.java" />
-        <option value="$PROJECT_DIR$/src/coding/TaskRunaway.java" />
-        <option value="$PROJECT_DIR$/src/coding/Runaway.java" />
-        <option value="$PROJECT_DIR$/src/coding/GangsChecker.java" />
-        <option value="$PROJECT_DIR$/src/coding/Gangs.task" />
-        <option value="$PROJECT_DIR$/src/coding/GangsGen.java" />
-        <option value="$PROJECT_DIR$/src/coding/TestSuffix.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixTreeList.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/TrieList.java" />
-        <option value="$PROJECT_DIR$/src/coding/First.java" />
         <option value="$PROJECT_DIR$/src/coding/Gangs.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixArray.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/LongHashMapOnlyAdd.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MaxSegmentTree.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MinSegmentTree.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java" />
+        <option value="$PROJECT_DIR$/src/coding/MonstersValley.java" />
+        <option value="$PROJECT_DIR$/src/TheDivisionGame.java" />
+        <option value="$PROJECT_DIR$/src/coding/UnknownTree.java" />
+        <option value="$PROJECT_DIR$/src/coding/TheDivisionGame.java" />
+        <option value="$PROJECT_DIR$/src/coding/Task.java" />
+        <option value="$PROJECT_DIR$/src/coding/TestCase0.java" />
+        <option value="$PROJECT_DIR$/src/coding/TaskA.java" />
+        <option value="$PROJECT_DIR$/src/coding/TaskB.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/FenwikMin.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/FenwickMin.java" />
+        <option value="$PROJECT_DIR$/src/coding/TaskE.java" />
+        <option value="$PROJECT_DIR$/src/coding/TaskC.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/io/FastScanner.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/GraphUtils.java" />
+        <option value="$PROJECT_DIR$/src/coding/TaskD.java" />
       </list>
     </option>
   </component>
@@ -215,9 +286,10 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="800" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -226,16 +298,12 @@
           <State>
             <id />
           </State>
-          <State>
-            <id>Android Lint</id>
-          </State>
-          <State>
-            <id>Naming conventions</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -267,16 +335,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -361,6 +419,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Favorites" />
     </panes>
   </component>
@@ -372,15 +440,14 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="appearance" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.15 - unsorted/E.task" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -400,7 +467,11 @@
       <recent name="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject\archive\unsorted\2012.12\2012.12.15 - unsorted" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Task.TaskD">
+    <configuration default="true" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -435,6 +506,10 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Task" factoryName="Task">
+      <taskConf />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -475,8 +550,22 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="TaskC" type="Task" factoryName="Task">
+      <taskConf>src/coding/TaskC.task</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaskD" type="Task" factoryName="Task">
+      <taskConf>src/coding/TaskD.task</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Task.TaskC" />
+      <item index="2" class="java.lang.String" itemvalue="Task.TaskD" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -500,7 +589,7 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
+    <configuration useDefault="true">C:\Users\niyaz.nigmatullin\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
@@ -508,20 +597,20 @@
     <option name="myMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+          <option name="myVcsRoot" value="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject" />
+          <option name="myCopyRoot" value="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject" />
         </SvnCopyRootSimple>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$/.idea" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$/.idea" />
+          <option name="myVcsRoot" value="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject\.idea" />
+          <option name="myCopyRoot" value="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject\.idea" />
         </SvnCopyRootSimple>
       </list>
     </option>
     <option name="myMoreRealMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+          <option name="myVcsRoot" value="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject" />
+          <option name="myCopyRoot" value="C:\Users\niyaz.nigmatullin\Documents\repositories\nncworkspaces\utils\IdeaProject" />
         </SvnCopyRootSimple>
       </list>
     </option>
@@ -532,6 +621,11 @@
       <created>1323009218587</created>
       <updated>1323009218587</updated>
     </task>
+    <task id="LOCAL-00001">
+      <created>1355758757120</created>
+      <updated>1355758757120</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -555,23 +649,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="800" extended-state="6" />
+    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32844576" sideWeight="0.4892396" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.4948387" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3977747" sideWeight="0.49741936" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32844576" sideWeight="0.50573885" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3977747" sideWeight="0.55741936" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31432545" sideWeight="0.54451615" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997844" sideWeight="0.23695976" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.8226257" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39971244" sideWeight="0.67058825" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20946915" sideWeight="0.67155427" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43949932" sideWeight="0.47419354" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20967741" sideWeight="0.68567455" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43949932" sideWeight="0.43806452" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -580,7 +674,7 @@
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.4948387" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31432545" sideWeight="0.48451614" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31432545" sideWeight="0.45096773" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -645,9 +739,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lib/test/on2012_12/on2012_12_15_/E/E.task">
+    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/checkers/TokenChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="17" column="21" selection-start="503" selection-end="503" vertical-scroll-proportion="0.67639256" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_05/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2702" column="63" selection-start="110333" selection-end="110333" vertical-scroll-proportion="0.04509284" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../idea-chelper/src/net/egork/chelper/tester/NewTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="0" selection-start="5095" selection-end="5095" vertical-scroll-proportion="0.331565" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archive/unsorted/2012.12/2012.12.15 - unsorted/EChecker.java">
@@ -680,58 +784,47 @@
         <state line="37" column="22" selection-start="906" selection-end="906" vertical-scroll-proportion="0.54111403" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/SuffixArray.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/arrayutils/ArrayUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+        <state line="13" column="13" selection-start="279" selection-end="279" vertical-scroll-proportion="-4.132626" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/FenwickMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="40" selection-start="605" selection-end="605" vertical-scroll-proportion="0.81962866" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/io/FastPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/LongHashMapOnlyAdd.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/io/FastScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+        <state line="178" column="19" selection-start="4599" selection-end="4599" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/Fenwick.java">
+    <entry file="file://$PROJECT_DIR$/src/coding/TaskC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+        <state line="100" column="135" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DynamicSegmentTree.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/GraphUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+        <state line="24" column="17" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/DisjointSetUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/coding/TaskD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MaxSegmentTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/DataStructures/MinSegmentTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/niyaz/graphalgorithms/MinCostMaxFlowGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="343" selection-end="343" vertical-scroll-proportion="0.55282557">
+        <state line="44" column="23" selection-start="1021" selection-end="1021" vertical-scroll-proportion="-0.1006424">
           <folding />
         </state>
       </provider>
