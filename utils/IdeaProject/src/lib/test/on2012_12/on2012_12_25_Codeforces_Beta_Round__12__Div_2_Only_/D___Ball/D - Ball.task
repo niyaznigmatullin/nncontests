@@ -1,0 +1,30 @@
+8 D - Ball
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+20 3
+1 4 2
+4 3 2
+2 5 3
+
+2 1
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+85 lib.test.on2012_12.on2012_12_25_Codeforces_Beta_Round__12__Div_2_Only_.D___Ball.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.12.25
+38 Codeforces Beta Round #12 (Div 2 Only)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

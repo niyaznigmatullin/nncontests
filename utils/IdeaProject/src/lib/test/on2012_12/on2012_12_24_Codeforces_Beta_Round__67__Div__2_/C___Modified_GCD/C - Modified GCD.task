@@ -1,0 +1,33 @@
+16 C - Modified GCD
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+22 9 27
+3
+1 5
+10 11
+9 11
+
+7 3
+-1
+9
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+89 lib.test.on2012_12.on2012_12_24_Codeforces_Beta_Round__67__Div__2_.C___Modified_GCD.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.12.24
+34 Codeforces Beta Round #67 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

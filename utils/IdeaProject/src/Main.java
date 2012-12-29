@@ -1,11 +1,10 @@
 import java.io.InputStreamReader;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.io.BufferedReader;
-import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
-import java.io.FileInputStream;
 import java.io.Reader;
 import java.io.Writer;
 import java.io.InputStream;
@@ -17,156 +16,89 @@ import java.io.InputStream;
  */
 public class Main {
 	public static void main(String[] args) {
-		InputStream inputStream;
-		try {
-			inputStream = new FileInputStream("gangs.in");
-		} catch (IOException e) {
-			throw new RuntimeException(e);
-		}
-		OutputStream outputStream;
-		try {
-			outputStream = new FileOutputStream("gangs.out");
-		} catch (IOException e) {
-			throw new RuntimeException(e);
-		}
+		InputStream inputStream = System.in;
+		OutputStream outputStream = System.out;
 		FastScanner in = new FastScanner(inputStream);
 		FastPrinter out = new FastPrinter(outputStream);
-		Gangs solver = new Gangs();
+		TaskD solver = new TaskD();
 		solver.solve(1, in, out);
 		out.close();
 	}
 }
 
-class Gangs {
+class TaskD {
+
+    static int[][] edges;
+    static int curAnswer;
+    static boolean[] bad;
+
+    static int dfs(int v, int p, int t) {
+        if (v == t) {
+            bad[v] = true;
+            return 1;
+        }
+        for (int i : edges[v]) {
+            if (i == p) {
+                continue;
+            }
+            int got = dfs(i, v, t);
+            if (got > 0) {
+                bad[v] = true;
+                return got + 1;
+            }
+        }
+        return 0;
+    }
+
+    static int dfs2(int v, int p) {
+        bad[v] = true;
+        int max1 = 0;
+        int max2 = 0;
+        for (int i : edges[v]) {
+            if (i == p || bad[i]) {
+                continue;
+            }
+            int got = dfs2(i, v);
+            if (max1 < got) {
+                max2 = max1;
+                max1 = got;
+            } else if (max2 < got) {
+                max2 = got;
+            }
+        }
+        curAnswer = Math.max(curAnswer, max1 + max2);
+        return max1 + 1;
+    }
+
     public void solve(int testNumber, FastScanner in, FastPrinter out) {
-        int all = in.nextInt();
         int n = in.nextInt();
-        int[] a = new int[n];
+        int[] from = new int[n - 1];
+        int[] to = new int[n - 1];
+        for (int i = 0; i + 1 < n; i++) {
+            from[i] = in.nextInt() - 1;
+            to[i] = in.nextInt() - 1;
+        }
+        edges = GraphUtils.getEdgesUndirectedUnweighted(n, from, to);
+        bad = new boolean[n];
+        int answer = 0;
         for (int i = 0; i < n; i++) {
-            a[i] = in.nextInt();
-        }
-        int maximal = 0;
-        int maxID = -1;
-        for (int i = 1; i < n; i++) {
-            if (maximal < a[i]) {
-                maximal = a[i];
-                maxID = i;
-            }
-        }
-        all -= a[0];
-        if (2 * maximal > all) {
-            int left = 2 * maximal - all;
-            if (left >= a[0]) {
-                out.println("NO");
-                return;
-            }
-            out.println("YES");
-            out.println(a[0] - left);
-            for (int j = 0; j < left; j++) {
-                out.println(1);
-                --a[0];
-            }
-            for (int j = 0; j < left; j++) {
-                out.println(maxID + 1);
-                --a[maxID];
-            }
-            doThat(out, a);
-            while (a[0] > 0) {
-                out.println(1);
-                --a[0];
-            }
-            return;
-        }
-        int left = all % 2;
-        if (left >= a[0]) {
-            out.println("NO");
-            return;
-        }
-        out.println("YES");
-        out.println(a[0] - left);
-        if (left > 0) {
-            out.println(1);
-            a[0]--;
-            boolean ok = false;
-            for (int j = 1; j < n; j++) {
-                a[j]--;
-                if (isGood(a)) {
-                    out.println(j + 1);
-                    ok = true;
-                    break;
+            for (int j = 0; j < n; j++) {
+                if (i == j) {
+                    continue;
                 }
-                ++a[j];
-            }
-            if (!ok) {
-                throw new AssertionError();
-            }
-        }
-        doThat(out, a);
-        while (a[0] > 0) {
-            --a[0];
-            out.println(1);
-        }
-    }
-
-    static boolean isGood(int[] b) {
-        int all = 0;
-        int maximal = 0;
-        for (int i = 1; i < b.length; i++) {
-            all += b[i];
-            maximal = Math.max(maximal, b[i]);
-        }
-        return 2 * maximal <= all;
-    }
-
-    static boolean isGood2(int[] b) {
-        int all = 0;
-        int maximal = 0;
-        int maximal2 = 0;
-        for (int i = 1; i < b.length; i++) {
-            if (maximal < b[i]) {
-                maximal2 = maximal;
-                maximal = b[i];
-            } else if (maximal2 < b[i]) {
-                maximal2 = b[i];
-            }
-        }
-        if (maximal > maximal2 + 1) {
-            return all - 2 >= (maximal - 2) * 2;
-        } else {
-            return all - 2 >= (maximal - 1) * 2;
-        }
-    }
-
-    static void doThat(FastPrinter out, int[] a) {
-        int n = a.length;
-        int all = 0;
-        for (int i = 1; i < n; i++) {
-            all += a[i];
-        }
-        loop:
-        while (all > 0) {
-            for (int i = 1; i < n; i++) {
-                if (a[i] >= 2 && isGood2(a)) {
-                    a[i] -= 2;
-                    all -= 2;
-                    out.println(i + 1);
-                    out.println(i + 1);
-                    continue loop;
-                }
-                for (int j = i + 1; j < n; j++) {
-                    a[i]--;
-                    a[j]--;
-                    if (a[i] >= 0 && a[j] >= 0 && isGood(a)) {
-                        all -= 2;
-                        out.println(i + 1);
-                        out.println(j + 1);
-                        continue loop;
+                Arrays.fill(bad, false);
+                int len = dfs(i, -1, j) - 1;
+                curAnswer = 0;
+                for (int v = 0; v < n; v++) {
+                    if (bad[v]) {
+                        continue;
                     }
-                    ++a[i];
-                    ++a[j];
+                    dfs2(v, -1);
                 }
+                answer = Math.max(answer, curAnswer * len);
             }
         }
+        out.println(answer);
     }
 }
 
@@ -231,4 +163,34 @@ class FastPrinter extends PrintWriter {
 
 
 }
+
+class GraphUtils {
+    public static int[][] getEdgesUndirectedUnweighted(int n, int[] v, int[] u) {
+        int[][] edges = new int[n][];
+        int[] deg = getDegreeUndirected(n, v, u);
+        for (int i = 0; i < n; i++) {
+            edges[i] = new int[deg[i]];
+        }
+        int m = v.length;
+        Arrays.fill(deg, 0);
+        for (int i = 0; i < m; i++) {
+            edges[v[i]][deg[v[i]]++] = u[i];
+            edges[u[i]][deg[u[i]]++] = v[i];
+        }
+        return edges;
+    }
+
+    public static int[] getDegreeUndirected(int n, int[] v, int[] u) {
+        int[] deg = new int[n];
+        for (int i : v) {
+            deg[i]++;
+        }
+        for (int i : u) {
+            deg[i]++;
+        }
+        return deg;
+    }
+
+
+    }
 
