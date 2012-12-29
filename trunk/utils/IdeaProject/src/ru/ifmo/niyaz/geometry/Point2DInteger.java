@@ -1,5 +1,7 @@
 package ru.ifmo.niyaz.geometry;
 
+import coding.LetterA;
+
 import java.awt.geom.Point2D;
 
 /**
@@ -58,6 +60,14 @@ public class Point2DInteger {
         return ret;
     }
 
+    public long smul(Point2DInteger p) {
+        return (long) x * p.x + (long) y * p.y;
+    }
+
+    public long vmul(Point2DInteger p) {
+        return (long) x * p.y - (long) y * p.x;
+    }
+
     private static Point2DInteger[] normalizePolygonArray(Point2DInteger[] p) {
         long area = 0;
         int n = p.length;
@@ -90,5 +100,35 @@ public class Point2DInteger {
                 "x=" + x +
                 ", y=" + y +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Point2DInteger that = (Point2DInteger) o;
+
+        if (x != that.x) return false;
+        if (y != that.y) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = x;
+        result = 31 * result + y;
+        return result;
+    }
+
+
+    public boolean isOnSegment(Point2DInteger p, Point2DInteger q) {
+        Point2DInteger v1 = subtract(p);
+        Point2DInteger v2 = subtract(q);
+        if (v1.vmul(v2) != 0) {
+            return false;
+        }
+        return v1.smul(v2) <= 0;
     }
 }
