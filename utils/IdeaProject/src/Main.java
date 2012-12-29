@@ -1,3 +1,4 @@
+import java.util.List;
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.Arrays;
@@ -5,6 +6,7 @@ import java.util.InputMismatchException;
 import java.io.BufferedReader;
 import java.io.OutputStream;
 import java.io.PrintWriter;
+import java.util.Random;
 import java.io.Reader;
 import java.io.Writer;
 import java.io.InputStream;
@@ -20,85 +22,102 @@ public class Main {
 		OutputStream outputStream = System.out;
 		FastScanner in = new FastScanner(inputStream);
 		FastPrinter out = new FastPrinter(outputStream);
-		TaskD solver = new TaskD();
+		LICS solver = new LICS();
 		solver.solve(1, in, out);
 		out.close();
 	}
 }
 
-class TaskD {
-
-    static int[][] edges;
-    static int curAnswer;
-    static boolean[] bad;
-
-    static int dfs(int v, int p, int t) {
-        if (v == t) {
-            bad[v] = true;
-            return 1;
-        }
-        for (int i : edges[v]) {
-            if (i == p) {
-                continue;
-            }
-            int got = dfs(i, v, t);
-            if (got > 0) {
-                bad[v] = true;
-                return got + 1;
-            }
-        }
-        return 0;
-    }
-
-    static int dfs2(int v, int p) {
-        bad[v] = true;
-        int max1 = 0;
-        int max2 = 0;
-        for (int i : edges[v]) {
-            if (i == p || bad[i]) {
-                continue;
-            }
-            int got = dfs2(i, v);
-            if (max1 < got) {
-                max2 = max1;
-                max1 = got;
-            } else if (max2 < got) {
-                max2 = got;
-            }
-        }
-        curAnswer = Math.max(curAnswer, max1 + max2);
-        return max1 + 1;
-    }
-
+class LICS {
     public void solve(int testNumber, FastScanner in, FastPrinter out) {
         int n = in.nextInt();
-        int[] from = new int[n - 1];
-        int[] to = new int[n - 1];
-        for (int i = 0; i + 1 < n; i++) {
-            from[i] = in.nextInt() - 1;
-            to[i] = in.nextInt() - 1;
+        int[] a = in.readIntArray(n);
+        int m = in.nextInt();
+        int[] b = in.readIntArray(m);
+        int[] c = new int[n + m];
+        for (int i = 0; i < n + m; i++) {
+            c[i] = i < n ? a[i] : b[i - n];
         }
-        edges = GraphUtils.getEdgesUndirectedUnweighted(n, from, to);
-        bad = new boolean[n];
-        int answer = 0;
+        c = ArrayUtils.sortAndUnique(c);
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (i == j) {
+            a[i] = Arrays.binarySearch(c, a[i]);
+        }
+        for (int j = 0; j < m; j++) {
+            b[j] = Arrays.binarySearch(c, b[j]);
+        }
+        int cnt = c.length;
+        int[][] next1 = new int[n + 1][];
+        int[][] next2 = new int[m + 1][];
+        for (int i = 0; i < n; i++) {
+            if (i > 0) {
+                next1[i] = next1[i - 1].clone();
+            } else {
+                next1[i] = new int[cnt];
+                Arrays.fill(next1[i], -1);
+            }
+            next1[i][a[i]] = i;
+        }
+        for (int i = 0; i < m; i++) {
+            if (i > 0) {
+                next2[i] = next2[i - 1].clone();
+            } else {
+                next2[i] = new int[cnt];
+                Arrays.fill(next2[i], -1);
+            }
+            next2[i][b[i]] = i;
+        }
+        int[][] dp = new int[n][m];
+        int[][] prev = new int[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (a[i] != b[j]) {
                     continue;
                 }
-                Arrays.fill(bad, false);
-                int len = dfs(i, -1, j) - 1;
-                curAnswer = 0;
-                for (int v = 0; v < n; v++) {
-                    if (bad[v]) {
-                        continue;
+                int val = 1;
+                int p = -1;
+                for (int k1 = i - 1; k1 >= 0; k1--) {
+                    if (a[k1] < a[i] && j > 0) {
+                        int k2 = next2[j - 1][a[k1]];
+                        if (k2 >= 0 && val < dp[k1][k2] + 1) {
+                            val = dp[k1][k2] + 1;
+                            p = k1 * m + k2;
+                        }
                     }
-                    dfs2(v, -1);
                 }
-                answer = Math.max(answer, curAnswer * len);
+                for (int k2 = j - 1; k2 >= 0; k2--) {
+                    if (b[k2] < b[j] && i > 0) {
+                        int k1 = next1[i - 1][b[k2]];
+                        if (k1 >= 0 && val < dp[k1][k2] + 1) {
+                            val = dp[k1][k2] + 1;
+                            p = k1 * m + k2;
+                        }
+                    }
+                }
+                dp[i][j] = val;
+                prev[i][j] = p;
             }
         }
+        int answer = 0;
+        int ansI = -1;
+        int ansJ = -1;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (answer < dp[i][j]) {
+                    answer = dp[i][j];
+                    ansI = i;
+                    ansJ = j;
+                }
+            }
+        }
+        int[] ans = new int[answer];
         out.println(answer);
+        for (int i = ansI, j = ansJ; answer > 0;  ) {
+            ans[--answer] = c[a[i]];
+            int p = prev[i][j];
+            i = p / m;
+            j = p % m;
+         }
+        out.printArray(ans);
     }
 }
 
@@ -149,6 +168,14 @@ class FastScanner extends BufferedReader {
         return ret * sgn;
     }
 
+    public int[] readIntArray(int n) {
+        int[] ret = new int[n];
+        for (int i = 0; i < n; i++) {
+            ret[i] = nextInt();
+        }
+        return ret;
+    }
+
     }
 
 class FastPrinter extends PrintWriter {
@@ -161,34 +188,47 @@ class FastPrinter extends PrintWriter {
         super(out);
     }
 
+    public void printArray(int[] a) {
+        for (int i = 0; i < a.length; i++) {
+            if (i > 0) {
+                print(' ');
+            }
+            print(a[i]);
+        }
+        println();
+    }
+
 
 }
 
-class GraphUtils {
-    public static int[][] getEdgesUndirectedUnweighted(int n, int[] v, int[] u) {
-        int[][] edges = new int[n][];
-        int[] deg = getDegreeUndirected(n, v, u);
-        for (int i = 0; i < n; i++) {
-            edges[i] = new int[deg[i]];
+class ArrayUtils {
+
+    static public int[] sortAndUnique(int[] a) {
+        int[] ret = a.clone();
+        sort(ret);
+        if (ret.length == 0) {
+            return ret;
         }
-        int m = v.length;
-        Arrays.fill(deg, 0);
-        for (int i = 0; i < m; i++) {
-            edges[v[i]][deg[v[i]]++] = u[i];
-            edges[u[i]][deg[u[i]]++] = v[i];
+        int last = ret[0];
+        int j = 1;
+        for (int i = 1; i < ret.length; i++) {
+            if (last != ret[i]) {
+                ret[j++] = ret[i];
+            }
+            last = ret[i];
         }
-        return edges;
+        return Arrays.copyOf(ret, j);
     }
 
-    public static int[] getDegreeUndirected(int n, int[] v, int[] u) {
-        int[] deg = new int[n];
-        for (int i : v) {
-            deg[i]++;
+    public static void sort(int[] a) {
+        Random rand = new Random(System.nanoTime());
+        for (int i = 0; i < a.length; i++) {
+            int j = rand.nextInt(i + 1);
+            int t = a[i];
+            a[i] = a[j];
+            a[j] = t;
         }
-        for (int i : u) {
-            deg[i]++;
-        }
-        return deg;
+        Arrays.sort(a);
     }
 
 
