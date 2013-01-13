@@ -1,8 +1,5 @@
 package ru.ifmo.niyaz.geometry;
 
-import coding.LetterA;
-
-import java.awt.geom.Point2D;
 
 /**
  * Created by IntelliJ IDEA.
@@ -130,5 +127,25 @@ public class Point2DInteger {
             return false;
         }
         return v1.smul(v2) <= 0;
+    }
+
+    public long distSquared(int x, int y) {
+        long dx = this.x - x;
+        long dy = this.y - y;
+        return dx * dx + dy * dy;
+    }
+
+    public double dist(int x, int y) {
+        return Math.sqrt(distSquared(x, y));
+    }
+
+    public double distSquared(double x, double y) {
+        x -= this.x;
+        y -= this.y;
+        return x * x + y * y;
+    }
+
+    public double dist(double x, double y) {
+        return Math.sqrt(distSquared(x, y));
     }
 }

@@ -1,0 +1,68 @@
+18 B - Widget Library
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+234 12
+Widget me(50,40)
+VBox grandpa
+HBox father
+grandpa.pack(father)
+father.pack(me)
+grandpa.set_border(10)
+grandpa.set_spacing(20)
+Widget brother(30,60)
+father.pack(brother)
+Widget friend(20,60)
+Widget uncle(100,20)
+grandpa.pack(uncle)
+
+78 brother 30 60
+father 80 60
+friend 20 60
+grandpa 120 120
+me 50 40
+uncle 100 20
+
+1
+1
+229 15
+Widget pack(10,10)
+HBox dummy
+HBox x
+VBox y
+y.pack(dummy)
+y.set_border(5)
+y.set_spacing(55)
+dummy.set_border(10)
+dummy.set_spacing(20)
+x.set_border(10)
+x.set_spacing(10)
+x.pack(pack)
+x.pack(dummy)
+x.pack(pack)
+x.set_border(0)
+
+37 dummy 0 0
+pack 10 10
+x 40 10
+y 10 10
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.01.08
+39 Codeforces Beta Round #74 (Div. 1 Only)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0

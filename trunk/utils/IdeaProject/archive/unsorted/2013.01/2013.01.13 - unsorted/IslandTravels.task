@@ -1,0 +1,31 @@
+13 IslandTravels
+6 SINGLE
+6 CUSTOM
+9 island.in
+6 CUSTOM
+10 island.out
+1
+0
+28 5 4
+XX.S
+.SX.
+SXSS
+S.SX
+..SX
+2 4
+
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+20 coding.IslandTravels
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.01.13
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0
