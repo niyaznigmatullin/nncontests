@@ -1,0 +1,65 @@
+19 B - Vasya and Types
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+74 5
+typedef void* ptv
+typeof ptv
+typedef &&ptv node
+typeof node
+typeof &ptv
+
+19 void*
+errtype
+void
+
+1
+1
+205 17
+typedef void* b
+typedef b* c
+typeof b
+typeof c
+typedef &b b
+typeof b
+typeof c
+typedef &&b* c
+typeof c
+typedef &b* c
+typeof c
+typedef &void b
+typeof b
+typedef b******* c
+typeof c
+typedef &&b* c
+typeof c
+
+62 void*
+void**
+void
+void**
+errtype
+void
+errtype
+errtype
+errtype
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.12.31
+39 Codeforces Beta Round #73 (Div. 1 Only)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0

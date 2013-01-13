@@ -1,0 +1,33 @@
+13 A - Jabber ID
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+20 mike@codeforces.com
+
+4 YES
+
+1
+1
+41 john.smith@codeforces.ru/contest.icpc/12
+
+3 NO
+
+1
+10 src/coding
+7 -Xmx64M
+4 Main
+98 lib.test.on2012_12.on2012_12_29_Codeforces_Alpha_Round__21__Codeforces_format_.A___Jabber_ID.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.12.29
+46 Codeforces Alpha Round #21 (Codeforces format)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0

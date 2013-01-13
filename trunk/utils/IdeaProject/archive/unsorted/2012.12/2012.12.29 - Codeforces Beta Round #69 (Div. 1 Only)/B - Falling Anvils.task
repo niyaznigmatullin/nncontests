@@ -1,0 +1,30 @@
+18 B - Falling Anvils
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+10 2
+4 2
+1 2
+
+26 0.6250000000
+0.5312500000
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.12.29
+39 Codeforces Beta Round #69 (Div. 1 Only)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0

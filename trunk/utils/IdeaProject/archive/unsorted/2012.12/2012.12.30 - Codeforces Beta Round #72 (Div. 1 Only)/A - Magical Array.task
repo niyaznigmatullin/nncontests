@@ -1,0 +1,35 @@
+17 A - Magical Array
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+10 4
+2 1 1 4
+
+2 5
+
+1
+1
+15 5
+-2 -2 -2 0 1
+
+2 8
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.12.30
+39 Codeforces Beta Round #72 (Div. 1 Only)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0
