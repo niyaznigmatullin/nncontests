@@ -1,0 +1,42 @@
+5 TaskC
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+31 1 1 6 1
+1 0 6 0
+6 0 6 1
+1 1 1 0
+3 YES
+1
+1
+31 0 0 0 3
+2 0 0 0
+2 2 2 0
+0 2 2 2
+2 NO
+1
+2
+33 0 0 1 1
+1 1 2 0
+2 0 1 -1
+1 -1 0 0
+2 NO
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.12.25
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
