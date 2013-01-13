@@ -1,0 +1,40 @@
+10 A - Heroes
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+75 3
+Troll likes Dracul
+Dracul likes Anka
+Snowy likes Hexadecimal
+210 200 180
+
+5 30 3
+
+1
+1
+50 2
+Anka likes Chapay
+Chapay likes Anka
+10000 50 50
+
+7 1950 2
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.12.29
+39 Codeforces Beta Round #69 (Div. 1 Only)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0
