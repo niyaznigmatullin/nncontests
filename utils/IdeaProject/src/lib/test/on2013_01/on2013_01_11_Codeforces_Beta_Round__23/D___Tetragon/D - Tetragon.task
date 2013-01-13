@@ -1,0 +1,35 @@
+12 D - Tetragon
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+38 3
+1 1 2 2 3 3
+0 1 1 0 2 2
+9 3 7 9 9 8
+
+46 NO
+
+YES
+3.5 1.5 0.5 2.5 -0.5 -0.5 2.5 0.5
+NO
+
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+76 lib.test.on2013_01.on2013_01_11_Codeforces_Beta_Round__23.D___Tetragon.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.01.11
+25 Codeforces Beta Round #23
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0

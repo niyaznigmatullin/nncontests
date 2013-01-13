@@ -1,0 +1,36 @@
+23 Three Different Numbers
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+40 5
+3 3 3
+2 4 2
+1 2 3
+25 12 2012
+1 1 2013
+
+15 6
+4
+1
+578880
+0
+
+1
+10 src/coding
+7 -Xmx64M
+4 Main
+28 coding.ThreeDifferentNumbers
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.01.06
+22 January Challenge 2013
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0

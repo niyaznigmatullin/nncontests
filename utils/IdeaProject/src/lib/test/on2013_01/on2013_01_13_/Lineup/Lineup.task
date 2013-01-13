@@ -1,0 +1,56 @@
+6 Lineup
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+22 9 1
+2
+7
+3
+7
+7
+3
+7
+5
+7
+
+2 4
+
+1
+1
+36 16 3
+1
+1
+2
+3
+4
+1
+1
+1
+4
+1
+5
+1
+2
+1
+2
+1
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+46 lib.test.on2013_01.on2013_01_13_.Lineup.Lineup
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.01.13
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0

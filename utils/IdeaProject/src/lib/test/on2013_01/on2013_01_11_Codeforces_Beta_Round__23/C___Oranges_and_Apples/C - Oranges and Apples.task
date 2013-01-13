@@ -1,0 +1,36 @@
+22 C - Oranges and Apples
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+26 2
+2
+10 15
+5 7
+20 18
+1
+0 0
+
+14 YES
+1 3
+YES
+1
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+86 lib.test.on2013_01.on2013_01_11_Codeforces_Beta_Round__23.C___Oranges_and_Apples.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.01.11
+25 Codeforces Beta Round #23
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0

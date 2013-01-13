@@ -1,0 +1,26 @@
+5 TaskA
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+103 I succesfully stoped a print job once. AM I GOD?
+   I succesfully stoped a print job once. Am i god   ?
+3 YES
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+44 lib.test.on2013_01.on2013_01_09_.TaskA.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.01.09
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0
