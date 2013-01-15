@@ -12,6 +12,12 @@ import java.util.Random;
  * To change this template use File | Settings | File Templates.
  */
 public class ArrayUtils {
+
+
+    static final long seed = System.nanoTime();
+
+    static final Random rand = new Random(seed);
+
     public static long countNumberOfInversions(int[] a) {
         return inversions(a, null, 0, a.length);
     }
@@ -125,37 +131,56 @@ public class ArrayUtils {
     }
 
     public static void sort(int[] a) {
-        Random rand = new Random(System.nanoTime());
+        shuffle(a);
+        Arrays.sort(a);
+    }
+
+    public static void shuffle(int[] a) {
         for (int i = 0; i < a.length; i++) {
             int j = rand.nextInt(i + 1);
             int t = a[i];
             a[i] = a[j];
             a[j] = t;
         }
-        Arrays.sort(a);
     }
 
 
     public static void sort(double[] a) {
-        Random rand = new Random(System.nanoTime());
+        shuffle(a);
+        Arrays.sort(a);
+    }
+
+    public static void shuffle(double[] a) {
         for (int i = 0; i < a.length; i++) {
             int j = rand.nextInt(i + 1);
             double t = a[i];
             a[i] = a[j];
             a[j] = t;
         }
-        Arrays.sort(a);
     }
 
 
     public static void sort(long[] a) {
-        Random rand = new Random(System.nanoTime());
+        shuffle(a);
+        Arrays.sort(a);
+    }
+
+    public static void shuffle(long[] a) {
         for (int i = 0; i < a.length; i++) {
             int j = rand.nextInt(i + 1);
             long t = a[i];
             a[i] = a[j];
             a[j] = t;
         }
-        Arrays.sort(a);
     }
+
+    public static <T> void shuffle(T[] a) {
+        for (int i = 0; i < a.length; i++) {
+            int j = rand.nextInt(i + 1);
+            T t = a[i];
+            a[i] = a[j];
+            a[j] = t;
+        }
+    }
+
 }

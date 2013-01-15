@@ -28,6 +28,13 @@ public class Line2DDouble {
         return new Line2DDouble(a, b, c);
     }
 
+    public static Line2DDouble getUsingCodirectedVector(Point2DDouble v, Point2DDouble p) {
+        double a = -v.y;
+        double b = v.x;
+        double c = -a * p.x - b * p.y;
+        return new Line2DDouble(a, b, c);
+    }
+
     public static Line2DDouble getPerpendicularBisection(Point2DDouble first, Point2DDouble second) {
         double a = second.x - first.x;
         double b = second.y - first.y;
@@ -42,6 +49,22 @@ public class Line2DDouble {
             return null;
         }
         return new Point2DDouble((b * line.c - c * line.b) / z, (c * line.a - a * line.c) / z);
+    }
+
+    public double distanceToPoint(Point2DDouble p) {
+        return Math.abs(signedDistanceToPoint(p));
+    }
+
+    public double signedDistanceToPoint(Point2DDouble p) {
+        return (a * p.x + b * p.y + c) / Math.sqrt(a * a + b * b);
+    }
+
+    public double distanceToPoint(Point2DInteger p) {
+        return Math.abs(signedDistanceToPoint(p));
+    }
+
+    public double signedDistanceToPoint(Point2DInteger p) {
+        return (a * p.x + b * p.y + c) / Math.sqrt(a * a + b * b);
     }
 
 }

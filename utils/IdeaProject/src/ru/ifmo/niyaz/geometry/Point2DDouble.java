@@ -45,11 +45,26 @@ public class Point2DDouble {
         return new Point2DDouble(x + p.x, y + p.y);
     }
 
+
+    public double distanceSquared(Point2DDouble p) {
+        double dx = x - p.x;
+        double dy = y - p.y;
+        return dx * dx + dy * dy;
+    }
+
+    public double distance(Point2DDouble p) {
+        return Math.sqrt(distanceSquared(p));
+    }
+
     @Override
     public String toString() {
         return "Point2DDouble{" +
                 "x=" + x +
                 ", y=" + y +
                 '}';
+    }
+
+    public Point2DDouble multiply(double d) {
+        return new Point2DDouble(x * d, y * d);
     }
 }

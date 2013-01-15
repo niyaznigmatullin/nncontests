@@ -1,0 +1,34 @@
+5 TaskA
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+55 2
+40 4
+10 5 6
+20 4 12
+30 6 9
+42 7 0
+20 2
+10 0 5
+66 1 0
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+44 lib.test.on2013_01.on2013_01_14_.TaskA.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.01.14
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0
