@@ -1,6 +1,5 @@
 #include <cstdio>
 #include <cassert>
-#include <iostream>
 #include <algorithm>
 #include <memory.h>
 
@@ -23,9 +22,9 @@ int ni() {
 }
 
 int n, curt;
-const int NN = 2222222;
+const int NN = 1555555;
 int sq[NN];
-const int TN = 1666666;
+const int TN = 666666;
 const int QN = 16666666;
 int ss[TN], ff[TN], he[TN], ne[TN], lab[TN], slab[TN], pv[TN], bc[TN], trt[TN], en[TN], ex[TN], lid[TN], fs[TN], heq[TN], de[TN], sz[TN], bsz[TN];
 long long fsd[TN];
@@ -115,7 +114,7 @@ int main() {
     de[0] = 0;
     pv[0] = 0;
     dfs(0);
-    dfs2(0);    
+    dfs2(0);
 /*    for (int i = 0; i < n; i++) {
         printf("%d ", en[i]);
     }
@@ -151,6 +150,7 @@ int main() {
             int u = pv[v];
             int was = 0;
             for (int e = he[u]; e >= 0; e = ne[e]) {
+                if (ff[e] == pv[u]) continue;
                 if (v == ff[e]) {
                     was = 1;
                     continue;
@@ -159,7 +159,7 @@ int main() {
                     qk[cntq] = 2 * slab[u] - slab[i] - lab[u];
                     qv[cntq] = ff[e];
                     qlen[cntq] = de[i] - de[u] + 1;
-//                    printf("query from %d: %d %d %d\n", i, qk[cntq], qv[cntq], qlen[cntq]);
+//                    printf("query from %d: %d %d %d\n", i, qk[cntq] - n, qv[cntq], qlen[cntq]);
                     ++cntq;
                 }
             }
@@ -169,6 +169,7 @@ int main() {
     for (int i = 0; i <= 2 * n; i++) heq[i] = -1;
     for (int i = 0; i < cntq; i++) {
 //        printf("%d %d\n", qk[i] - n, qv[i]);
+        if (qk[i] > 2 * n) qk[i] = 2 * n;
         if (qk[i] < 0 || qk[i] > 2 * n) continue;
         neq[i] = heq[qk[i]];
         heq[qk[i]] = i;
@@ -186,10 +187,11 @@ int main() {
             int cnt = sum(fs, en[qv[e]], ex[qv[e]]);
             got -= (long long) cnt * (de[qv[e]] - 1);
             got += (long long) cnt * qlen[e];
-            assert(got >= 0);
+//            assert(got >= 0);
 //            printf("%d %d %d %lld\n", qk[e] - n, qv[e], qlen[e], got);
             answer += got;
         }
     }
-    std::cout << answer << "\n";
+    printf("%lld\n", answer);
+    return 0;
 }
