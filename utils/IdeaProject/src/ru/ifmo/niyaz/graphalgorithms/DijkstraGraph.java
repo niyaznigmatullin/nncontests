@@ -2,6 +2,7 @@ package ru.ifmo.niyaz.graphalgorithms;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.TreeSet;
 
 /**
@@ -13,6 +14,38 @@ import java.util.TreeSet;
  */
 public class DijkstraGraph {
 
+    public long[] dijkstraMaxMin(int source) {
+        long[] d = new long[n];
+        Arrays.fill(d, Long.MIN_VALUE);
+        Element[] q = new Element[n];
+        for (int i = 0; i < q.length; i++) {
+            q[i] = new Element(i, Long.MIN_VALUE);
+        }
+        q[source].d = d[source] = Long.MAX_VALUE;
+        TreeSet<Element> queue = new TreeSet<Element>(new Comparator<Element>() {
+            @Override
+            public int compare(Element o1, Element o2) {
+                if (o1.d != o2.d) {
+                    return o1.d < o2.d ? 1 : -1;
+                }
+                return o1.v - o2.v;
+            }
+        });
+        queue.add(q[source]);
+        while (!queue.isEmpty()) {
+            Element el = queue.pollFirst();
+            for (int i = 0; i < edges[el.v].size(); i++) {
+                Edge e = edges[el.v].get(i);
+                long w = Math.min(d[e.from], e.w);
+                if (d[e.to] < w) {
+                    queue.remove(q[e.to]);
+                    d[e.to] = q[e.to].d = w;
+                    queue.add(q[e.to]);
+                }
+            }
+        }
+        return d;
+    }
     public static class Edge {
         public int from;
         public int to;
