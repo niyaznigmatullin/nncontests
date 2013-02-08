@@ -72,6 +72,10 @@ public class KuhnMatchingGraph {
         return answer;
     }
 
+    public List<Integer>[] getEdges() {
+        return edges;
+    }
+
     boolean dfs(int v) {
         if (was[v] == VER) {
             return false;

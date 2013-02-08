@@ -148,4 +148,9 @@ public class Point2DInteger {
     public double dist(double x, double y) {
         return Math.sqrt(distSquared(x, y));
     }
+
+    public long squaredLength() {
+        return (long) x * x + (long) y * y;
+    }
+
 }
