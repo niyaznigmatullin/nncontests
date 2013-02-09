@@ -28,7 +28,7 @@ const int TN = 666666;
 const int QN = 16666666;
 int ss[TN], ff[TN], he[TN], ne[TN], lab[TN], slab[TN], pv[TN], bc[TN], trt[TN], en[TN], ex[TN], lid[TN], fs[TN], heq[TN], de[TN], sz[TN], bsz[TN];
 long long fsd[TN];
-int qk[QN], qv[QN], qlen[QN], neq[QN], cntq;
+int qk[QN], qv[QN], qlen[QN], neq[QN], qen[QN], qex[QN], cntq;
 
 bool cmp(int a, int b) {
     return slab[a] < slab[b];
@@ -145,30 +145,35 @@ int main() {
         qk[cntq] = slab[i] - lab[i];
         qv[cntq] = i;
         qlen[cntq] = 0;
+        qen[cntq] = en[i];
+        qex[cntq] = ex[i];
         ++cntq;
         for (int v = trt[i]; v != 0; v = trt[v]) {
             int u = pv[v];
-            int was = 0;
-            for (int e = he[u]; e >= 0; e = ne[e]) {
-                if (ff[e] == pv[u]) continue;
-                if (v == ff[e]) {
-                    was = 1;
-                    continue;
-                }
-                if (was || bc[u] == ff[e]) {
-                    qk[cntq] = 2 * slab[u] - slab[i] - lab[u];
-                    qv[cntq] = ff[e];
-                    qlen[cntq] = de[i] - de[u] + 1;
-//                    printf("query from %d: %d %d %d\n", i, qk[cntq] - n, qv[cntq], qlen[cntq]);
-                    ++cntq;
-                }
+            if (ex[v] != ex[u]) {
+                qk[cntq] = 2 * slab[u] - slab[i] - lab[u];
+                qv[cntq] = v;
+                qlen[cntq] = de[i] - de[u] + 1;
+                qen[cntq] = ex[v];
+                qex[cntq] = ex[u];
+//                printf("query from %d: %d %d %d %d %d\n", i, qk[cntq], qv[cntq], qlen[cntq], qen[cntq], qex[cntq]);
+                ++cntq;
+            }
+            if (en[bc[u]] < ex[v]) {
+                qk[cntq] = 2 * slab[u] - slab[i] - lab[u];
+                qv[cntq] = v;
+                qlen[cntq] = de[i] - de[u] + 1;
+                qen[cntq] = en[bc[u]];
+                qex[cntq] = ex[bc[u]];
+//                printf("query from %d: %d %d %d %d %d\n", i, qk[cntq], qv[cntq], qlen[cntq], qen[cntq], qex[cntq]);
+                ++cntq;                    
             }
             v = u;
         }
     }
     for (int i = 0; i <= 2 * n; i++) heq[i] = -1;
     for (int i = 0; i < cntq; i++) {
-//        printf("%d %d\n", qk[i] - n, qv[i]);
+//        printf("%d %d %d %d %d\n", qk[i] - n, qv[i], qlen[i], qen[i], qex[i]);
         if (qk[i] > 2 * n) qk[i] = 2 * n;
         if (qk[i] < 0 || qk[i] > 2 * n) continue;
         neq[i] = heq[qk[i]];
@@ -183,8 +188,8 @@ int main() {
             ++j;
         }
         for (int e = heq[i]; e >= 0; e = neq[e]) {
-            long long got = sum(fsd, en[qv[e]], ex[qv[e]]);
-            int cnt = sum(fs, en[qv[e]], ex[qv[e]]);
+            long long got = sum(fsd, qen[e], qex[e]);
+            int cnt = sum(fs, qen[e], qex[e]);
             got -= (long long) cnt * (de[qv[e]] - 1);
             got += (long long) cnt * qlen[e];
 //            assert(got >= 0);
