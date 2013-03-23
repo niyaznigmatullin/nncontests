@@ -90,5 +90,9 @@ public class CondensationGraph {
         return g;
     }
 
+    public int[] getColors() {
+        return color.clone();
+    }
+
     List<Integer>[] getEdges;
 }

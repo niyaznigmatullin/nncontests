@@ -1,0 +1,57 @@
+11 1347 - Blog
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+327 3
+xoposhiy
+<blog>
+Tomorrow I found <friend>_denplusplus_</friend> to
+ be <b>smartest</b> blogger in the net.
+Also I received interesting link from
+ <friend>strange_human</friend>
+</blog>
+_denplusplus_
+<blog>
+Some shit about my work.
+</blog>
+strange_human
+<blog>
+<friend>xoposhiy</friend>
+<friend>_denplusplus_</friend>
+</blog>
+
+192 xoposhiy
+1: _denplusplus_, strange_human
+2: strange_human
+3: strange_human
+
+_denplusplus_
+1: 
+2: strange_human, xoposhiy
+3: 
+
+strange_human
+1: _denplusplus_, xoposhiy
+2: xoposhiy
+3: xoposhiy
+
+
+1
+10 src/coding
+15 -Xmx16M -Xss16M
+4 Main
+15 coding.Task1347
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.02.23
+8 Volume 4
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

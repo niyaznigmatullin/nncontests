@@ -1,0 +1,43 @@
+20 A - Rectangle Puzzle
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+4
+0
+7 1 1 45
+
+12 0.828427125
+
+1
+1
+7 6 4 30
+
+13 19.668384925
+
+1
+2
+13 1 1000000 90
+
+0 
+1
+3
+18 1000000 1000000 1
+
+0 
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.10
+30 Codeforces Round #172 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0

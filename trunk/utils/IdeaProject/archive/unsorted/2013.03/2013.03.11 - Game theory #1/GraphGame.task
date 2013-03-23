@@ -1,0 +1,53 @@
+9 GraphGame
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+3
+0
+16 3 3
+1 2
+2 1
+2 3
+
+14 Loss
+Win
+Loss
+
+1
+1
+24 4 5
+1 2
+2 1
+2 3
+3 2
+3 4
+
+19 Draw
+Draw
+Win
+Loss
+
+1
+2
+8 1 1
+1 1
+
+5 Draw
+
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+16 coding.GraphGame
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.11
+14 Game theory #1
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

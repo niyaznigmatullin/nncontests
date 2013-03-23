@@ -45,9 +45,9 @@ public class DinicGraph {
         }
     }
 
-    public Edge addEdge(int from, int to, int flow, int cap) {
-        Edge e1 = new Edge(from, to, flow, cap);
-        Edge e2 = new Edge(to, from, -flow, 0);
+    public Edge addEdge(int from, int to, int cap) {
+        Edge e1 = new Edge(from, to, 0, cap);
+        Edge e2 = new Edge(to, from, 0, 0);
         e1.rev = e2;
         e2.rev = e1;
         edges[from].add(e1);
@@ -143,6 +143,17 @@ public class DinicGraph {
             }
         }
         return 0;
+    }
+
+    public boolean[] getCut(int source, int target) {
+        if (bfs(source, target)) {
+            return null;
+        }
+        boolean[] ret = new boolean[n];
+        for (int i = 0; i < n; i++) {
+            ret[i] = d[i] != Integer.MAX_VALUE;
+        }
+        return ret;
     }
 
 }

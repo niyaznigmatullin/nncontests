@@ -1,0 +1,35 @@
+24 1511 - Fiscal Operations
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+12 123
+554
+345
+
+2 8
+
+1
+1
+13 111
+999
+11101
+0 
+1
+10 src/coding
+15 -Xmx16M -Xss16M
+4 Main
+15 coding.Task1511
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.07
+8 Volume 6
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

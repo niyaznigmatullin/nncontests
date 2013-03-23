@@ -21,6 +21,7 @@ public class KuhnMatchingGraph {
     int[] was;
     int VER;
 
+    @SuppressWarnings("unchecked")
     public KuhnMatchingGraph(int n, int m) {
         this.n = n;
         this.m = m;
