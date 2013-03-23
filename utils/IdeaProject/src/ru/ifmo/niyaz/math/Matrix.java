@@ -54,13 +54,17 @@ public class Matrix {
             throw new AssertionError();
         }
         Matrix ret = new Matrix(n, b.m);
+        long modmod = (long) mod * mod * 8;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < b.m; j++) {
                 long d = 0;
                 for (int k = 0; k < m; k++) {
-                    d = (d + (long) a[i][k] * b.a[k][j]) % mod;
+                    d = (d + (long) a[i][k] * b.a[k][j]);
+                    if (d >= modmod) {
+                        d -= modmod;
+                    }
                 }
-                ret.a[i][j] = (int) d;
+                ret.a[i][j] = (int) (d % mod);
             }
         }
         return ret;
@@ -167,5 +171,22 @@ public class Matrix {
             ans = (mod - ans) % mod;
         }
         return ans;
+    }
+
+    public Matrix addMod(Matrix b, int mod) {
+        if (n != b.n || m != b.m) {
+            throw new AssertionError();
+        }
+        int[][] ret = new int[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                int s = a[i][j] + b.a[i][j];
+                if (s >= mod) {
+                    s -= mod;
+                }
+                ret[i][j] = s;
+            }
+        }
+        return new Matrix(ret);
     }
 }

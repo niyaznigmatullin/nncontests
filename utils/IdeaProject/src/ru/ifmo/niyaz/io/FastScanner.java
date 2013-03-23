@@ -45,7 +45,10 @@ public class FastScanner extends BufferedReader {
         while (isWhiteSpace(c)) {
             c = read();
         }
-        while (!isWhiteSpace(c)) {
+        if (c < 0) {
+            return null;
+        }
+        while (c >= 0 && !isWhiteSpace(c)) {
             sb.appendCodePoint(c);
             c = read();
         }
@@ -53,7 +56,7 @@ public class FastScanner extends BufferedReader {
     }
 
     static boolean isWhiteSpace(int c) {
-        return c >= -1 && c <= 32;
+        return c >= 0 && c <= 32;
     }
 
     public String nextToken() {
@@ -71,7 +74,7 @@ public class FastScanner extends BufferedReader {
             c = read();
         }
         int ret = 0;
-        while (!isWhiteSpace(c)) {
+        while (c >= 0 && !isWhiteSpace(c)) {
             if (c < '0' || c > '9') {
                 throw new NumberFormatException("digit expected " + (char) c
                         + " found");

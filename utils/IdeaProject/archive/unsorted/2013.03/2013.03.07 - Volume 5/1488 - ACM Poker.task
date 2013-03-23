@@ -1,0 +1,44 @@
+16 1488 - ACM Poker
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+102 4C AC 2C
+4S KD 6H
+5C KH
+
+JS 8H JC
+8C 8D 10H
+8H 10H
+
+10D 8D 9D
+3D 3C 3H
+AH AS
+
+2C 3D 4H
+2D 3H 4S
+AH AH
+
+23 Dima
+Sasha
+Dima
+Artyom
+
+1
+10 src/coding
+15 -Xmx16M -Xss16M
+4 Main
+15 coding.Task1488
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.07
+8 Volume 5
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

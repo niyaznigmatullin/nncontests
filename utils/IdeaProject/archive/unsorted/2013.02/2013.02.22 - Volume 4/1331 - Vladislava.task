@@ -1,0 +1,42 @@
+17 1331 - Vladislava
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+18 1 2
+1
+0 0
+1 1
+0 0
+
+5 0.00
+
+1
+1
+20 2 1
+1
+0 0
+0 90
+0 45
+
+10 1.57
+0.79
+
+1
+10 src/coding
+15 -Xmx16M -Xss16M
+4 Main
+15 coding.Task1331
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.02.22
+8 Volume 4
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

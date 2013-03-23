@@ -1,0 +1,55 @@
+11 NameTheBaby
+12 MULTI_NUMBER
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+125 5
+5 10
+2
+like
+poke
+5 100
+1
+hack
+3 5
+3
+ab
+bc
+ca
+7 100000
+4
+abcd
+bcde
+cdef
+defg
+10 1000000000
+5
+facebook
+hacker
+cup
+round
+three
+89 Case #1: epoke
+Case #2: unnamed baby :(
+Case #3: abd
+Case #4: dzdefgn
+Case #5: ajpxcccuph
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+18 coding.NameTheBaby
+39 net.egork.chelper.checkers.TokenChecker
+0 
+1
+26 coding.NameTheBabyTestCase
+10 2013.02.17
+26 Facebook HackerCup Round 3
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

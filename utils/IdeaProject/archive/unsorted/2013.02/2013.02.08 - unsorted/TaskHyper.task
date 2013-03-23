@@ -1,0 +1,31 @@
+9 TaskHyper
+6 SINGLE
+6 CUSTOM
+9 input.txt
+6 CUSTOM
+10 output.txt
+2
+0
+4 5 6
+
+0 
+1
+1
+20 999999999
+1000000000
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+16 coding.TaskHyper
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.02.08
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0

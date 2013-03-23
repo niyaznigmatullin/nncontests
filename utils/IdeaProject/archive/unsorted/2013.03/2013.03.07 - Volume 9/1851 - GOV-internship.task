@@ -1,0 +1,35 @@
+21 1851 - GOV-internship
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+7 00?
+1?
+
+9 2
+000
+10
+
+1
+1
+12 ??10???
+?000
+0 
+1
+10 src/coding
+15 -Xmx64M -Xss64M
+4 Main
+15 coding.Task1851
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.07
+8 Volume 9
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

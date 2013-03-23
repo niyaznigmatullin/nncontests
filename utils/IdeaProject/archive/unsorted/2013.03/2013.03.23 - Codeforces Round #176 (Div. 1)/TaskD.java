@@ -1,37 +1,13 @@
-import java.util.Map;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.InputMismatchException;
-import java.util.TreeMap;
-import java.util.Comparator;
-import java.io.BufferedReader;
-import java.io.OutputStream;
-import java.util.NavigableMap;
-import java.io.PrintWriter;
-import java.io.Reader;
-import java.io.Writer;
-import java.util.SortedMap;
-import java.io.InputStream;
+package coding;
 
-/**
- * Built using CHelper plug-in
- * Actual solution is at the top
- * @author Niyaz Nigmatullin
- */
-public class Main {
-	public static void main(String[] args) {
-		InputStream inputStream = System.in;
-		OutputStream outputStream = System.out;
-		FastScanner in = new FastScanner(inputStream);
-		FastPrinter out = new FastPrinter(outputStream);
-		TaskD solver = new TaskD();
-		solver.solve(1, in, out);
-		out.close();
-	}
-}
+import ru.ifmo.niyaz.DataStructures.FenwickRev;
+import ru.ifmo.niyaz.DataStructures.MultiSegmentTree;
+import ru.ifmo.niyaz.io.FastScanner;
+import ru.ifmo.niyaz.io.FastPrinter;
 
-class TaskD {
+import java.util.*;
+
+public class TaskD {
     public void solve(int testNumber, FastScanner in, FastPrinter out) {
         int n = in.nextInt();
         int m = in.nextInt();
@@ -133,102 +109,3 @@ class TaskD {
         }
     }
 }
-
-class FastScanner extends BufferedReader {
-
-    boolean isEOF;
-
-    public FastScanner(InputStream is) {
-        super(new InputStreamReader(is));
-    }
-
-    public int read() {
-        try {
-            int ret = super.read();
-            if (isEOF && ret < 0) {
-                throw new InputMismatchException();
-            }
-            isEOF = ret == -1;
-            return ret;
-        } catch (IOException e) {
-            throw new InputMismatchException();
-        }
-    }
-
-    static boolean isWhiteSpace(int c) {
-        return c >= 0 && c <= 32;
-    }
-
-    public int nextInt() {
-        int c = read();
-        while (isWhiteSpace(c)) {
-            c = read();
-        }
-        int sgn = 1;
-        if (c == '-') {
-            sgn = -1;
-            c = read();
-        }
-        int ret = 0;
-        while (c >= 0 && !isWhiteSpace(c)) {
-            if (c < '0' || c > '9') {
-                throw new NumberFormatException("digit expected " + (char) c
-                        + " found");
-            }
-            ret = ret * 10 + c - '0';
-            c = read();
-        }
-        return ret * sgn;
-    }
-
-    public int[] readIntArray(int n) {
-        int[] ret = new int[n];
-        for (int i = 0; i < n; i++) {
-            ret[i] = nextInt();
-        }
-        return ret;
-    }
-
-    }
-
-class FastPrinter extends PrintWriter {
-
-    public FastPrinter(OutputStream out) {
-        super(out);
-    }
-
-    public FastPrinter(Writer out) {
-        super(out);
-    }
-
-
-}
-
-class FenwickRev {
-    int[] a;
-
-    public FenwickRev(int n) {
-        a = new int[n];
-    }
-
-    public void add(int x, int y) {
-        for (int i = x; i >= 0; i = (i & (i + 1)) - 1) {
-            a[i] += y;
-        }
-    }
-
-    public int getElement(int x) {
-        int ret = 0;
-        for (int i = x; i < a.length; i |= i + 1) {
-            ret += a[i];
-        }
-        return ret;
-    }
-
-    public void add(int left, int right, int y) {
-        add(left - 1, -y);
-        add(right - 1, y);
-    }
-
-}
-
