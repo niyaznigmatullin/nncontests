@@ -1,6 +1,5 @@
 #include <cstdio>
 
-using namespace std;
 
 int ni() {
     int c = getchar();

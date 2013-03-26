@@ -1,5 +1,4 @@
 #include <cstdio>
-#include <cassert>
 #include <algorithm>
 #include <memory.h>
 
@@ -115,26 +114,6 @@ int main() {
     pv[0] = 0;
     dfs(0);
     dfs2(0);
-/*    for (int i = 0; i < n; i++) {
-        printf("%d ", en[i]);
-    }
-    puts("");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", trt[i]);
-    }
-    puts("");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", lab[i]);
-    }
-    puts("");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", de[i]);
-    }
-    puts("");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", pv[i]);
-    }
-    puts("");*/
     for (int i = 0; i < n; i++) {
         lid[i] = i;
         fs[i] = 0;
@@ -156,7 +135,6 @@ int main() {
                 qlen[cntq] = de[i] - de[u] + 1;
                 qen[cntq] = ex[v];
                 qex[cntq] = ex[u];
-//                printf("query from %d: %d %d %d %d %d\n", i, qk[cntq], qv[cntq], qlen[cntq], qen[cntq], qex[cntq]);
                 ++cntq;
             }
             if (en[bc[u]] < ex[v]) {
@@ -165,7 +143,6 @@ int main() {
                 qlen[cntq] = de[i] - de[u] + 1;
                 qen[cntq] = en[bc[u]];
                 qex[cntq] = ex[bc[u]];
-//                printf("query from %d: %d %d %d %d %d\n", i, qk[cntq], qv[cntq], qlen[cntq], qen[cntq], qex[cntq]);
                 ++cntq;                    
             }
             v = u;
@@ -173,7 +150,6 @@ int main() {
     }
     for (int i = 0; i <= 2 * n; i++) heq[i] = -1;
     for (int i = 0; i < cntq; i++) {
-//        printf("%d %d %d %d %d\n", qk[i] - n, qv[i], qlen[i], qen[i], qex[i]);
         if (qk[i] > 2 * n) qk[i] = 2 * n;
         if (qk[i] < 0 || qk[i] > 2 * n) continue;
         neq[i] = heq[qk[i]];
@@ -192,8 +168,6 @@ int main() {
             int cnt = sum(fs, qen[e], qex[e]);
             got -= (long long) cnt * (de[qv[e]] - 1);
             got += (long long) cnt * qlen[e];
-//            assert(got >= 0);
-//            printf("%d %d %d %lld\n", qk[e] - n, qv[e], qlen[e], got);
             answer += got;
         }
     }
