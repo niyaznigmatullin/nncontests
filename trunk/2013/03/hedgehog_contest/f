@@ -1,0 +1,17 @@
+import java.math.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        BigInteger a = new BigInteger(sc.next());
+        BigInteger b = new BigInteger(sc.next());
+        BigInteger c = new BigInteger(sc.next());
+        System.out.println(solve(a, b, c).max(solve(b, a, c)));
+    }
+    
+    static BigInteger solve(BigInteger a, BigInteger b, BigInteger c) {
+        BigInteger d = a.mod(c);
+        return a.divide(c).multiply(b).add(b.divide(c).multiply(d));
+    }
+}
