@@ -1,0 +1,1 @@
+time ./c.exe < in > out

@@ -1,0 +1,57 @@
+﻿Problem 2: A Lannister and his Gold
+worth 100 points ⋅ your team's current score: 0 ⋅ attempts remaining: 20
+your submissions ⋅ download problem ⋅ forum thread
+
+Tytos Lannister is breathing his last few days, and so wants to distribute all his money within his huge family. His huge family forms a tree, with the members as its vertices. Each member is given a unique integer as his ID.
+His old age has rendered him insane and he devises a new plan to distribute his gold coins. He gives you (his right hand) a parchment with
+U u v string
+U -> Distributing the Gold Coins
+u , v -> id’s of two member of the Family.
+string -> a 15 character string. Includes characters from ‘a’ to ‘z’.
+‘a’ -> 1 gold coin
+‘b’ -> 2 gold coins
+.
+.
+‘z’ -> 26 gold coins
+Decode each alphabet of the string into a seq of 15 numbers. Lets call them seq[0], seq[1].... seq[14] determined by the value of each character.
+According to the parchment you are to distribute seq[i%15] gold coins to the ith member along the unique path from ‘u’ to ‘v’. You start distributing from ‘u’ uptil ‘v‘ and ‘u’ is the 0th vertex.
+
+Next he has a parchment with
+Q u v
+Q -> Counting the total number of gold coins on the unique path connecting ‘u’ and ‘v’ ( u and v inclusive).
+Input:
+
+The first line contains N the number of members in his family tree. N-1 lines follow which are the edges of of his family tree.
+The N+1th line contains K the number of queries. K lines follow each of one of the format:
+U u v string
+Q u v
+where u and v are integers u, v < N and string is 15 character long with each character between ‘a’ to ‘z’
+Output:
+
+For each query of the form
+Q u v
+output a line denoting a single line denoting the no of gold coins on the corresponding path. As the result can be long, print the answer modulo 1007.
+Sample Input:
+
+5
+0 1
+0 2
+0 3
+3 4
+5
+U 0 2 aaaaaaaaaaaaaaa
+Q 0 3
+U 1 4 abcdefghijklmno
+U 0 0 abbbbbbbbbbbbbb
+Q 1 4
+Sample Output
+
+1
+12
+Constraint:
+
+Sum of N across all test cases in a single test file <= 100000
+Sum of K across all test cases in a single test file <= 25000
+Upload solution
+
+Please ensure you have local backups of all your submissions, in case our server faces any issues during the contest. 

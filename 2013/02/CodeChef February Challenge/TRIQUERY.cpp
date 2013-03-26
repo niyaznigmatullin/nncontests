@@ -82,8 +82,6 @@ int main() {
     }
     ++mx;
     ++my;
-    for (int i = 0; i < my; i++) fy[i] = 0;
-    for (int i = 0; i < mx; i++) fx[i] = 0;
     std::sort(bx, bx + n, cmpx);
     std::sort(bq, bq + q, cmpqx);
     for (int it = 0, j = 0; it < q; it++) {
