@@ -58,6 +58,9 @@ public class GeometryAlgorithms {
     }
 
     public static boolean isStrictlyInsidePolygon(Point2DInteger[] p, Point2DInteger q) {
+        if (doubledArea(p) == 0) {
+            return false;
+        }
         if (!isInsidePolygon(p, q)) {
             return false;
         }
