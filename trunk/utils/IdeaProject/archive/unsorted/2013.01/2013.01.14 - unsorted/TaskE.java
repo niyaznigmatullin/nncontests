@@ -1,9 +1,13 @@
 package coding;
 
+
+
 import ru.ifmo.niyaz.geometry.GeometryAlgorithms;
 import ru.ifmo.niyaz.geometry.Point2DInteger;
 import ru.ifmo.niyaz.io.FastScanner;
 import ru.ifmo.niyaz.io.FastPrinter;
+
+import java.util.Arrays;
 
 public class TaskE {
     public void solve(int testNumber, FastScanner in, FastPrinter out) {
