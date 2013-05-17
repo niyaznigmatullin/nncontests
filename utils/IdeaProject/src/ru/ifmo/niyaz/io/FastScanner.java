@@ -29,10 +29,10 @@ public class FastScanner extends BufferedReader {
     public int read() {
         try {
             int ret = super.read();
-            if (isEOF && ret < 0) {
-                throw new InputMismatchException();
-            }
-            isEOF = ret == -1;
+//            if (isEOF && ret < 0) {
+//                throw new InputMismatchException();
+//            }
+//            isEOF = ret == -1;
             return ret;
         } catch (IOException e) {
             throw new InputMismatchException();
@@ -102,13 +102,20 @@ public class FastScanner extends BufferedReader {
     }
 
     public String nextLine() {
-        try {
-            int c = read();
-            String ret = readLine();
-            if (c != 13) {
-                return (char) c + ret;
-            }
+        int c = read();
+        String ret = readLine();
+        if (ret == null) {
             return ret;
+        }
+        if (c != 13) {
+            return (char) c + ret;
+        }
+        return ret;
+    }
+
+    public String readLine() {
+        try {
+            return super.readLine();
         } catch (IOException e) {
             return null;
         }
@@ -166,6 +173,7 @@ public class FastScanner extends BufferedReader {
         }
         return ret;
     }
+
     public double[] readDoubleArray(int n) {
         double[] ret = new double[n];
         for (int i = 0; i < n; i++) {

@@ -1,0 +1,30 @@
+11 Dead_Pixels
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+126 5
+4 4 2 2 1 0 2 1 2 3 4
+4 4 1 1 3 1 1 2 2 2 2
+6 10 3 2 2 0 0 5 4 3 2
+16 18 5 1 5 10 8 21 27 29 87
+14 15 12 4 4 3 5 84 74 53 68
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+88 lib.test.on2013_02.on2013_02_02_Facebook_Hacker_Cup_2013_Round_1.Dead_Pixels.Dead_Pixels
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.02.02
+32 Facebook Hacker Cup 2013 Round 1
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0

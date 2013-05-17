@@ -1,0 +1,40 @@
+26 B - Command Line Arguments
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+37 "RUn.exe O" "" "   2ne, " two! . " "
+
+41 <RUn.exe O>
+<>
+<   2ne, >
+<two!>
+<.>
+< >
+
+1
+1
+30    firstarg   second   ""    
+
+23 <firstarg>
+<second>
+<>
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+102 lib.test.on2013_04.on2013_04_13_Croc_Champ_2013___Qualification_Round.B___Command_Line_Arguments.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.04.13
+37 Croc Champ 2013 - Qualification Round
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

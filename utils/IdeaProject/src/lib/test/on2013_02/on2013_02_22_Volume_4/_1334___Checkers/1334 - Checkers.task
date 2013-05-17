@@ -1,0 +1,56 @@
+15 1334 - Checkers
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+95 a1
+a3
+a5
+a7
+b2
+b4
+b6
+b8
+c1
+c3
+c5
+c7
+d2
+d4
+d6
+d8
+e1
+e3
+e5
+e7
+f2
+f4
+f6
+f8
+g1
+g3
+g5
+g7
+h2
+h4
+h6
+h8
+1 5
+1
+10 src/coding
+15 -Xmx16M -Xss16M
+4 Main
+66 lib.test.on2013_02.on2013_02_22_Volume_4._1334___Checkers.Task1334
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.02.22
+8 Volume 4
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

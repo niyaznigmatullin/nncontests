@@ -1,0 +1,35 @@
+25 B - Maximum Xor Secondary
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+12 5
+5 2 1 4 3
+
+2 7
+
+1
+1
+12 5
+9 8 3 5 7
+
+3 15
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+94 lib.test.on2013_03.on2013_03_10_Codeforces_Round__172__Div__1_.B___Maximum_Xor_Secondary.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.10
+30 Codeforces Round #172 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

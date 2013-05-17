@@ -21,6 +21,7 @@ public class Fenwick {
     }
 
     public int getSum(int x) {
+        if (x >= a.length) x = a.length - 1;
         int ret = 0;
         for (int i = x; i >= 0; i = (i & (i + 1)) - 1) {
             ret += a[i];

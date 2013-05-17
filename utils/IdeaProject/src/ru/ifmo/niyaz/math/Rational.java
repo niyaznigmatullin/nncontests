@@ -12,8 +12,9 @@ import java.math.BigInteger;
 public class Rational implements Comparable<Rational> {
 	BigInteger num;
 	BigInteger den;
-	static Rational ZERO = new Rational(BigInteger.ZERO);
-	static Rational ONE = new Rational(BigInteger.ONE);
+    public static Rational ZERO = new Rational(BigInteger.ZERO);
+    public static Rational TEN = new Rational(BigInteger.TEN);
+	public static Rational ONE = new Rational(BigInteger.ONE);
 
 	public Rational(long a) {
 		num = BigInteger.valueOf(a);
@@ -51,6 +52,18 @@ public class Rational implements Comparable<Rational> {
 		norm();
 	}
 
+    public BigInteger getNum() {
+        return num;
+    }
+
+    public BigInteger getDen() {
+        return den;
+    }
+
+    public int signum() {
+        return num.signum();
+    }
+
 	private void norm() {
 		if (den.compareTo(BigInteger.ZERO) < 0) {
 			den = den.negate();
@@ -83,6 +96,10 @@ public class Rational implements Comparable<Rational> {
 		return new Rational(num.multiply(r.den), den.multiply(r.num));
 	}
 
+    public Rational negate() {
+        return new Rational(num.negate(), den);
+    }
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -94,12 +111,6 @@ public class Rational implements Comparable<Rational> {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
 		Rational other = (Rational) obj;
 		if (den == null) {
 			if (other.den != null)
@@ -114,11 +125,11 @@ public class Rational implements Comparable<Rational> {
 		return true;
 	}
 
-	static Rational valueOf(long a) {
+	public static Rational valueOf(long a) {
 		return new Rational(a);
 	}
 
-	static Rational valueOf(long a, long b) {
+	public static Rational valueOf(long a, long b) {
 		return new Rational(a, b);
 	}
 
@@ -127,6 +138,28 @@ public class Rational implements Comparable<Rational> {
 		return num.toString()
 				+ (den.equals(BigInteger.ONE) ? "" : "/" + den.toString());
 	}
+
+    public String decimal(int precision) {
+        StringBuilder sb = new StringBuilder();
+        BigInteger num = this.num;
+        BigInteger den = this.den;
+        if (num.signum() < 0) {
+            num = num.negate();
+            sb.append('-');
+        }
+        sb.append(num.divide(den));
+        num = num.mod(den);
+        if (precision == 0) {
+            return sb.toString();
+        }
+        sb.append('.');
+        for (int i = 0; i < precision; i++) {
+            BigInteger[] z = num.multiply(BigInteger.TEN).divideAndRemainder(den);
+            sb.append(z[0]);
+            num = z[1];
+        }
+        return sb.toString();
+    }
 
     public int compareTo(Rational o) {
         return num.multiply(o.den).compareTo(den.multiply(o.num));

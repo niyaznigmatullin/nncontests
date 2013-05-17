@@ -1,0 +1,33 @@
+8 Diamonds
+12 MULTI_NUMBER
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+44 7
+1 0 0
+1 0 2
+3 0 0
+3 2 0
+3 1 1
+4 1 1
+4 0 2
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+50 lib.test.on2013_05.on2013_05_04_.Diamonds.Diamonds
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.05.04
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

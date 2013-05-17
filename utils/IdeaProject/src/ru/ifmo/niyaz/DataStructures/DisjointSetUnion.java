@@ -29,6 +29,6 @@ public class DisjointSetUnion {
         a = get(a);
         b = get(b);
         p[a] = b;
-        return a == b;
+        return a != b;
     }
 }

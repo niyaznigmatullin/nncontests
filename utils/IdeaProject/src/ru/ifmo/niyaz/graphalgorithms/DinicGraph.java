@@ -55,6 +55,16 @@ public class DinicGraph {
         return e1;
     }
 
+    public Edge addUndirectedEdge(int from, int to, int cap) {
+        Edge e1 = new Edge(from, to, 0, cap);
+        Edge e2 = new Edge(to, from, 0, cap);
+        e1.rev = e2;
+        e2.rev = e1;
+        edges[from].add(e1);
+        edges[to].add(e2);
+        return e1;
+    }
+
     boolean bfs(int source, int target) {
         int head = 0;
         int tail = 1;
@@ -155,5 +165,14 @@ public class DinicGraph {
         }
         return ret;
     }
+
+    public void clear() {
+        for (List<Edge> f : edges) {
+            for (Edge e : f) {
+                e.flow = 0;
+            }
+        }
+    }
+
 
 }

@@ -107,8 +107,8 @@ public class ArrayUtils {
         for (int i = 1; i < ret.length; i++) {
             if (last != ret[i]) {
                 ret[j++] = ret[i];
+                last = ret[i];
             }
-            last = ret[i];
         }
         return Arrays.copyOf(ret, j);
     }
@@ -124,8 +124,8 @@ public class ArrayUtils {
         for (int i = 1; i < ret.length; i++) {
             if (last != ret[i]) {
                 ret[j++] = ret[i];
+                last = ret[i];
             }
-            last = ret[i];
         }
         return Arrays.copyOf(ret, j);
     }
