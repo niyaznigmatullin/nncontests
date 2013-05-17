@@ -1,0 +1,60 @@
+1 F
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+4
+0
+11 1
+32 46 22
+
+5 0.22
+
+1
+1
+24 2
+32 46 22
+54 23 23
+1 2
+
+7 0.2936
+
+1
+2
+61 5
+78 12 10
+17 13 70
+39 19 42
+22 16 62
+93 1 6
+1 5
+2 5
+2 3
+4 5
+
+12 1.640445408
+
+1
+3
+22 2
+0 100 0
+0 100 0
+1 2
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+57 lib.test.on2013_04.on2013_04_21_Gran_Prix_of_Taganrog.F.F
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.04.21
+21 Gran-Prix of Taganrog
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

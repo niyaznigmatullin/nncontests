@@ -1,0 +1,72 @@
+18 1337 - Bureaucracy
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+4
+0
+24 2 7
+1 2
+0
+1 0
+1
+1 0
+2 0
+
+3 1
+2
+1
+1
+58 5 18
+5 3 18 12 1
+2 3 4 5 0
+0
+4 5 0
+5 0
+2 0
+3
+0
+1 2 3 4 5 0
+12 38
+2 5 4 3 1
+1
+2
+50 5 18
+5 3 18 12 1
+2 3 4 5 0
+0
+4 5 0
+5 0
+2 0
+3
+0
+3 0
+10 33
+2 5 4 3
+1
+3
+23 2 7
+1 2
+0
+1 0
+2
+1 0
+2 0
+3 0
+2
+1
+10 src/coding
+15 -Xmx16M -Xss16M
+4 Main
+69 lib.test.on2013_02.on2013_02_22_Volume_4._1337___Bureaucracy.Task1337
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.02.22
+8 Volume 4
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -1,0 +1,35 @@
+25 A - Yaroslav and Sequence
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+11 2
+50 50 50
+
+4 150
+
+1
+1
+13 2
+-1 -100 -1
+
+4 100
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+94 lib.test.on2013_05.on2013_05_05_Codeforces_Round__182__Div__1_.A___Yaroslav_and_Sequence.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.05.05
+30 Codeforces Round #182 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

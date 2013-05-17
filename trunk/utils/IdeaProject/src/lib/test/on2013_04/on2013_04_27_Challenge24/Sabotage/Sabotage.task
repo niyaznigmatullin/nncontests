@@ -1,0 +1,33 @@
+8 Sabotage
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+60 4 7
+2 3 2 2
+0 2 1 9
+0 3 2 1
+1 2 2 2
+2 3 3 3
+0 1 1 3
+1 3 2 1
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+61 lib.test.on2013_04.on2013_04_27_Challenge24.Sabotage.Sabotage
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.04.27
+11 Challenge24
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

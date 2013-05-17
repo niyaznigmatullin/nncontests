@@ -1,0 +1,61 @@
+9 TicTacToe
+12 MULTI_NUMBER
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+127 6
+XXXT
+....
+OO..
+....
+
+XOXT
+XXOO
+OXOX
+XXOO
+
+XOX.
+OX..
+....
+....
+
+OOXX
+OXXX
+OX.T
+O..O
+
+XXXO
+..O.
+.O..
+T...
+
+OXXX
+XO..
+..O.
+...O
+
+106 Case #1: X won
+Case #2: Draw
+Case #3: Game has not completed
+Case #4: O won
+Case #5: O won
+Case #6: O won
+
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+86 lib.test.on2013_04.on2013_04_13_Google_Code_Jam_2013_Qualification.TicTacToe.TicTacToe
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.04.13
+34 Google Code Jam 2013 Qualification
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

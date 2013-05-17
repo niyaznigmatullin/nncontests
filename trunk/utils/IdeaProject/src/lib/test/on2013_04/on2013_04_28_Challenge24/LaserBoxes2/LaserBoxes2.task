@@ -1,0 +1,21 @@
+11 LaserBoxes2
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+0
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+67 lib.test.on2013_04.on2013_04_28_Challenge24.LaserBoxes2.LaserBoxes2
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.04.28
+11 Challenge24
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

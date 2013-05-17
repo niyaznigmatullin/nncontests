@@ -1,0 +1,35 @@
+27 1405 - Goat in the Garden 5
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+45 8
+1 1
+-2 0
+5 3
+-2 3
+8 3.10
+-2 -1
+-2 2
+8 4.10
+
+8 36.8060
+
+1
+10 src/coding
+15 -Xmx16M -Xss16M
+4 Main
+78 lib.test.on2013_02.on2013_02_23_Volume_5._1405___Goat_in_the_Garden_5.Task1405
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.02.23
+8 Volume 5
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

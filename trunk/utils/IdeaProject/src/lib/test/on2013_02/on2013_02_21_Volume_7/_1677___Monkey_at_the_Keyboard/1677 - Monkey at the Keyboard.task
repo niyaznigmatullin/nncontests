@@ -1,0 +1,33 @@
+29 1677 - Monkey at the Keyboard
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+5 2
+aa
+
+1 6
+1
+1
+5 2
+ba
+
+1 4
+1
+10 src/coding
+15 -Xmx64M -Xss64M
+4 Main
+80 lib.test.on2013_02.on2013_02_21_Volume_7._1677___Monkey_at_the_Keyboard.Task1677
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.02.21
+8 Volume 7
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

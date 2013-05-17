@@ -127,4 +127,17 @@ public class MathUtils {
         return p;
 
     }
+
+    public static int modPow(int a, long b, int mod) {
+        int ret = 1;
+        a = (a % mod + mod) % mod;
+        while (b > 0) {
+            if ((b & 1) == 1) {
+                ret = (int) ((long) ret * a % mod);
+            }
+            a = (int) ((long) a * a % mod);
+            b >>= 1;
+        }
+        return ret;
+    }
 }
