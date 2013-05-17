@@ -1,0 +1,61 @@
+20 C - Greg and Friends
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+5
+0
+8 1 50
+50
+
+4 1
+1
+
+1
+1
+16 3 100
+50 50 100
+
+4 5
+2
+
+1
+2
+11 2 50
+50 50
+
+5 -1
+0
+
+1
+3
+194 50 1000
+50 50 50 50 50 50 50 50 50 50 
+50 50 50 50 50 50 50 50 50 50 
+100 100 100 100 100 100 100 100 100 100 
+100 100 100 100 100 100 100 100 100 100 
+100 100 100 100 100 100 100 100 100 100 
+ 
+0 
+1
+4
+20 4 149
+50 50 100 100
+
+0 
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.04.11
+30 Codeforces Round #179 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

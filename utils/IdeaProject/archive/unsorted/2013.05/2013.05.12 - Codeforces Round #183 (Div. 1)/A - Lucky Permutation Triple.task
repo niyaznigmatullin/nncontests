@@ -1,0 +1,35 @@
+28 A - Lucky Permutation Triple
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+2 5
+
+30 1 4 3 2 0
+1 0 2 4 3
+2 4 0 1 3
+
+1
+1
+2 2
+
+3 -1
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.05.12
+30 Codeforces Round #183 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

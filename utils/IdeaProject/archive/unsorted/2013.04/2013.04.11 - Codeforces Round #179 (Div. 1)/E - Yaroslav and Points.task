@@ -1,0 +1,55 @@
+23 E - Yaroslav and Points
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+211 8
+36 50 28 -75 40 -60 -95 -48
+20
+2 -61 29
+1 5 -53
+1 1 429
+1 5 130
+2 -101 -71
+2 -69 53
+1 1 404
+1 5 518
+2 -101 53
+2 50 872
+1 1 -207
+2 -99 -40
+1 7 -389
+1 6 -171
+1 2 464
+1 7 -707
+1 1 -730
+1 1 560
+2 635 644
+1 7 -677
+
+27 176
+20
+406
+1046
+1638
+156
+0
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.04.11
+30 Codeforces Round #179 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

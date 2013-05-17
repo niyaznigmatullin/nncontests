@@ -1,0 +1,34 @@
+5 Osmos
+12 MULTI_NUMBER
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+51 4
+2 2
+2 1
+2 4
+2 1 1 6
+10 4
+25 20 9 100
+1 4
+1 1 1 1
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.Osmos
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.05.04
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

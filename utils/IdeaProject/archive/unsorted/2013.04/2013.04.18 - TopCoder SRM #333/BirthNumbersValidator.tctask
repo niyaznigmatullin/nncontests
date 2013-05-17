@@ -1,0 +1,49 @@
+21 BirthNumbersValidator
+8 validate
+18 java.lang.String[]
+1
+18 java.lang.String[]
+4 test
+5
+0
+1
+String[] 1
+10 8104121234
+String[] 1
+3 YES
+1
+1
+1
+String[] 1
+10 8154121239
+String[] 1
+3 YES
+1
+2
+1
+String[] 1
+10 8134120005
+String[] 1
+2 NO
+1
+3
+1
+String[] 2
+10 8102310007
+10 8104121235
+String[] 2
+2 NO
+2 NO
+1
+4
+1
+String[] 1
+10 0411131237
+String[] 1
+3 YES
+1
+10 2013.04.18
+17 TopCoder SRM #333
+0
+28 coding.BirthNumbersValidator
+1
