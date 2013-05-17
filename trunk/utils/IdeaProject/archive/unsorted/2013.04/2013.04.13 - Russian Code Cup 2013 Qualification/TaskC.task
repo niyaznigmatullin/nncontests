@@ -1,0 +1,31 @@
+5 TaskC
+9 MULTI_EOF
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+17 5 1
+1
+4 2
+4 2
+0 0
+5 32
+8
+
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.04.13
+35 Russian Code Cup 2013 Qualification
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

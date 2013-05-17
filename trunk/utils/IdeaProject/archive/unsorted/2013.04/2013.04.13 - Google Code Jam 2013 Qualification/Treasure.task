@@ -1,0 +1,43 @@
+8 Treasure
+12 MULTI_NUMBER
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+64 3
+1 4
+1
+1 0
+1 2 1 3
+2 0
+3 1 2
+3 3
+1 1 1
+1 0
+1 0
+1 0
+1 1
+2
+1 1 1
+
+52 Case #1: 2 1 4 3
+Case #2: 1 2 3
+Case #3: IMPOSSIBLE
+
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+15 coding.Treasure
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.04.13
+34 Google Code Jam 2013 Qualification
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
