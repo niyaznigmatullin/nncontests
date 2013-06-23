@@ -1,0 +1,41 @@
+5 TaskD
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+11 3
+50
+50
+75
+
+0 
+1
+1
+4 1
+33
+0 
+1
+2
+11 3
+100
+0
+100
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.01.31
+16 SNWS2013 Round 5
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
