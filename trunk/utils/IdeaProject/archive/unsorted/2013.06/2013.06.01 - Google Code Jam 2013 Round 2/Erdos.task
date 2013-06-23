@@ -1,0 +1,34 @@
+5 Erdos
+12 MULTI_NUMBER
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+41 2
+1
+1
+1
+8
+1 2 1 3 3 1 4 1
+4 4 3 4 3 2 2 1
+37 Case #1: 1
+Case #2: 4 5 3 7 6 2 8 1
+
+
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.Erdos
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.06.01
+28 Google Code Jam 2013 Round 2
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+0

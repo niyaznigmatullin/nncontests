@@ -1,0 +1,169 @@
+7 Tunnels
+14 minimumTunnels
+3 int
+1
+18 java.lang.String[]
+5 frame
+11
+0
+1
+String[] 3
+14 XXX.XXXX.....X
+14 ..X....XXX...X
+14 XXX......X....
+int 3
+1
+1
+1
+String[] 3
+13 .......X.....
+13 .............
+13 XXX.XXXXXXXXX
+int 3
+1
+2
+1
+String[] 6
+13 .............
+13 XXXXXXXXXXXXX
+13 .............
+13 XXX.......XXX
+13 ..........X..
+13 ..........XXX
+int 2
+1
+3
+1
+String[] 5
+10 XXXX...X..
+10 ....XXXX.X
+10 XX.......X
+10 ..........
+10 ....XXXXXX
+int 4
+1
+4
+1
+String[] 9
+12 X........X..
+12 .........XXX
+12 ............
+12 XXXXXXXXXXXX
+12 ............
+12 XXXXXXXXXXXX
+12 ............
+12 .........XXX
+12 ..XXXXXXXX..
+int 2
+1
+5
+1
+String[] 8
+23 ...............X.X....X
+23 XXXXX..........X.......
+23 ....X..................
+23 XXX.X.........XXXXXXXXX
+23 ..X.X.........X........
+23 XXX.X.........XXXXXXXXX
+23 ....X..................
+23 XXXXX......XXXXXXXXXXXX
+int 5
+1
+6
+1
+String[] 5
+1 .
+1 X
+1 X
+1 .
+1 X
+int 1
+1
+7
+1
+String[] 5
+4 X.XX
+4 X...
+4 ...X
+4 X...
+4 X..X
+int 3
+1
+8
+1
+String[] 2
+3 ...
+3 ...
+int 0
+1
+9
+1
+String[] 49
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 ................................................XX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+50 ..................................................
+50 XXXXXXXXX....................................XXXXX
+int 3
+1
+10
+1
+String[] 7
+3 XXX
+3 ...
+3 ..X
+3 ...
+3 XXX
+3 ...
+3 X.X
+int 3
+1
+10 2013.03.25
+22 Single Round Match 574
+0
+14 coding.Tunnels
+1

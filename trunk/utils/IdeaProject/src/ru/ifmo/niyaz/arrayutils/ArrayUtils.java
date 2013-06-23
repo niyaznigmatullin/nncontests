@@ -18,6 +18,31 @@ public class ArrayUtils {
 
     static final Random rand = new Random(seed);
 
+    public static boolean nextPermutation(int[] a) {
+        for (int i = a.length - 2; i >= 0; i--) {
+            if (a[i] < a[i + 1]) {
+                int cur = i + 1;
+                for (int j = i + 2; j < a.length; j++) {
+                    if (a[j] > a[i] && a[j] < a[cur]) {
+                        cur = j;
+                    }
+                }
+                {
+                    int t = a[cur];
+                    a[cur] = a[i];
+                    a[i] = t;
+                }
+                for (int j = i + 1, k = a.length - 1; j < k; j++, k--) {
+                    int t = a[j];
+                    a[j] = a[k];
+                    a[k] = t;
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
     public static long countNumberOfInversions(int[] a) {
         return inversions(a, null, 0, a.length);
     }

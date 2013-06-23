@@ -153,4 +153,8 @@ public class Point2DInteger {
         return (long) x * x + (long) y * y;
     }
 
+    public double length() {
+        return Math.sqrt(squaredLength());
+    }
+
 }
