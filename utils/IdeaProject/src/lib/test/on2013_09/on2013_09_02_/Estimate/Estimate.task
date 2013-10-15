@@ -1,0 +1,30 @@
+8 Estimate
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+271 5
+10 14.567 213.932 59.735 92.798 94.233 2.682 94.918 37.214 86.303 13.241
+5 86.570 120.219 46.774 182.909 186.631
+7 332.938 205.974 309.560 385.298 120.209 401.062 420.374
+6 251.248 595.136 248.930 795.932 499.233 421.866
+6 626.649 335.461 77.257 386.181 395.272 322.389
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+50 lib.test.on2013_09.on2013_09_02_.Estimate.Estimate
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.09.02
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

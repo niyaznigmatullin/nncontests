@@ -1,0 +1,47 @@
+9 B - Chips
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+4
+0
+8 3 1
+2 2
+
+2 0
+
+1
+1
+4 3 0
+
+2 1
+
+1
+2
+16 4 3
+3 1
+3 2
+3 3
+
+2 1
+
+1
+3
+6 1000 0
+0 
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.07.27
+30 Codeforces Round #194 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

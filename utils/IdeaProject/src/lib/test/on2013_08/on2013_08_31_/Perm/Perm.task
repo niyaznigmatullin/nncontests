@@ -1,0 +1,77 @@
+4 Perm
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+14
+0
+1 2
+0 
+1
+1
+1 3
+0 
+1
+2
+1 4
+0 
+1
+3
+1 5
+0 
+1
+4
+1 6
+0 
+1
+5
+1 9
+0 
+1
+6
+2 10
+0 
+1
+7
+2 11
+0 
+1
+8
+2 12
+0 
+1
+9
+2 13
+0 
+1
+10
+2 14
+0 
+1
+11
+2 15
+0 
+1
+12
+2 16
+0 
+1
+13
+1 1
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+42 lib.test.on2013_08.on2013_08_31_.Perm.Perm
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.08.31
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

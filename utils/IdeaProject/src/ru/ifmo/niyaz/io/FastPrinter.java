@@ -31,5 +31,15 @@ public class FastPrinter extends PrintWriter {
         println();
     }
 
+    public void printArray(long[] a) {
+        for (int i = 0; i < a.length; i++) {
+            if (i > 0) {
+                print(' ');
+            }
+            print(a[i]);
+        }
+        println();
+    }
+
 
 }

@@ -1,0 +1,36 @@
+3 DVD
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+231 10
+"Gone with the Wind" 1960 1
+"The World and the War" 1991 5
+"Back to the Future" 1980 1
+"The Wall" 1980 2
+"Titanic" 1997 3
+"Hell on Earth" 1980 3
+"Princess" 1980 4
+"Yesterday" 1980 5
+"Shadows of the Triumph" 1984 3
+"Help" 1965 2
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+10 coding.DVD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.08.24
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

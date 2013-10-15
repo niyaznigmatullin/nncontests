@@ -1,0 +1,43 @@
+28 B - Lucky Common Subsequence
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+35 AJKEQSLOBSROFGZ
+OVGURWZLWVLUXTH
+OZ
+
+3 ORZ
+1
+1
+7 AA
+A
+A
+
+2 0
+
+1
+2
+11 ORZ
+ORZ
+OZ
+
+0 
+1
+10 src/coding
+8 -Xmx512M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.09.20
+30 Codeforces Round #201 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

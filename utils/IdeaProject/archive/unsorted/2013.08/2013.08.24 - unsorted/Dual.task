@@ -1,0 +1,51 @@
+4 Dual
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+89 3 4
+min 2x1-x3
+with
+x1>=0
+x2 arbitary
+x3<=0
+under
+x1+x2+x3>=0
+3x2=3
+-x1-x2+100x3<=-4
+0=0
+
+0 
+1
+1
+97 4 3
+max 3x2-4x3
+with
+x1>=0
+x2 arbitary
+x3<=0
+x4 arbitary
+under
+x1-x3<=2
+x1+3x2-x3=0
+x1+100x3>=-1
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+11 coding.Dual
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.08.24
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

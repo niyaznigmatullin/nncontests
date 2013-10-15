@@ -1,0 +1,38 @@
+33 D - Characteristics of Rectangles
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+12 2 2
+1 2
+3 4
+
+2 1
+
+1
+1
+22 3 3
+1 0 0
+0 1 1
+1 0 0
+
+2 0
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+102 lib.test.on2013_07.on2013_07_27_Codeforces_Round__194__Div__1_.D___Characteristics_of_Rectangles.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.07.27
+30 Codeforces Round #194 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -1,0 +1,52 @@
+7 Mammoth
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+5
+0
+13 0 0 5
+3 3 7 7
+0 
+1
+1
+27 0 0 5
+1000 -1000
+-1000 1000
+0 
+1
+2
+17 0 0 1000
+0 0
+1 1
+
+0 
+1
+3
+20 0 0 10
+-1 -100
+1 100
+0 
+1
+4
+18 0 0 10
+-1 -100
+1 3
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+48 lib.test.on2013_08.on2013_08_27_.Mammoth.Mammoth
+39 net.egork.chelper.checkers.TokenChecker
+0 
+1
+56 lib.test.on2013_08.on2013_08_27_.Mammoth.MammothTestCase
+10 2013.08.27
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

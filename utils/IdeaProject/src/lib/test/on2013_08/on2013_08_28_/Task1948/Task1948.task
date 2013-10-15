@@ -1,0 +1,21 @@
+8 Task1948
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+0
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+50 lib.test.on2013_08.on2013_08_28_.Task1948.Task1948
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.08.28
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

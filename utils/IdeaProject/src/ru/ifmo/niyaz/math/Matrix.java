@@ -54,7 +54,7 @@ public class Matrix {
             throw new AssertionError();
         }
         Matrix ret = new Matrix(n, b.m);
-        long modmod = (long) mod * mod * 8;
+        long modmod = (long) mod * mod;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < b.m; j++) {
                 long d = 0;
