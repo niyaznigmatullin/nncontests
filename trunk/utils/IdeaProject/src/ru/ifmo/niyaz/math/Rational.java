@@ -164,5 +164,9 @@ public class Rational implements Comparable<Rational> {
     public int compareTo(Rational o) {
         return num.multiply(o.den).compareTo(den.multiply(o.num));
     }
+
+    public double doubleValue() {
+        return num.doubleValue() / den.doubleValue();
+    }
 }
 

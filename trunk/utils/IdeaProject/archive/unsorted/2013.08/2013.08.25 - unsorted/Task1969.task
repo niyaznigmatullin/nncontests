@@ -1,0 +1,38 @@
+8 Task1969
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+117 08:00:00
+08:07:30
+08:38:30
+08:44:49
+08:51:32
+08:53:30
+09:15:49
+09:22:32
+09:24:30
+09:30:49
+09:37:32
+10:01:49
+10:08:32
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+15 coding.Task1969
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.08.25
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

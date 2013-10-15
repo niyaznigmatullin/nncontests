@@ -208,4 +208,38 @@ public class ArrayUtils {
         }
     }
 
+    public static int[] reverse(int[] a) {
+        int n = a.length;
+        int[] ret = new int[n];
+        for (int i = 0; i < n; i++) {
+            ret[i] = a[n - i - 1];
+        }
+        return ret;
+    }
+    public static long[] reverse(long[] a) {
+        int n = a.length;
+        long[] ret = new long[n];
+        for (int i = 0; i < n; i++) {
+            ret[i] = a[n - i - 1];
+        }
+        return ret;
+    }
+    public static double[] reverse(double[] a) {
+        int n = a.length;
+        double[] ret = new double[n];
+        for (int i = 0; i < n; i++) {
+            ret[i] = a[n - i - 1];
+        }
+        return ret;
+    }
+
+    public static <T> T[] reverse(T[] a) {
+        int n = a.length;
+        T[] ret = a.clone();
+        for (int i = 0; i < n; i++) {
+            ret[i] = a[n - i - 1];
+        }
+        return ret;
+    }
+
 }

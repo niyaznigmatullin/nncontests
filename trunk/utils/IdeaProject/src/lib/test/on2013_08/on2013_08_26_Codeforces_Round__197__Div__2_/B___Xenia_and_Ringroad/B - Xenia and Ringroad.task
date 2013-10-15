@@ -1,0 +1,35 @@
+22 B - Xenia and Ringroad
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+10 4 3
+3 2 3
+
+2 6
+
+1
+1
+10 4 3
+2 3 3
+
+2 2
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+91 lib.test.on2013_08.on2013_08_26_Codeforces_Round__197__Div__2_.B___Xenia_and_Ringroad.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.08.26
+30 Codeforces Round #197 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

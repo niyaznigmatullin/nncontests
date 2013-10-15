@@ -1,0 +1,37 @@
+14 D - Робот
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+40 3
+2 2
+BB
+BB
+2 2
+BW
+WB
+1 12
+BWBBBBBBBBWB
+
+12 2/1
+2/1
+4/1
+
+1
+10 src/coding
+16 -Xmx256M -Xss64M
+4 Main
+12 coding.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.09.23
+32 Russian CodeCup 2013 Final Round
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

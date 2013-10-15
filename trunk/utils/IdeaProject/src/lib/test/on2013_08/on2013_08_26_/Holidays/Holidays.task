@@ -1,0 +1,56 @@
+8 Holidays
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+3
+0
+268 1900 1999
+9
+January 1, added January 1
+January 1, added January 7
+February 29, added February 29
+November 7, added November 7
+November 7, removed January 7
+September 1, added May 1
+August 21, removed November 7
+September 1, added June 12
+September 1, added December 12
+0 
+1
+1
+103 1900 2001
+2
+February 29, added February 29
+February 28, removed February 29
+January 1, removed April 1
+
+0 
+1
+2
+196 1800 1903
+7
+January 1, added April 1
+January 2, added April 2
+January 3, added April 3
+February 27, removed April 1
+February 28, removed April 2
+February 29, removed April 3
+March 1, added March 2
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+50 lib.test.on2013_08.on2013_08_26_.Holidays.Holidays
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.08.26
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

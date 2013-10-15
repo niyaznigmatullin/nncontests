@@ -1,0 +1,46 @@
+9 Mergesort
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+15 7
+2
+3
+4
+5
+6
+7
+8
+0 
+1
+1
+103 10
+1000000000
+999999999
+999999998
+999999997
+999999996
+999999995
+999999994
+999999993
+999999992
+999999991
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+16 coding.Mergesort
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.09.02
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

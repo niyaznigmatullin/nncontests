@@ -1,0 +1,34 @@
+6 TaskD1
+12 MULTI_NUMBER
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+29 5
+.X.
+X.X.
+.XX.
+X..XX.
+.XX..X
+129 Case #1: 4.66666666666667
+Case #2: 6.00000000000000
+Case #3: 5.75000000000000
+Case #4: 13.4722222222222
+Case #5: 13.5277777777778
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+57 lib.test.on2013_06.on2013_06_15_GCJ_Round_3.TaskD1.TaskD1
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.06.15
+11 GCJ Round 3
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

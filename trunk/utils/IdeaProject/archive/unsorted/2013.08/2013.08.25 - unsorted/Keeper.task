@@ -1,0 +1,30 @@
+6 Keeper
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+39 4 5
+3 5 2 3
+2 5 2
+2 4 2
+3 5 4 1
+0 2 0 5
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+13 coding.Keeper
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.08.25
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

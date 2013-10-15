@@ -1,0 +1,27 @@
+8 Positive
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+14 5
+1 -1 1 -1 1
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+50 lib.test.on2013_08.on2013_08_24_.Positive.Positive
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.08.24
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

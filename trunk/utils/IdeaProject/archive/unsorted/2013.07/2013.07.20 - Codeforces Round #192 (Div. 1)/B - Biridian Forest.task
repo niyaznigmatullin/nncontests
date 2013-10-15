@@ -1,0 +1,39 @@
+19 B - Biridian Forest
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+44 5 7
+000E0T3
+T0TT0T0
+010T0T0
+2T0T0T0
+0T0S000
+
+2 3
+
+1
+1
+9 1 4
+SE23
+
+2 2
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.07.20
+30 Codeforces Round #192 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

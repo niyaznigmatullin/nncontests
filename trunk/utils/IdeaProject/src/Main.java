@@ -1,15 +1,11 @@
-import java.util.List;
 import java.io.InputStreamReader;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.InputMismatchException;
-import java.util.ArrayList;
 import java.io.BufferedReader;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.io.Reader;
 import java.io.Writer;
-import java.math.BigInteger;
 import java.io.InputStream;
 
 /**
@@ -32,65 +28,34 @@ public class Main {
 class TaskC {
     public void solve(int testNumber, FastScanner in, FastPrinter out) {
         int n = in.nextInt();
+        int k = in.nextInt();
         int[] a = in.readIntArray(n);
-        int[] b = in.readIntArray(n);
-        long[] dp = new long[n];
-        dp[0] = 0;
-        int cur = 1;
-        long[] x = new long[n];
-        long[] y = new long[n];
-        long[] inum = new long[n];
-        long[] iden = new long[n];
-        x[0] = b[0];
-        y[0] = 0;
-        iden[0] = 1;
-        for (int i = 1; i < n; i++) {
-            int left = 0;
-            int right = cur;
-            while (left < right - 1) {
-                int mid = left + right >>> 1;
-                if (inum[mid] <= iden[mid] * a[i]) {
-                    left = mid;
-                } else {
-                    right = mid;
-                }
-            }
-            dp[i] = x[left] * a[i] + y[left];
-//            System.out.println(i  + " " + dp[i] + " " + x[left] + " " + y[left]);
-            long nx = b[i];
-            long ny = dp[i];
-            while (cur > 0) {
-                long nz = (ny - y[cur - 1]);
-                long dz = (x[cur - 1] - nx);
-                long gd = MathUtils.gcd(Math.abs(nz), Math.abs(dz));
-                if (gd > 1) {
-                    nz /= gd;
-                    dz /= gd;
-                }
-//                System.out.println(nz + " " + dz);
-                if (less(nz, dz, inum[cur - 1], iden[cur - 1])) {
-//                if (nz * iden[cur - 1] <= dz * inum[cur - 1]) {
-                    --cur;
-                } else {
-                    x[cur] = nx;
-                    y[cur] = ny;
-                    inum[cur] = nz;
-                    iden[cur] = dz;
-                    ++cur;
-                    break;
-                }
-            }
-            if (cur == 0) {
-                x[cur] = nx;
-                y[cur++] = ny;
-            }
-//            System.out.println(cur + " " + Arrays.toString(x) + " " + Arrays.toString(y));
+        int maxA = 0;
+        for (int i : a) {
+            maxA = Math.max(maxA, i);
         }
-        out.println(dp[n - 1]);
-    }
-
-    static boolean less(long a, long b, long c, long d) {
-        return BigInteger.valueOf(a).multiply(BigInteger.valueOf(d)).compareTo(BigInteger.valueOf(b).multiply(BigInteger.valueOf(c))) <= 0;
+        ++maxA;
+        int[] s = new int[maxA];
+        for (int i : a) {
+            s[i]++;
+        }
+        for (int i = 1; i < maxA; i++) {
+            s[i] += s[i - 1];
+        }
+        int ans = 1;
+        for (int d = 1; d < maxA; d++) {
+            int count = 0;
+            for (int j = d; j < maxA; j += d) {
+                int right = Math.min(Math.min(j + k, maxA - 1), j + d - 1);
+                if (j <= right) {
+                    count += s[right] - s[j - 1];
+                }
+            }
+            if (count == n) {
+                ans = d;
+            }
+        }
+        out.println(ans);
     }
 }
 
@@ -169,18 +134,4 @@ class FastPrinter extends PrintWriter {
 
 
 }
-
-class MathUtils {
-
-
-    public static long gcd(long a, long b) {
-        while (b != 0) {
-            long t = a % b;
-            a = b;
-            b = t;
-        }
-        return a;
-    }
-
-    }
 

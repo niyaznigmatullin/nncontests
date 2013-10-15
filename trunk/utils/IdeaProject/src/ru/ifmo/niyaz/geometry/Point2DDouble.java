@@ -67,4 +67,12 @@ public class Point2DDouble {
     public Point2DDouble multiply(double d) {
         return new Point2DDouble(x * d, y * d);
     }
+
+    public double squaredLength() {
+        return x * x + y * y;
+    }
+
+    public double length() {
+        return Math.sqrt(squaredLength());
+    }
 }
