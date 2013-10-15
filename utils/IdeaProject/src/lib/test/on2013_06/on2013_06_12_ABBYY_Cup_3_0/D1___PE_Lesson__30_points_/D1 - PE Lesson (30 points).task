@@ -1,0 +1,41 @@
+26 D1 - PE Lesson (30 points)
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+12 5
+1 2 2 1 2
+
+4 120
+
+1
+1
+18 8
+1 2 2 1 2 1 1 2
+
+6 16800
+
+1
+2
+22 7
+2 2 2 2 2 2 2 2 2 2
+
+0 
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+79 lib.test.on2013_06.on2013_06_12_ABBYY_Cup_3_0.D1___PE_Lesson__30_points_.TaskD1
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.06.12
+13 ABBYY Cup 3.0
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

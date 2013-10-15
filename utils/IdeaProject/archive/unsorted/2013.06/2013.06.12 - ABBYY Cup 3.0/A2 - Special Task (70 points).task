@@ -1,0 +1,39 @@
+29 A2 - Special Task (70 points)
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+3 AJ
+
+3 81
+
+1
+1
+5 1?AA
+
+4 100
+
+1
+2
+4 ???
+
+4 900
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+13 coding.TaskA2
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.06.12
+13 ABBYY Cup 3.0
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -45,9 +45,9 @@ public class MinCostMaxFlowGraph {
         }
     }
 
-    public Edge addEdge(int from, int to, int flow, int cap, long cost) {
-        Edge e1 = new Edge(from, to, flow, cap, cost);
-        Edge e2 = new Edge(to, from, flow, 0, -cost);
+    public Edge addEdge(int from, int to, int cap, long cost) {
+        Edge e1 = new Edge(from, to, 0, cap, cost);
+        Edge e2 = new Edge(to, from, 0, 0, -cost);
         e1.rev = e2;
         e2.rev = e1;
         edges[from].add(e1);
@@ -256,6 +256,50 @@ public class MinCostMaxFlowGraph {
         long cost = 0;
         while (true) {
             dijkstra(source, lastEdge, d, h);
+            if (d[target] == Long.MAX_VALUE) {
+                break;
+            }
+            int addFlow = Integer.MAX_VALUE;
+            for (int v = target; v != source; ) {
+                Edge e = lastEdge[v];
+                addFlow = Math.min(addFlow, e.cap - e.flow);
+                v = e.from;
+            }
+            cost += (d[target] + h[target] - h[source]) * addFlow;
+            flow += addFlow;
+            for (int v = target; v != source; ) {
+                Edge e = lastEdge[v];
+                e.flow += addFlow;
+                e.rev.flow -= addFlow;
+                v = e.from;
+            }
+            for (int i = 0; i < n; i++) {
+                h[i] += d[i] == Long.MAX_VALUE ? 0 : d[i];
+            }
+        }
+        return new long[]{flow, cost};
+    }
+
+    public long[] getMinCostMaxFlowSlow(int source, int target) {
+        long[] h = new long[n];
+        for (boolean changed = true; changed; ) {
+            changed = false;
+            for (int i = 0; i < n; i++) {
+                for (Edge e : edges[i]) {
+                    if (e.cap > 0 && h[e.to] > h[e.from] + e.cost) {
+                        h[e.to] = h[e.from] + e.cost;
+                        changed = true;
+                    }
+                }
+            }
+        }
+        Edge[] lastEdge = new Edge[n];
+        long[] d = new long[n];
+        int flow = 0;
+        long cost = 0;
+        boolean[] was = new boolean[n];
+        while (true) {
+            dijkstraSlow(source, was, lastEdge, d, h);
             if (d[target] == Long.MAX_VALUE) {
                 break;
             }
