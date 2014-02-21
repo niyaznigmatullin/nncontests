@@ -24,4 +24,7 @@ public class Circle2DInteger {
         return Math.PI * radius * radius;
     }
 
+    public boolean hasIntersection(Circle2DInteger c) {
+        return p.distanceSquared(c.p) < (long) (radius + c.radius) * (radius + c.radius);
+    }
 }

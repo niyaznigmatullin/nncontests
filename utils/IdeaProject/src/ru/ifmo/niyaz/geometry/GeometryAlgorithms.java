@@ -148,4 +148,38 @@ public class GeometryAlgorithms {
         return Long.signum(v1) != Long.signum(v2) && Long.signum(u1) != Long.signum(u2);
     }
 
+    public static double distanceToSegment(Point2DDouble p1, Point2DDouble p2, Point2DDouble q) {
+        return Math.sqrt(distanceToSegmentSquared(p1, p2, q));
+    }
+
+    public static double distanceToSegmentSquared(Point2DDouble p1, Point2DDouble p2, Point2DDouble q) {
+        {
+            double a = q.distanceSquared(p1);
+            double b = q.distanceSquared(p2);
+            double c = p1.distanceSquared(p2);
+            if (a + c < b) {
+                return a;
+            }
+            if (b + c < a) {
+                return b;
+            }
+        }
+        {
+            double la = p2.y - p1.y;
+            double lb = p1.x - p2.x;
+            double lc = -p1.x * la - p1.y * lb;
+            double ld = la * la + lb * lb;
+            double d = la * q.x + lb * q.y + lc;
+            return d * d / ld;
+        }
+    }
+
+    public static double distanceToLine(Point2DDouble p1, Point2DDouble p2, Point2DDouble q) {
+        double la = p2.y - p1.y;
+        double lb = p1.x - p2.x;
+        double lc = -p1.x * la - p1.y * lb;
+        double ld = la * la + lb * lb;
+        double d = la * q.x + lb * q.y + lc;
+        return Math.abs(d) / Math.sqrt(ld);
+    }
 }

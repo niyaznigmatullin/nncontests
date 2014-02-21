@@ -71,4 +71,87 @@ public class Circle2DDouble {
         vn = vn.multiply(d2 / vn.length());
         return new Point2DDouble[]{c.add(vn), c.subtract(vn)};
     }
+
+    public Point2DDouble[][] getCommonTangents(Circle2DDouble c, DoubleComparator comp) {
+        Point2DDouble[][] internalRet = getInternalTangents(c, comp);
+        Point2DDouble[][] externalRet = getExternalTangents(c, comp);
+        Point2DDouble[][] ret = new Point2DDouble[internalRet.length + externalRet.length][];
+        for (int i = 0; i < ret.length; i++) {
+            if (i < internalRet.length) ret[i] = internalRet[i];
+            else ret[i] = externalRet[i - internalRet.length];
+        }
+        return ret;
+    }
+
+    public Point2DDouble[][] getExternalTangents(Circle2DDouble c, DoubleComparator comp) {
+        if (comp.compare(radius, c.radius) < 0) {
+            Point2DDouble[][] ret = c.getExternalTangents(this, comp);
+            for (Point2DDouble[] e : ret) {
+                Point2DDouble t = e[0];
+                e[0] = e[1];
+                e[1] = t;
+            }
+            if (comp.compare(ret[0][0].distance(p), radius) != 0) throw new AssertionError();
+            if (comp.compare(ret[1][0].distance(p), radius) != 0) throw new AssertionError();
+            if (comp.compare(ret[0][1].distance(c.p), c.radius) != 0) throw new AssertionError();
+            if (comp.compare(ret[1][1].distance(c.p), c.radius) != 0) throw new AssertionError();
+            if (comp.compare(GeometryAlgorithms.distanceToLine(ret[0][0], ret[0][1], p), radius) != 0) throw new AssertionError();
+            if (comp.compare(GeometryAlgorithms.distanceToLine(ret[0][0], ret[0][1], c.p), c.radius) != 0) throw new AssertionError();
+            if (comp.compare(GeometryAlgorithms.distanceToLine(ret[1][0], ret[1][1], p), radius) != 0) throw new AssertionError();
+            if (comp.compare(GeometryAlgorithms.distanceToLine(ret[1][0], ret[1][1], c.p), c.radius) != 0) throw new AssertionError();
+            return ret;
+        }
+        double d = p.distance(c.p);
+        if (comp.compare(d + Math.min(radius, c.radius), Math.max(radius, c.radius)) < 0) {
+            return new Point2DDouble[0][];
+        }
+        if (comp.compare(d + Math.min(radius, c.radius), Math.max(radius, c.radius)) == 0) {
+            Point2DDouble v = c.p.subtract(p);
+            v = v.multiply(radius / v.length());
+            v = v.add(p);
+            return new Point2DDouble[][]{{v, v}};
+        }
+        Point2DDouble[] tangentsFromPoint = new Circle2DDouble(p, radius - c.radius).getTangents(c.p, comp);
+        Point2DDouble vn1 = tangentsFromPoint[0].subtract(c.p);
+        vn1 = new Point2DDouble(vn1.y, -vn1.x);
+        vn1 = vn1.multiply(c.radius / vn1.length());
+        Point2DDouble vn2 = tangentsFromPoint[1].subtract(c.p);
+        vn2 = new Point2DDouble(-vn2.y, vn2.x);
+        vn2 = vn2.multiply(c.radius / vn2.length());
+        Point2DDouble[][] ret = new Point2DDouble[][]{{tangentsFromPoint[0].add(vn1), c.p.add(vn1)}, {tangentsFromPoint[1].add(vn2), c.p.add(vn2)}};
+        if (comp.compare(ret[0][0].distance(p), radius) != 0) throw new AssertionError();
+        if (comp.compare(ret[1][0].distance(p), radius) != 0) throw new AssertionError();
+        if (comp.compare(ret[0][1].distance(c.p), c.radius) != 0) throw new AssertionError();
+        if (comp.compare(ret[1][1].distance(c.p), c.radius) != 0) throw new AssertionError();
+        if (comp.compare(GeometryAlgorithms.distanceToLine(ret[0][0], ret[0][1], p), radius) != 0) throw new AssertionError();
+        if (comp.compare(GeometryAlgorithms.distanceToLine(ret[0][0], ret[0][1], c.p), c.radius) != 0) throw new AssertionError();
+        if (comp.compare(GeometryAlgorithms.distanceToLine(ret[1][0], ret[1][1], p), radius) != 0) throw new AssertionError();
+        if (comp.compare(GeometryAlgorithms.distanceToLine(ret[1][0], ret[1][1], c.p), c.radius) != 0) throw new AssertionError();
+        return ret;
+    }
+
+    public Point2DDouble[][] getInternalTangents(Circle2DDouble c, DoubleComparator comp) {
+        double d = p.distance(c.p);
+        if (comp.compare(d, radius + c.radius) < 0) return new Point2DDouble[0][];
+        if (comp.compare(d, radius + c.radius) == 0) {
+            Point2DDouble v = c.p.subtract(p);
+            v = v.multiply(radius / v.length());
+            v = v.add(p);
+            return new Point2DDouble[][]{{v, v}};
+        }
+        double nRadius = radius + c.radius;
+        Point2DDouble[] tangentsFromPoint = new Circle2DDouble(p, nRadius).getTangents(c.p, comp);
+        Point2DDouble vn1 = tangentsFromPoint[0].subtract(c.p);
+        vn1 = new Point2DDouble(-vn1.y, vn1.x);
+        vn1 = vn1.multiply(c.radius / vn1.length());
+        Point2DDouble vn2 = tangentsFromPoint[1].subtract(c.p);
+        vn2 = new Point2DDouble(vn2.y, -vn2.x);
+        vn2 = vn2.multiply(c.radius / vn2.length());
+        Point2DDouble[][] ret = new Point2DDouble[][]{{tangentsFromPoint[0].add(vn1), c.p.add(vn1)}, {tangentsFromPoint[1].add(vn2), c.p.add(vn2)}};
+        if (comp.compare(ret[0][0].distance(p), radius) != 0) throw new AssertionError();
+        if (comp.compare(ret[1][0].distance(p), radius) != 0) throw new AssertionError();
+        if (comp.compare(ret[0][1].distance(c.p), c.radius) != 0) throw new AssertionError();
+        if (comp.compare(ret[1][1].distance(c.p), c.radius) != 0) throw new AssertionError();
+        return ret;
+    }
 }

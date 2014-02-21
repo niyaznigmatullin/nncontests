@@ -16,6 +16,8 @@ import java.util.List;
 public class MathUtils {
 
     public static int gcd(int a, int b) {
+        if (a < 0) a = -a;
+        if (b < 0) b = -b;
         while (b != 0) {
             int t = a % b;
             a = b;
@@ -45,6 +47,8 @@ public class MathUtils {
 
 
     public static long gcd(long a, long b) {
+        if (a < 0) a = -a;
+        if (b < 0) b = -b;
         while (b != 0) {
             long t = a % b;
             a = b;
