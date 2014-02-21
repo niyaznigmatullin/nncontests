@@ -1,11 +1,15 @@
 import java.io.InputStreamReader;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.io.BufferedReader;
+import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
+import java.io.FileInputStream;
 import java.io.Reader;
 import java.io.Writer;
+import java.math.BigInteger;
 import java.io.InputStream;
 
 /**
@@ -15,26 +19,45 @@ import java.io.InputStream;
  */
 public class Main {
 	public static void main(String[] args) {
-		InputStream inputStream = System.in;
-		OutputStream outputStream = System.out;
+		InputStream inputStream;
+		try {
+			inputStream = new FileInputStream("sweets.in");
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+		OutputStream outputStream;
+		try {
+			outputStream = new FileOutputStream("sweets.out");
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
 		FastScanner in = new FastScanner(inputStream);
 		FastPrinter out = new FastPrinter(outputStream);
-		Task1 solver = new Task1();
+		Sweets solver = new Sweets();
 		solver.solve(1, in, out);
 		out.close();
 	}
 }
 
-class Task1 {
+class Sweets {
     public void solve(int testNumber, FastScanner in, FastPrinter out) {
         int n = in.nextInt();
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
-            a[i] = in.nextInt();
+        int k = in.nextInt();
+        n -= k;
+        BigInteger[][] dp = new BigInteger[n + 1][k + 1];
+        for (BigInteger[] d : dp) {
+            Arrays.fill(d, BigInteger.ZERO);
         }
-        int s = 0;
-        for (int i : a) s += i;
-        out.println(s);
+        Arrays.fill(dp[0], BigInteger.ONE);
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= k; j++) {
+                dp[i][j] = dp[i][j - 1];
+                if (i - j >= 0) {
+                    dp[i][j] = dp[i][j].add(dp[i - j][j]);
+                }
+            }
+        }
+        out.println(dp[n][k]);
     }
 }
 

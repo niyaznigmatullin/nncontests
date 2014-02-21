@@ -22,7 +22,16 @@ public class DisjointSetUnion {
     }
 
     public int get(int x) {
-        return x != p[x] ? p[x] = get(p[x]) : x;
+        int y = x;
+        while (y != p[y]) {
+            y = p[y];
+        }
+        while (x != p[x]) {
+            int t = p[x];
+            p[x] = y;
+            x = t;
+        }
+        return y;
     }
 
     public boolean union(int a, int b) {

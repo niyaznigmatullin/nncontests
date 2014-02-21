@@ -126,9 +126,11 @@ public class DinicGraph {
 
     public List<List<Edge>> decompose(int source, int target) {
         List<List<Edge>> ret = new ArrayList<List<Edge>>();
+        boolean[] was = new boolean[n];
         while (true) {
             List<Edge> list = new ArrayList<Edge>();
-            if (getPath(source, target, list, Integer.MAX_VALUE) == 0) {
+            Arrays.fill(was, false);
+            if (getPath(source, target, list, Integer.MAX_VALUE, was) == 0) {
                 break;
             }
             Collections.reverse(list);
@@ -137,13 +139,15 @@ public class DinicGraph {
         return ret;
     }
 
-    int getPath(int v, int t, List<Edge> list, int cMin) {
+    int getPath(int v, int t, List<Edge> list, int cMin, boolean[] was) {
         if (v == t) {
             return cMin;
         }
+        was[v] = true;
         for (Edge e : edges[v]) {
+            if (was[e.to]) continue;
             if (e.flow > 0) {
-                int got = getPath(e.to, t, list, Math.min(cMin, e.flow));
+                int got = getPath(e.to, t, list, Math.min(cMin, e.flow), was);
                 if (got == 0) {
                     continue;
                 }

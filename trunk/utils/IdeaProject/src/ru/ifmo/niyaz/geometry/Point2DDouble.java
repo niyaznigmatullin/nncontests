@@ -75,4 +75,8 @@ public class Point2DDouble {
     public double length() {
         return Math.sqrt(squaredLength());
     }
+
+    public double angle() {
+        return Math.atan2(y, x);
+    }
 }
