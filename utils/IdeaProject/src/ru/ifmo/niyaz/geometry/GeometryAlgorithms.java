@@ -124,7 +124,7 @@ public class GeometryAlgorithms {
         int cur = 2;
         for (int i = 2; i < p.length; i++) {
             Point2DInteger add = p[i];
-            while (cur > 2) {
+            while (cur > 1) {
                 if (vmulFromPoint(p[cur - 2], p[cur - 1], add) <= 0) {
                     --cur;
                     continue;
