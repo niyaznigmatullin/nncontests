@@ -1,0 +1,147 @@
+16 LongLongTripDiv1
+6 isAble
+16 java.lang.String
+5
+3 int
+1 N
+5 int[]
+1 A
+5 int[]
+1 B
+5 int[]
+1 D
+4 long
+1 T
+6
+0
+5
+int 3
+int[] 3
+0
+0
+1
+int[] 3
+2
+1
+2
+int[] 3
+7
+6
+5
+long 11
+String
+8 Possible
+1
+1
+5
+int 3
+int[] 3
+0
+0
+1
+int[] 3
+2
+1
+2
+int[] 3
+7
+6
+5
+long 25
+String
+8 Possible
+1
+2
+5
+int 2
+int[] 1
+0
+int[] 1
+1
+int[] 1
+1
+long 9
+String
+8 Possible
+1
+3
+5
+int 2
+int[] 1
+1
+int[] 1
+0
+int[] 1
+1
+long 1000000000000000000
+String
+10 Impossible
+1
+4
+5
+int 4
+int[] 3
+0
+0
+1
+int[] 3
+2
+1
+2
+int[] 3
+10
+10
+10
+long 1000
+String
+10 Impossible
+1
+5
+5
+int 9
+int[] 11
+4
+8
+5
+8
+3
+6
+2
+6
+7
+6
+6
+int[] 11
+2
+7
+1
+5
+1
+3
+1
+1
+5
+4
+2
+int[] 11
+6580
+8822
+1968
+673
+1394
+9337
+5486
+1746
+5229
+4092
+195
+long 937186357646035002
+String
+10 Impossible
+1
+10 2014.04.04
+22 Single Round Match 615
+0
+23 coding.LongLongTripDiv1
+1
+4 256M
