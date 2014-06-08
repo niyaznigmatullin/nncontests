@@ -10,11 +10,11 @@ import java.util.*;
  * To change this template use File | Settings | File Templates.
  */
 public class CondensationGraph {
-    int n;
-    List<Integer>[] edges;
-    List<Integer>[] revEdges;
-    boolean[] was;
-    int[] color;
+    public int n;
+    public List<Integer>[] edges;
+    public List<Integer>[] revEdges;
+    public boolean[] was;
+    public int[] color;
 
     public CondensationGraph(int n) {
         this.n = n;
@@ -28,7 +28,7 @@ public class CondensationGraph {
 
     public void addEdge(int from, int to) {
         edges[from].add(to);
-        edges[to].add(from);
+        revEdges[to].add(from);
     }
 
 
@@ -64,6 +64,7 @@ public class CondensationGraph {
         Collections.reverse(topSort);
         int colors = 0;
         color = new int[n];
+        Arrays.fill(color, -1);
         for (int i : topSort) {
             if (color[i] >= 0) {
                 continue;
@@ -77,13 +78,13 @@ public class CondensationGraph {
         for (int i = 0; i < n; i++) {
             for (int j : edges[i]) {
                 if (color[i] != color[j]) {
-                    edges[color[i]].add(color[j]);
+                    sets[color[i]].add(color[j]);
                 }
             }
         }
         CondensationGraph g = new CondensationGraph(colors);
         for (int i = 0; i < colors; i++) {
-            for (int j : sets[colors]) {
+            for (int j : sets[i]) {
                 g.addEdge(i, j);
             }
         }
