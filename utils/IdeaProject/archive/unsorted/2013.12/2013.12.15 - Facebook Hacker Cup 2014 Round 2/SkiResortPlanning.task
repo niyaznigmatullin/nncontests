@@ -1,0 +1,35 @@
+17 SkiResortPlanning
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+37 5
+4
+0 0 1
+6
+0 0 0 2 2
+2
+0
+3
+0 0
+3
+0 1
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+24 coding.SkiResortPlanning
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.12.15
+32 Facebook Hacker Cup 2014 Round 2
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

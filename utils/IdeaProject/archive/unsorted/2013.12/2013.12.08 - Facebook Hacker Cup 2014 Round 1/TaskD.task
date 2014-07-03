@@ -1,0 +1,50 @@
+5 TaskD
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+57 5
+2 1
+2 2
+4 1
+2 7 5 14
+3 3
+5 18 49
+3 1
+1 2 3
+4 2
+0 0 1 2
+
+0 
+1
+1
+102 3
+20 1
+50 50 50 50 50 
+50 50 50 50 50 
+50 50 50 50 50 
+50 50 50 50 50 
+4 10
+15 25 5 0
+6 4
+0 0 2 2 3 6
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.12.08
+32 Facebook Hacker Cup 2014 Round 1
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

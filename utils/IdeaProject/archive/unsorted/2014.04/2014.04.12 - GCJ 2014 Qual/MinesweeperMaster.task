@@ -1,0 +1,30 @@
+17 MinesweeperMaster
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+33 5
+5 5 23
+3 1 1
+2 2 1
+4 7 3
+5 5 13
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+24 coding.MinesweeperMaster
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.12
+13 GCJ 2014 Qual
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -1,0 +1,29 @@
+18 CookieClickerAlpha
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+74 4
+30.0 1.0 2.0
+30.0 2.0 100.0
+30.50000 3.14159 1999.19990
+500.0 4.0 2000.0
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+25 coding.CookieClickerAlpha
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.12
+13 GCJ 2014 Qual
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
