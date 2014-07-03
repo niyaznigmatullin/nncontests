@@ -1,0 +1,49 @@
+7 Tickets
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+3
+0
+138 2 5
+St Petersburg, Paris
+Petrozavodsk, London
+St Petersburg, Moscow
+Petrozavodsk, Moscow
+Paris, St Petersburg
+Paris, Moscow
+London, Moscow
+0 
+1
+1
+117 2 4
+St Petersburg, Paris
+Petrozavodsk, London
+St Petersburg, Moscow
+Petrozavodsk, Moscow
+Paris, Moscow
+London, Moscow
+0 
+1
+2
+42 2 1
+Tokyo, Kioto
+Kioto, Tokyo
+Tokyo, Kioto
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+14 coding.Tickets
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.02.10
+28 Andrew Stankevich Contest 13
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

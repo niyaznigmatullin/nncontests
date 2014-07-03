@@ -1,0 +1,75 @@
+18 WinterAndReindeers
+9 getNumber
+3 int
+3
+18 java.lang.String[]
+4 allA
+18 java.lang.String[]
+4 allB
+18 java.lang.String[]
+4 allC
+5
+0
+3
+String[] 1
+1 X
+String[] 2
+1 X
+1 Y
+String[] 1
+1 X
+int 1
+1
+1
+3
+String[] 1
+5 ABCXD
+String[] 1
+5 BCDEF
+String[] 1
+2 CD
+int 3
+1
+2
+3
+String[] 2
+2 WE
+4 LOVE
+String[] 3
+7 WORKING
+3 FOR
+5 SANTA
+String[] 1
+2 JK
+int 0
+1
+3
+3
+String[] 1
+5 ABCDE
+String[] 1
+5 CDEAB
+String[] 1
+1 B
+int 2
+1
+4
+3
+String[] 3
+24 ABCABDEGAXAHDJBAAHFJDXBB
+16 ABHFHCDALFDJDBBA
+10 BABBAXAXXX
+String[] 3
+20 ABLOCBAXBAHAJDXBIJKA
+19 JBABCDAHKFIUDALPJAH
+6 AABACX
+String[] 2
+10 AXBADXBBAB
+3 CDD
+int 23
+1
+10 2013.12.28
+17 TopCoder SRM #601
+0
+25 coding.WinterAndReindeers
+1

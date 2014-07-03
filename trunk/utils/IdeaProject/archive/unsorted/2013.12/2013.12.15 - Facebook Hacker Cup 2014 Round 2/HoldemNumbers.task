@@ -1,0 +1,44 @@
+13 HoldemNumbers
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+90 6
+8 1
+7 8
+8 1
+1 2
+8 1
+7 4
+11 2
+6 9
+9 6
+12 3
+6 9
+11 5
+9 6
+100 5
+50 100
+1 2
+1 50
+50 51
+20 60
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+20 coding.HoldemNumbers
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.12.15
+32 Facebook Hacker Cup 2014 Round 2
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -1,0 +1,30 @@
+1 E
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+27 4 4
+120 130 140 110
+2
+3
+4
+1
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+8 coding.E
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.11.02
+25 Southern Subregional 2013
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
