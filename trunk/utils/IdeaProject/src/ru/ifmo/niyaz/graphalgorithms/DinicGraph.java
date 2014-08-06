@@ -73,7 +73,8 @@ public class DinicGraph {
         q[0] = source;
         while (head < tail) {
             int x = q[head++];
-            for (Edge e : edges[x]) {
+            for (int i = 0; i < edges[x].size(); i++) {
+                Edge e = edges[x].get(i);
                 if (e.cap - e.flow > 0 && d[e.to] == Integer.MAX_VALUE) {
                     d[e.to] = d[x] + 1;
                     q[tail++] = e.to;
