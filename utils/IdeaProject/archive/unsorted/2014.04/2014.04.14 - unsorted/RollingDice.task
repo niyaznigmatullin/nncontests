@@ -1,0 +1,33 @@
+11 RollingDice
+6 SINGLE
+6 CUSTOM
+15 rolling-dice.in
+6 CUSTOM
+16 rolling-dice.out
+2
+0
+16 8 5
+1 2 3 4 5 6
+
+0 
+1
+1
+16 2 3
+6 1 2 5 4 3
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+18 coding.RollingDice
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.14
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

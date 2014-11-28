@@ -1,0 +1,32 @@
+7 Factory
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+38 1
+5
+0 0 6
+6 8 4
+-9 0 3
+6 16 4
+0 -11 4
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+14 coding.Factory
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.11.23
+19 European Grand Prix
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

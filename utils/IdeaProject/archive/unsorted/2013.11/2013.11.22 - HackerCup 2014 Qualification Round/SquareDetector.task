@@ -1,0 +1,53 @@
+14 SquareDetector
+12 MULTI_NUMBER
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+132 5
+4
+..##
+..##
+....
+....
+4
+..##
+..##
+#...
+....
+4
+####
+#..#
+#..#
+####
+5
+#####
+#####
+#####
+#####
+.....
+5
+#####
+#####
+#####
+#####
+#####
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+21 coding.SquareDetector
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.11.22
+34 HackerCup 2014 Qualification Round
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
