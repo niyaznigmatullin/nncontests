@@ -62,4 +62,24 @@ public class SuffixArray {
         return x;
     }
 
+
+    public static int[] getLCP(int[] sa, int[] a) {
+        int k = 0;
+        int n = a.length;
+        int[] rev = new int[n];
+        for (int i = 0; i < n; i++) {
+            rev[sa[i]] = i;
+        }
+        int[] lcp = new int[n];
+        for (int i = 0; i < n; i++) {
+            k = Math.max(k - 1, 0);
+            int j = rev[i] + 1;
+            if (j >= n) continue;
+            j = sa[j];
+            while (i + k < n && j + k < n && a[i + k] == a[j + k]) ++k;
+            lcp[rev[i]] = k;
+        }
+        return lcp;
+    }
+
 }

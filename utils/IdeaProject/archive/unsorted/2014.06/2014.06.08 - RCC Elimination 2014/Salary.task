@@ -1,0 +1,63 @@
+6 Salary
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+53 2
+3 3
+2 2
+1 1
+3 3
+2 1
+3 2
+1 3
+3 2
+1 2
+2 3
+3 4
+2 1
+3 2
+5 -1
+0
+
+1
+1
+25 1
+3 2
+1 2
+1 2
+3 4
+2 1
+3 2
+4 1 2
+
+1
+2
+26 1
+3 2
+1 2
+2 3
+3 4
+2 1
+3 2
+
+2 0
+
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+13 coding.Salary
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.06.08
+20 RCC Elimination 2014
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

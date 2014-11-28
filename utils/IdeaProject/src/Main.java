@@ -1,9 +1,6 @@
-import java.util.List;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
+import java.io.IOException;
 import java.util.InputMismatchException;
-import java.util.ArrayList;
 import java.io.BufferedReader;
 import java.io.OutputStream;
 import java.io.PrintWriter;
@@ -22,136 +19,70 @@ public class Main {
 		OutputStream outputStream = System.out;
 		FastScanner in = new FastScanner(inputStream);
 		FastPrinter out = new FastPrinter(outputStream);
-		Salary solver = new Salary();
-		int testCount = Integer.parseInt(in.next());
-		for (int i = 1; i <= testCount; i++)
-			solver.solve(i, in, out);
+		Substrings solver = new Substrings();
+		solver.solve(1, in, out);
 		out.close();
 	}
 }
 
-class Salary {
-
-    static List<Edge>[] edges;
+class Substrings {
     public void solve(int testNumber, FastScanner in, FastPrinter out) {
-        int n = in.nextInt();
-        int m = in.nextInt();
-        int[] x = new int[n];
-        int[] y = new int[n];
+        String s = in.next();
+        int[] a = new int[s.length() + 1];
+        for (int i = 0; i < s.length(); i++) {
+            a[i] = s.charAt(i);
+        }
+        int n = a.length;
+        int[] sa = SuffixArray.buildSuffixArray(a);
+        int[] lcp = SuffixArray.getLCP(sa, a);
+        MinSegmentTree tree = new MinSegmentTree(n);
+        for (int i = 0; i + 1 < n; i++) tree.set(i, lcp[i]);
+        int[] rev = new int[n];
+        for (int i = 0; i < n; i++) rev[sa[i]] = i;
+        int q = in.nextInt();
+        long[] answer = new long[n];
         for (int i = 0; i < n; i++) {
-            x[i] = in.nextInt();
-            y[i] = in.nextInt();
+            int lcpPrev = i > 0 ? lcp[i - 1] : 0;
+            int len = n - sa[i] - 1;
+            if (i > 0) answer[i] += answer[i - 1];
+//            answer[i] += len - Math.min(len, lcpPrev);
+            answer[i] += len;
         }
-        int[] from = new int[m];
-        int[] to = new int[m];
-        for (int i = 0; i < m; i++) {
-            from[i] = in.nextInt() - 1;
-            to[i] = in.nextInt() - 1;
-        }
-        edges = new List[n];
-        for (int i = 0; i < n; i++) {
-            edges[i] = new ArrayList<>();
-        }
-        for (int i = 0; i < m; i++) {
-            int u = from[i];
-            int v = to[i];
-            boolean eq = false;
-            boolean neq = false;
-            for (int s1 = 0; s1 < 2; s1++) {
-                for (int s2 = 0; s2 < 2; s2++) {
-                    if ((x[u] > x[v] || y[u] > y[v])) {
-                        if (s1 != s2) neq = true;
-                        if (s1 == s2) eq = true;
-                    }
-                    {
-                        int t = x[v];
-                        x[v] = y[v];
-                        y[v] = t;
+        for (int i = 0; i < q; i++) {
+            int l = in.nextInt() - 1;
+            int r = in.nextInt();
+            int len = r - l;
+            int w = rev[l];
+            {
+                int left = 0;
+                int right = w + 1;
+                while (left < right - 1) {
+                    int mid = (left + right) >> 1;
+                    if (tree.getMin(w - mid, w) >= len - 1) {
+                        left = mid;
+                    } else {
+                        right = mid;
                     }
                 }
-                {
-                    int t = x[u];
-                    x[u] = y[u];
-                    y[u] = t;
+                w -= left;
+            }
+            int w2 = -1;
+            {
+                int left = w;
+                int right = n;
+                while (left < right - 1) {
+                    int mid = (left + right) >> 1;
+                    if (tree.getMin(w, mid) >= len - 1) {
+                        left = mid;
+                    } else {
+                        right = mid;
+                    }
                 }
+                w2 = left;
             }
-            if (!eq && !neq) {
-                out.println(-1);
-                return;
-            }
-            if (eq && neq) {
-            } else {
-                edges[u].add(new Edge(u, v, eq ? 0 : 1));
-                edges[v].add(new Edge(v, u, eq ? 0 : 1));
-            }
-        }
-        one = new ArrayList<>();
-        zero = new ArrayList<>();
-        int[] color = new int[n];
-        was = new int[n];
-        Arrays.fill(was, -1);
-        Arrays.fill(color, -1);
-        for (int i = 0; i < n; i++) {
-            if (color[i] >= 0) continue;
-            zero.clear();
-            one.clear();
-            if (!dfs(i, 0)) {
-                out.println(-1);
-                return;
-            }
-            for (int v : (one.size() < zero.size() ? one : zero)) {
-                color[v] = 1;
-            }
-            for (int v : (one.size() < zero.size() ? zero : one)) {
-                color[v] = 0;
-            }
-        }
-        int[] ans = new int[n];
-        int ac = 0;
-        for (int i = 0; i < n; i++) if (color[i] == 1) {
-            ans[ac++] = i;
-        }
-        out.print(ac);
-        for (int i = 0; i < ac; i++) out.print(" " + (ans[i] + 1));
-        out.println();
-    }
-
-    static boolean dfs(int v, int c) {
-        (c == 0 ? zero : one).add(v);
-        was[v] = c;
-        for (int i = 0; i < edges[v].size(); i++) {
-            Edge e = edges[v].get(i);
-            if (was[e.to] >= 0 && was[e.to] != (was[v] ^ e.change)) {
-                return false;
-            }
-            if (was[e.to] < 0) {
-                if (!dfs(e.to, c ^ e.change)) return false;
-            }
-        }
-        return true;
-    }
-
-    static int[] was;
-    static List<Integer> one;
-    static List<Integer> zero;
-
-    static class Edge {
-        int from;
-        int to;
-        int change;
-
-        Edge(int from, int to, int change) {
-            this.from = from;
-            this.to = to;
-            this.change = change;
-        }
-
-        public String toString() {
-            return "Edge{" +
-                    "from=" + from +
-                    ", to=" + to +
-                    ", change=" + change +
-                    '}';
+            long ans = w > 0 ? answer[w - 1] : 0;
+            ans += (long) (len - 1) * (w2 - w + 1);
+            out.println(ans);
         }
     }
 }
@@ -237,6 +168,139 @@ class FastPrinter extends PrintWriter {
         super(out);
     }
 
+
+}
+
+class SuffixArray {
+
+    public static int[] buildSuffixArray(int[] s) {
+        int n = s.length;
+        int alphabet = 0;
+        for (int i : s) {
+            alphabet = Math.max(alphabet, i);
+        }
+        ++alphabet;
+        int[] h = new int[Math.max(n, alphabet)];
+        int[] c = new int[n];
+        int[] d = new int[n];
+        int[] count = new int[alphabet];
+        for (int i = 0; i < n; i++) {
+            c[i] = s[i];
+            count[c[i]]++;
+        }
+        for (int i = 1; i < alphabet; i++) {
+            h[i] = h[i - 1] + count[i - 1];
+        }
+        int[] a = new int[n];
+        int[] b = new int[n];
+        {
+            int[] g = h.clone();
+            for (int i = 0; i < n; i++) {
+                a[g[c[i]]++] = i;
+            }
+        }
+        for (int w = 1; w < n; w <<= 1) {
+            for (int i = 0; i < n; i++) {
+                int j = good(a[i] - w + n, n);
+                b[h[c[j]]++] = j;
+            }
+            int nc = 0;
+            h[nc++] = 0;
+            d[b[0]] = 0;
+            for (int i = 1; i < n; i++) {
+                if (c[b[i]] != c[b[i - 1]] || c[good(b[i] + w, n)] != c[good(b[i - 1] + w, n)]) {
+                    h[nc++] = i;
+                }
+                d[b[i]] = nc - 1;
+            }
+            int[] t = a; a = b; b = t;
+            t = c; c = d; d = t;
+        }
+        return a;
+    }
+
+    static int good(int x, int n) {
+        if (x >= n) {
+            x -= n;
+        }
+        return x;
+    }
+
+
+    public static int[] getLCP(int[] sa, int[] a) {
+        int k = 0;
+        int n = a.length;
+        int[] rev = new int[n];
+        for (int i = 0; i < n; i++) {
+            rev[sa[i]] = i;
+        }
+        int[] lcp = new int[n];
+        for (int i = 0; i < n; i++) {
+            k = Math.max(k - 1, 0);
+            int j = rev[i] + 1;
+            if (j >= n) continue;
+            j = sa[j];
+            while (i + k < n && j + k < n && a[i + k] == a[j + k]) ++k;
+            lcp[rev[i]] = k;
+        }
+        return lcp;
+    }
+
+}
+
+class MinSegmentTree {
+    int[] min;
+    int[] minId;
+    int n;
+
+    public MinSegmentTree(int n) {
+        this.n = Integer.highestOneBit(n) << 1;
+        min = new int[this.n * 2];
+        minId = new int[this.n * 2];
+        for (int i = 0; i < n; i++) {
+            minId[i + n] = i;
+        }
+        for (int i = 0; i < n; i++) {
+            set(i, Integer.MAX_VALUE);
+        }
+    }
+
+    public void set(int x, int y) {
+        x += n;
+        min[x] = y;
+        while (x > 1) {
+            x >>= 1;
+            int left = min[x << 1];
+            int right = min[(x << 1) | 1];
+            if (left <= right) {
+                min[x] = left;
+                minId[x] = minId[x << 1];
+            } else {
+                min[x] = right;
+                minId[x] = minId[(x << 1) | 1];
+            }
+        }
+    }
+
+    public int getMin(int left, int right) {
+        --right;
+        left += n;
+        right += n;
+        int ret = Integer.MAX_VALUE;
+        while (left <= right) {
+            if ((left & 1) == 1) {
+                ret = Math.min(ret, min[left]);
+                left++;
+            }
+            if ((right & 1) == 0) {
+                ret = Math.min(ret, min[right]);
+                right--;
+            }
+            left >>= 1;
+            right >>= 1;
+        }
+        return ret;
+    }
 
 }
 
