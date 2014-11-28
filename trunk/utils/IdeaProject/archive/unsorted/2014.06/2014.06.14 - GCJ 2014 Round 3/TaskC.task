@@ -1,0 +1,60 @@
+5 TaskC
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+129 5
+3
+E 5
+L 0
+E 5
+2
+L 1
+L 1
+4
+L 1
+E 0
+E 0
+L 1
+7
+L 2
+E 0
+E 1
+E 2
+E 0
+E 3
+L 4
+13
+L 4
+L 1
+L 2
+E 0
+L 1
+E 0
+L 2
+E 0
+L 2
+E 0
+E 0
+L 1
+L 4
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.06.14
+16 GCJ 2014 Round 3
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
