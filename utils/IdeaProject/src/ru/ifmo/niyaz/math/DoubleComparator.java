@@ -7,6 +7,11 @@ package ru.ifmo.niyaz.math;
  * Time: 22:28
  * To change this template use File | Settings | File Templates.
  */
-public interface DoubleComparator {
-    public int compare(double a, double b);
+public abstract class DoubleComparator {
+
+    abstract public int compare(double a, double b);
+
+    public int sign(double x) {
+        return compare(x, 0);
+    }
 }
