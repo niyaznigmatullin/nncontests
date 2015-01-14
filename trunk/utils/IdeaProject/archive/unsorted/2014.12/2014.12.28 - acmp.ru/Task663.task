@@ -1,0 +1,37 @@
+7 Task663
+6 SINGLE
+6 CUSTOM
+9 input.txt
+6 CUSTOM
+10 output.txt
+1
+0
+98 3 2
+petr
+lexa
+sergey
+PROBA
+PROBB
+4
+lexa-PROBA-100
+???g??-?????-0
+?e??-PROBA-70
+?e??-PROB?-60
+2
+3 2
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+14 coding.Task663
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.12.28
+7 acmp.ru
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

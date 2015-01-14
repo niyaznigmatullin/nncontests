@@ -15,9 +15,9 @@ public class MinSegmentTree {
     public MinSegmentTree(int n) {
         this.n = Integer.highestOneBit(n) << 1;
         min = new int[this.n * 2];
-        minId = new int[this.n * 2];
-        for (int i = 0; i < n; i++) {
-            minId[i + n] = i;
+            minId = new int[this.n * 2];
+            for (int i = 0; i < n; i++) {
+            minId[i + this.n] = i;
         }
         for (int i = 0; i < n; i++) {
             set(i, Integer.MAX_VALUE);
@@ -76,6 +76,33 @@ public class MinSegmentTree {
             right >>= 1;
         }
         return ret;
+    }
+
+    public int getMinID(int left, int right) {
+        --right;
+        left += n;
+        right += n;
+        int ret = Integer.MAX_VALUE;
+        int retID = -1;
+        while (left <= right) {
+            if ((left & 1) == 1) {
+                if (ret > min[left] || ret == min[left] && retID > minId[left]) {
+                    ret = min[left];
+                    retID = minId[left];
+                }
+                left++;
+            }
+            if ((right & 1) == 0) {
+                if (ret > min[right] || ret == min[right] && retID > minId[right]) {
+                    ret = min[right];
+                    retID = minId[right];
+                }
+                right--;
+            }
+            left >>= 1;
+            right >>= 1;
+        }
+        return retID;
     }
 
 }
