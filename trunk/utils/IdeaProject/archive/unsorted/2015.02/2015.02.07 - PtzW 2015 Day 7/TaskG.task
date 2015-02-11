@@ -1,0 +1,29 @@
+5 TaskG
+6 SINGLE
+6 CUSTOM
+20 shortest-accepted.in
+8 STANDARD
+10 output.txt
+1
+0
+30 3
+a
+ab|ac*(ca|cb)
+((ab|ac)a)*
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskG
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.07
+15 PtzW 2015 Day 7
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

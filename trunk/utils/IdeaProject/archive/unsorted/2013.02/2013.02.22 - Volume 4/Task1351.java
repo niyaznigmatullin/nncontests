@@ -24,7 +24,7 @@ public class Task1351 {
         };
         for (int i = 0; i < n; i++) {
             Point2DInteger q = readPoint(in);
-            if (q.squaredLength() <= d) {
+            if (q.lengthSquared() <= d) {
                 if (comp.compare(p1, p2) > 0) {
                     if (comp.compare(p2, q) >= 0 || comp.compare(q, p1) >= 0) {
                         out.println("YES");

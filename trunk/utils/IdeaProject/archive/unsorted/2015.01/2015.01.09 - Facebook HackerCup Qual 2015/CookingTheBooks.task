@@ -1,0 +1,31 @@
+15 CookingTheBooks
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+21 5
+31524
+897
+123
+10
+5
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+22 coding.CookingTheBooks
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.01.09
+28 Facebook HackerCup Qual 2015
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

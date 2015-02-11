@@ -1,0 +1,40 @@
+16 CorporateGifting
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+77 5
+3
+0 1 1
+8
+0 1 1 2 2 3 3 3
+5
+0 1 2 3 4
+9
+0 1 2 3 4 5 5 5 5
+8
+0 1 1 1 1 2 2 2
+57 Case #1: 4
+Case #2: 10
+Case #3: 7
+Case #4: 12
+Case #5: 11
+1
+10 src/coding
+14 -Xmx1G -Xss64m
+4 Main
+23 coding.CorporateGifting
+39 net.egork.chelper.checkers.TokenChecker
+0 
+1
+31 coding.CorporateGiftingTestCase
+10 2015.01.17
+27 Facebook Hacker Cup Round 1
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

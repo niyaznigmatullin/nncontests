@@ -41,10 +41,12 @@ public class Circle2DDouble {
         Point2DDouble v1 = v.multiply(d1 / v.length());
         double z = radius * radius - d1 * d1;
         Point2DDouble p0 = p.add(v1);
-        if (dblComp.compare(z, 0) < 0) {
-            throw new AssertionError();
-        }
-        if (dblComp.compare(z, 0) == 0) {
+//        if (dblComp.compare(z, 0) < 0) {
+//            System.out.println(this + " " + c);
+//            System.out.println(d + " " + (radius + c.radius));
+//            throw new AssertionError();
+//        }
+        if (dblComp.compare(z, 0) <= 0) {
             return new Point2DDouble[]{p0};
         }
         z = Math.sqrt(z);
@@ -153,5 +155,10 @@ public class Circle2DDouble {
         if (comp.compare(ret[0][1].distance(c.p), c.radius) != 0) throw new AssertionError();
         if (comp.compare(ret[1][1].distance(c.p), c.radius) != 0) throw new AssertionError();
         return ret;
+    }
+
+    @Override
+    public String toString() {
+        return p.toString() + " " + radius;
     }
 }

@@ -1,0 +1,52 @@
+5 TaskC
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+111 5 4 6
+451 451 452 452
+452 452 452 452
+451 452 450 450
+451 451 451 451
+452 452 450 450
+0
+2
+773726
+724963313
+1
+1
+
+0 
+1
+1
+135 4 5 8
+1314 1287 1286 1290 1295
+1278 1271 1324 1317 1289
+1305 1305 1284 1300 1309
+1318 1296 1301 1274 1315
+976296835
+12
+13
+38
+16
+40
+6657
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.01.14
+10 Hello 2015
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

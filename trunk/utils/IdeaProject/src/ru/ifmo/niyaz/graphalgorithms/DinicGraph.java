@@ -43,6 +43,9 @@ public class DinicGraph {
         for (int i = 0; i < edges.length; i++) {
             edges[i] = new ArrayList<Edge>();
         }
+        q = new int[n];
+        d = new int[n];
+        cur = new int[n];
     }
 
     public Edge addEdge(int from, int to, int cap) {
@@ -108,9 +111,6 @@ public class DinicGraph {
     }
 
     public long getMaxFlow(int source, int target) {
-        cur = new int[n];
-        q = new int[n];
-        d = new int[n];
         long flow = 0;
         while (bfs(source, target)) {
             Arrays.fill(cur, 0);

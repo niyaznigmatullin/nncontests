@@ -1,10 +1,10 @@
 import java.io.InputStreamReader;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.io.BufferedReader;
 import java.io.OutputStream;
 import java.io.PrintWriter;
+import java.util.Random;
 import java.io.Reader;
 import java.io.Writer;
 import java.io.InputStream;
@@ -20,116 +20,74 @@ public class Main {
 		OutputStream outputStream = System.out;
 		FastScanner in = new FastScanner(inputStream);
 		FastPrinter out = new FastPrinter(outputStream);
-		TaskC solver = new TaskC();
+		TaskD solver = new TaskD();
 		solver.solve(1, in, out);
 		out.close();
 	}
 }
 
-class TaskC {
-
-    static final int K = 9;
-    static int[] Z = new int[1 << K];
-
-    static {
-        Z[1] = 0;
-        for (int i = 2; i < Z.length; i++) {
-            Z[i] = Z[i >> 1] + 1;
-        }
-    }
-
+class TaskD {
     public void solve(int testNumber, FastScanner in, FastPrinter out) {
         int n = in.nextInt();
-        int m = in.nextInt();
-        int qCount = in.nextInt();
-        int[][] a = new int[n][m];
+        if (n <= 4) {
+            out.println("No solution");
+            return;
+        }
+        Point2DDouble[] p = new Point2DDouble[n];
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                a[i][j] = in.nextInt();
+            p[i] = new Point2DDouble(Math.cos(i * 2 * Math.PI / n), Math.sin(i * 2 * Math.PI / n));
+        }
+        Random rand = new Random(58L);
+        for (int i = 0; i < n; i++) {
+            p[i] = p[i].multiply(rand.nextDouble() * 100 + 600);
+        }
+        Point2DDouble vect = new Point2DDouble(0, 0);
+        for (Point2DDouble e : p) {
+            vect = vect.add(e);
+        }
+        vect = vect.multiply(-1);
+        double angle = Math.atan2(vect.y, vect.x);
+        if (angle < 0) angle += 2 * Math.PI;
+        for (int i = 0; i < n; i++) {
+            if (angle <= (i + 1) * 2 * Math.PI / n) {
+                double ang1 = i * 2 * Math.PI / n;
+                double ang2 = (i + 1) * 2 * Math.PI / n;
+                double alpha = ang2 - angle;
+                double beta = angle - ang1;
+                double theta = Math.PI - alpha - beta;
+                double a = vect.length() / Math.sin(theta) * Math.sin(alpha);
+                double b = vect.length() / Math.sin(theta) * Math.sin(beta);
+                Point2DDouble add1 = new Point2DDouble(Math.cos(ang1), Math.sin(ang1)).multiply(a);
+                Point2DDouble add2 = new Point2DDouble(Math.cos(ang2), Math.sin(ang2)).multiply(b);
+//                System.out.println(vect + " " + (add1.add(add2)));
+                p[i] = p[i].add(add1);
+                p[(i + 1) % n] = p[(i + 1) % n].add(add2);
+                break;
             }
         }
-        int[] ks = new int[qCount];
-        for (int i = 0; i < qCount; i++) {
-            ks[i] = in.nextInt();
+        int cur = 0;
+        Point2DDouble curPoint = new Point2DDouble(0, 0);
+        Point2DDouble[] q = new Point2DDouble[n];
+        for (int i = 0; i < n; i++) {
+            out.println(-curPoint.x + " " + curPoint.y);
+            q[i] = curPoint;
+            curPoint = curPoint.add(p[cur]);
+            cur = (cur + n - 1) % n;
         }
-        int[][][][] fMin = new int[K][K][n][m];
-        int[][][][] fMax = new int[K][K][n][m];
-        fMin[0][0] = fMax[0][0] = a;
-        for (int i = 1; i < K; i++) {
-            int shift = 1 << i - 1;
-            int[][] max = fMax[0][i - 1];
-            int[][] min = fMin[0][i - 1];
-            for (int x = 0; x < n; x++) {
-                for (int y = 0; y < m; y++) {
-                    int mx = max[x][y];
-                    int mn = min[x][y];
-                    if (y >= shift) {
-                        mx = Math.max(mx, max[x][y - shift]);
-                        mn = Math.min(mn, min[x][y - shift]);
-                    }
-                    fMax[0][i][x][y] = mx;
-                    fMin[0][i][x][y] = mn;
-                }
-            }
-        }
-        for (int j = 0; j < K; j++) {
-            for (int i = 1; i < K; i++) {
-                int shift = 1 << i - 1;
-                int[][] max = fMax[i - 1][j];
-                int[][] min = fMin[i - 1][j];
-                for (int x = 0; x < n; x++) {
-                    for (int y = 0; y < m; y++) {
-                        int mx = max[x][y];
-                        int mn = min[x][y];
-                        if (x >= shift) {
-                            mx = Math.max(mx, max[x - shift][y]);
-                            mn = Math.min(mn, min[x - shift][y]);
-                        }
-                        fMax[i][j][x][y] = mx;
-                        fMin[i][j][x][y] = mn;
-                    }
-                }
-            }
-        }
-        long[] ans = new long[qCount];
-        for (int x1 = 0; x1 < n; x1++) {
-            int[] min = new int[m];
-            int[] max = new int[m];
-            Arrays.fill(min, Integer.MAX_VALUE);
-            Arrays.fill(max, Integer.MIN_VALUE);
-            for (int x2 = x1; x2 < n; x2++) {
-                int[] ax2 = a[x2];
-                for (int i = 0; i < m; i++) {
-                    min[i] = Math.min(min[i], ax2[i]);
-                    max[i] = Math.max(max[i], ax2[i]);
-                }
-                for (int f = 0; f < qCount; f++) {
-                    int k = ks[f];
-                    for (int i = 0, j = -1; i < m; i++) {
-                        while (j + 1 < m && (j + 1 < i || getDif(fMax, fMin, x1, i, x2, j + 1) <= k)) {
-                            ++j;
-                        }
-                        ans[f] += j - i + 1;
-                    }
-                }
-            }
-        }
-        for (long z : ans) {
-            out.println(z);
-        }
-    }
-
-    static int getDif(int[][][][] f, int[][][][] fMin, int x1, int y1, int x2, int y2) {
-        int v1 = Z[x2 - x1 + 1];
-        int v2 = Z[y2 - y1 + 1];
-        int shift1 = 1 << v1;
-        int shift2 = 1 << v2;
-        int[][] g = f[v1][v2];
-        int[][] g2 = fMin[v1][v2];
-        return Math.max(Math.max(g[x2][y2], g[x1 + shift1 - 1][y2]),
-                Math.max(g[x2][y1 + shift2 - 1], g[x1 + shift1 - 1][y1 + shift2 - 1])) -
-                Math.min(Math.min(g2[x2][y2], g2[x1 + shift1 - 1][y2]),
-                        Math.min(g2[x2][y1 + shift2 - 1], g2[x1 + shift1 - 1][y1 + shift2 - 1]));
+//        System.out.println(curPoint);
+//        for (int i = 0; i < n; i++) {
+//            int prev = (i + n - 1) % n;
+//            int next = (i + 1) % n;
+//            Point2DDouble v = q[prev].subtract(q[i]);
+//            Point2DDouble u = q[next].subtract(q[i]);
+//            double curAngle = Math.atan2(v.vmul(u), u.smul(v));
+//            System.out.println("ang[" + i + "] = " + curAngle);
+//        }
+//        for (int i = 0; i < n; i++) {
+//            int next = (i + 1) % n;
+//            Point2DDouble u = q[next].subtract(q[i]);
+//            System.out.println("dist[" + i + "] = " + u.length());
+//        }
     }
 }
 
@@ -198,6 +156,42 @@ class FastPrinter extends PrintWriter {
         super(out);
     }
 
+
+}
+
+class Point2DDouble {
+    public double x;
+    public double y;
+
+    public Point2DDouble(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
+
+    public Point2DDouble add(Point2DDouble p) {
+        return new Point2DDouble(x + p.x, y + p.y);
+    }
+
+
+    public String toString() {
+        return "Point2DDouble{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
+
+    public Point2DDouble multiply(double d) {
+        return new Point2DDouble(x * d, y * d);
+    }
+
+    public double squaredLength() {
+        return x * x + y * y;
+    }
+
+    public double length() {
+        return Math.sqrt(squaredLength());
+    }
 
 }
 
