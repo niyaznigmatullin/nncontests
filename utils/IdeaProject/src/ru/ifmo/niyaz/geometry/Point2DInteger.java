@@ -129,32 +129,32 @@ public class Point2DInteger {
         return v1.smul(v2) <= 0;
     }
 
-    public long distSquared(int x, int y) {
+    public long distanceSquared(int x, int y) {
         long dx = this.x - x;
         long dy = this.y - y;
         return dx * dx + dy * dy;
     }
 
-    public double dist(int x, int y) {
-        return Math.sqrt(distSquared(x, y));
+    public double distance(int x, int y) {
+        return Math.sqrt(distanceSquared(x, y));
     }
 
-    public double distSquared(double x, double y) {
+    public double distanceSquared(double x, double y) {
         x -= this.x;
         y -= this.y;
         return x * x + y * y;
     }
 
-    public double dist(double x, double y) {
-        return Math.sqrt(distSquared(x, y));
+    public double distance(double x, double y) {
+        return Math.sqrt(distanceSquared(x, y));
     }
 
-    public long squaredLength() {
+    public long lengthSquared() {
         return (long) x * x + (long) y * y;
     }
 
     public double length() {
-        return Math.sqrt(squaredLength());
+        return Math.sqrt(lengthSquared());
     }
 
 }

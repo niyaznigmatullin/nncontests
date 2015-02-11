@@ -1,0 +1,59 @@
+12 Autocomplete
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+111 5
+5
+hi
+hello
+lol
+hills
+hill
+5
+a
+aa
+aaa
+aaaa
+aaaaa
+5
+aaaaa
+aaaa
+aaa
+aa
+a
+6
+to
+be
+or
+not
+two
+bee
+3
+having
+fun
+yet
+57 Case #1: 11
+Case #2: 15
+Case #3: 11
+Case #4: 9
+Case #5: 3
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+19 coding.Autocomplete
+39 net.egork.chelper.checkers.TokenChecker
+0 
+1
+27 coding.AutocompleteTestCase
+10 2015.01.17
+27 Facebook Hacker Cup Round 1
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -1,0 +1,38 @@
+17 B2 - Permutations
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+4 2 2
+
+5 2 1 
+
+1
+1
+4 3 2
+
+7 1 3 2 
+
+1
+2
+4 6 1
+
+0 
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+13 coding.TaskB2
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.07
+14 Rockethon 2015
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

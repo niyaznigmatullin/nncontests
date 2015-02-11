@@ -1,12 +1,9 @@
 package coding;
 
 import ru.ifmo.niyaz.geometry.GeometryAlgorithms;
-import ru.ifmo.niyaz.geometry.Point2DDouble;
 import ru.ifmo.niyaz.geometry.Point2DInteger;
 import ru.ifmo.niyaz.io.FastScanner;
 import ru.ifmo.niyaz.io.FastPrinter;
-
-import java.util.Arrays;
 
 public class TaskC {
     public void solve(int testNumber, FastScanner in, FastPrinter out) {
@@ -38,7 +35,7 @@ public class TaskC {
             out.println("PARALLELOGRAM");
             return;
         }
-        if (vq[0].squaredLength() != vq[2].squaredLength() || vq[1].squaredLength() != vq[2].squaredLength()) {
+        if (vq[0].lengthSquared() != vq[2].lengthSquared() || vq[1].lengthSquared() != vq[2].lengthSquared()) {
             out.println("RECTANGLE");
             return;
         }

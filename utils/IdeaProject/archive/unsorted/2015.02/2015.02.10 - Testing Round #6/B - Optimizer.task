@@ -1,0 +1,38 @@
+13 B - Optimizer
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+21 10 4
+3 3
+3 1
+4 1
+9 2
+
+6 2
+2 3 
+1
+1
+8 1 1
+1 1
+
+2 0
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.10
+16 Testing Round #6
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

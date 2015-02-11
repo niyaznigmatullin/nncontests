@@ -1,0 +1,50 @@
+16 F1 - Scaygerboss
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+64 4 4 2 3
+....
+.###
+####
+####
+2 1 1
+2 1 2
+2 1 2
+2 1 2
+2 1 2
+1 1 2
+
+2 2
+
+1
+1
+48 2 4 2 2
+....
+.###
+2 1 1
+2 1 2
+2 1 2
+2 1 2
+2 1 2
+
+3 -1
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+13 coding.TaskF1
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.07
+14 Rockethon 2015
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -1,0 +1,42 @@
+5 TaskA
+12 MULTI_NUMBER
+6 CUSTOM
+14 bermutation.in
+8 STANDARD
+10 output.txt
+2
+0
+30 2
+5 1
+2 3 1 4 5
+5 2
+2 3 1 4 5
+
+0 
+1
+1
+51 3
+7 3
+4 5 6 1 2 3 7
+5 2
+5 3 2 4 1
+6 2
+3 6 1 4 5 2
+
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.07
+15 PtzW 2015 Day 7
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

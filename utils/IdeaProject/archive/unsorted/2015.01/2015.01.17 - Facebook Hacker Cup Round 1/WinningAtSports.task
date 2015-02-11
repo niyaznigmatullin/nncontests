@@ -1,0 +1,60 @@
+15 WinningAtSports
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+27 5
+2-1
+3-1
+3-2
+10-5
+1000-500
+83 Case #1: 1 1
+Case #2: 2 1
+Case #3: 2 2
+Case #4: 1001 42
+Case #5: 70047606 591137401
+1
+1
+162 20
+1563-737
+1302-883
+2-1
+1210-866
+1-0
+562-165
+174-152
+135-73
+614-116
+2000-1999
+1930-850
+1000-500
+3-2
+1506-184
+670-484
+1488-1484
+1423-1321
+609-283
+2000-0
+1446-363
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+22 coding.WinningAtSports
+39 net.egork.chelper.checkers.TokenChecker
+0 
+1
+30 coding.WinningAtSportsTestCase
+10 2015.01.17
+27 Facebook Hacker Cup Round 1
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
