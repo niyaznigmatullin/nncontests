@@ -1,0 +1,33 @@
+7 Task661
+6 SINGLE
+6 CUSTOM
+9 input.txt
+6 CUSTOM
+10 output.txt
+1
+0
+70 7
+10 30
+9 14 10
+13 19 18
+14 18 16
+18 24 14
+24 30 9
+17 2005 24
+15 20 14
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+14 coding.Task661
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.12.28
+7 acmp.ru
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
