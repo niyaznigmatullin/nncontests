@@ -1,0 +1,43 @@
+14 C - Cardiogram
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+12 5
+3 1 2 5 1
+
+461      <span class="tex-span"> / </span><span class="tex-span">\</span>     
+  <span class="tex-span"> / </span><span class="tex-span">\</span><span class="tex-span"> / </span>  <span class="tex-span">\</span>    
+ <span class="tex-span"> / </span>      <span class="tex-span">\</span>   
+<span class="tex-span"> / </span>        <span class="tex-span">\</span>  
+          <span class="tex-span">\</span><span class="tex-span"> / </span>
+
+1
+1
+8 3
+1 5 1
+
+262 <span class="tex-span"> / </span><span class="tex-span">\</span>     
+  <span class="tex-span">\</span>    
+   <span class="tex-span">\</span>   
+    <span class="tex-span">\</span>  
+     <span class="tex-span">\</span><span class="tex-span"> / </span>
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.19
+30 Codeforces Round #249 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

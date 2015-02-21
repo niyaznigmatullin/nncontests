@@ -1,0 +1,35 @@
+22 B - Vanya and Lanterns
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+21 7 15
+15 5 3 7 9 14 0
+
+13 2.5000000000
+
+1
+1
+8 2 5
+2 5
+
+13 2.0000000000
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.13
+30 Codeforces Round #280 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
