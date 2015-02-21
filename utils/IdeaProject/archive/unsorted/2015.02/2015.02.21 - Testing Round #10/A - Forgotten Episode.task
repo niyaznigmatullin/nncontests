@@ -1,0 +1,28 @@
+21 A - Forgotten Episode
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+22 10
+3 8 10 1 7 9 6 5 2
+
+2 4
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.21
+17 Testing Round #10
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
