@@ -157,4 +157,8 @@ public class Point2DInteger {
         return Math.sqrt(lengthSquared());
     }
 
+    public Point2DDouble toPointDouble() {
+        return new Point2DDouble(x, y);
+    }
+
 }
