@@ -199,6 +199,15 @@ public class ArrayUtils {
         }
     }
 
+    public static void shuffle(char[] a) {
+        for (int i = 0; i < a.length; i++) {
+            int j = rand.nextInt(i + 1);
+            char t = a[i];
+            a[i] = a[j];
+            a[j] = t;
+        }
+    }
+
     public static <T> void shuffle(T[] a) {
         for (int i = 0; i < a.length; i++) {
             int j = rand.nextInt(i + 1);
@@ -208,7 +217,7 @@ public class ArrayUtils {
         }
     }
 
-    public static int[] reverse(int[] a) {
+    public static int[] reversed(int[] a) {
         int n = a.length;
         int[] ret = new int[n];
         for (int i = 0; i < n; i++) {
@@ -216,7 +225,8 @@ public class ArrayUtils {
         }
         return ret;
     }
-    public static long[] reverse(long[] a) {
+
+    public static long[] reversed(long[] a) {
         int n = a.length;
         long[] ret = new long[n];
         for (int i = 0; i < n; i++) {
@@ -224,7 +234,8 @@ public class ArrayUtils {
         }
         return ret;
     }
-    public static double[] reverse(double[] a) {
+
+    public static double[] reversed(double[] a) {
         int n = a.length;
         double[] ret = new double[n];
         for (int i = 0; i < n; i++) {
@@ -233,13 +244,99 @@ public class ArrayUtils {
         return ret;
     }
 
-    public static <T> T[] reverse(T[] a) {
+    public static <T> T[] reversed(T[] a) {
         int n = a.length;
         T[] ret = a.clone();
         for (int i = 0; i < n; i++) {
             ret[i] = a[n - i - 1];
         }
         return ret;
+    }
+
+    public static <T> void reverse(T[] a, int start, int end) {
+        for (int i = start, j = end - 1; i < j; i++, j--) {
+            T t = a[i];
+            a[i] = a[j];
+            a[j] = t;
+        }
+    }
+
+    public static <T> void reverse(T[] a) {
+        reverse(a, 0, a.length);
+    }
+
+    public static void reverse(int[] c, int start, int end) {
+        for (int i = start, j = end - 1; i < j; i++, j--) {
+            int t = c[i];
+            c[i] = c[j];
+            c[j] = t;
+        }
+    }
+
+    public static void reverse(int[] c) {
+        reverse(c, 0, c.length);
+    }
+
+    public static void reverse(long[] c, int start, int end) {
+        for (int i = start, j = end - 1; i < j; i++, j--) {
+            long t = c[i];
+            c[i] = c[j];
+            c[j] = t;
+        }
+    }
+
+    public static void reverse(long[] c) {
+        reverse(c, 0, c.length);
+    }
+
+    public static void reverse(double[] c, int start, int end) {
+        for (int i = start, j = end - 1; i < j; i++, j--) {
+            double t = c[i];
+            c[i] = c[j];
+            c[j] = t;
+        }
+    }
+
+    public static void reverse(double[] c) {
+        reverse(c, 0, c.length);
+    }
+
+    public static void reverse(char[] c, int start, int end) {
+        for (int i = start, j = end - 1; i < j; i++, j--) {
+            char t = c[i];
+            c[i] = c[j];
+            c[j] = t;
+        }
+    }
+
+    public static void reverse(char[] c) {
+        reverse(c, 0, c.length);
+    }
+
+    public static char[][] rotateCounterclockwise(char[][] c) {
+        if (c.length == 0) return c;
+        int n = c.length;
+        int m = c[0].length;
+        char[][] d = new char[m][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                d[m - j - 1][i] = c[i][j];
+            }
+        }
+        return d;
+    }
+
+    public static char[][] rotateClockwise(char[][] c) {
+        if (c.length == 0) return c;
+        int n = c.length;
+        int m = c[0].length;
+        char[][] d = new char[m][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                d[j][n - i - 1] = c[i][j];
+            }
+        }
+        return d;
     }
 
 }
