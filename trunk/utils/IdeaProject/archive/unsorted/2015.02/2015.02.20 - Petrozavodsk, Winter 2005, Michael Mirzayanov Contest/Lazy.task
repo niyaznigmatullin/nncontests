@@ -1,0 +1,34 @@
+4 Lazy
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+25 2 1
+0 -10 0 10
+-1 -1 1 1
+
+1 1
+1
+1
+23 2 1
+0 -10 0 10
+0 -5 0 5
+1 0
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+11 coding.Lazy
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.20
+53 Petrozavodsk, Winter 2005, Michael Mirzayanov Contest
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -1,0 +1,36 @@
+9 E - Beads
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+4 4 4
+
+5 0101
+
+1
+1
+4 3 3
+
+0 
+1
+2
+20 60 10000000000000000
+0 
+1
+10 src/coding
+7 -Xmx64M
+4 Main
+12 coding.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.19
+24 Codeforces Beta Round #8
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

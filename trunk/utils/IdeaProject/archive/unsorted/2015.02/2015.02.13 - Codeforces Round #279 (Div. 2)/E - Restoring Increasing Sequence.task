@@ -1,0 +1,57 @@
+33 E - Restoring Increasing Sequence
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+10 3
+?
+18
+1?
+
+12 YES
+1
+18
+19
+
+1
+1
+7 2
+??
+?
+
+3 NO
+
+1
+2
+33 5
+12224
+12??5
+12226
+?0000
+?00000
+
+35 YES
+12224
+12225
+12226
+20000
+100000
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.13
+30 Codeforces Round #279 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
