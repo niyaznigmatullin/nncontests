@@ -1,0 +1,43 @@
+5 TaskB
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+71 7
+5 2 4 3 6 7 1
+0001001
+0000000
+0000010
+1000001
+0000000
+0010000
+1001000
+0 
+1
+1
+41 5
+4 2 1 5 3
+00100
+00011
+10010
+01101
+01010
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.12.30
+24 Codeforces Good Bye 2014
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
