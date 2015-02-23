@@ -19,8 +19,8 @@ public class MaxSegmentTree {
         max = new int[this.n * 2];
         maxId = new int[this.n * 2];
         Arrays.fill(max, Integer.MIN_VALUE);
-        for (int i = 0; i < n; i++) {
-            maxId[i + n] = i;
+        for (int i = 0; i < this.n; i++) {
+            maxId[i + this.n] = i;
         }
         for (int i = 0; i < n; i++) {
             set(i, Integer.MIN_VALUE);
@@ -79,6 +79,33 @@ public class MaxSegmentTree {
             right >>= 1;
         }
         return ret;
+    }
+
+    public int getMaxId(int left, int right) {
+        --right;
+        left += n;
+        right += n;
+        int ret = Integer.MIN_VALUE;
+        int retPos = -1;
+        while (left <= right) {
+            if ((left & 1) == 1) {
+                if (ret < max[left]) {
+                    ret = max[left];
+                    retPos = maxId[left];
+                }
+                left++;
+            }
+            if ((right & 1) == 0) {
+                if (ret < max[right]) {
+                    ret = max[right];
+                    retPos = maxId[right];
+                }
+                right--;
+            }
+            left >>= 1;
+            right >>= 1;
+        }
+        return retPos;
     }
 
 }

@@ -1,0 +1,35 @@
+24 A - Drazil and Factorial
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+7 4
+1234
+
+6 33222
+
+1
+1
+6 3
+555
+
+4 555
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.23
+30 Codeforces Round #292 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -1,0 +1,45 @@
+25 D - Count Good Substrings
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+4
+0
+3 bb
+
+4 1 2
+
+1
+1
+5 baab
+
+4 2 4
+
+1
+2
+5 babb
+
+4 2 5
+
+1
+3
+6 babaa
+
+4 2 7
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.16
+30 Codeforces Round #258 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
