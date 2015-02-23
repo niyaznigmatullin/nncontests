@@ -1,0 +1,49 @@
+21 D - Match &amp; Catch
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+4
+0
+16 apple
+pepperoni
+
+2 2
+
+1
+1
+13 lover
+driver
+
+2 1
+
+1
+2
+11 bidhan
+roy
+
+3 -1
+
+1
+3
+19 testsetses
+teeptes
+
+2 3
+
+1
+10 src/coding
+8 -Xmx512M
+4 Main
+12 coding.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.23
+30 Codeforces Round #244 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
