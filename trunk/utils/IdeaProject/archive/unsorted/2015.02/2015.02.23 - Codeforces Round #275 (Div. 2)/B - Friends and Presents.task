@@ -1,0 +1,33 @@
+24 B - Friends and Presents
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+8 3 1 2 3
+
+2 5
+
+1
+1
+8 1 3 2 3
+
+2 4
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.23
+30 Codeforces Round #275 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
