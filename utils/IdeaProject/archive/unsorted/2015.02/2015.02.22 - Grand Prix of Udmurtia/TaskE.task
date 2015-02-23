@@ -1,0 +1,50 @@
+5 TaskE
+6 SINGLE
+6 CUSTOM
+9 input.txt
+6 CUSTOM
+10 output.txt
+2
+0
+24 3 4
+1 2
+4 1
+5 4
+1
+2
+3
+3
+
+2 20
+1
+1
+39 2 10
+0 0
+5000 5000
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+2 16
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.22
+22 Grand Prix of Udmurtia
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

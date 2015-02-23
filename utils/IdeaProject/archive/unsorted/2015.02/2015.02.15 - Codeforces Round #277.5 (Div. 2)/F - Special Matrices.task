@@ -1,0 +1,38 @@
+20 F - Special Matrices
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+13 3 1 1000
+011
+
+2 2
+
+1
+1
+31 4 4 100500
+0110
+1010
+0101
+1001
+
+2 1
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskF
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.15
+32 Codeforces Round #277.5 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
