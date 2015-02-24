@@ -1,0 +1,45 @@
+20 E - E-mail Addresses
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+4
+0
+28 gerald.agapov1991@gmail.com
+
+3 18
+
+1
+1
+20 x@x.x@x.x_e_@r1.com
+
+2 8
+
+1
+2
+9 a___@1.r
+
+2 1
+
+1
+3
+13 .asd123__..@
+
+2 0
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.23
+27 Coder-Strike 2014 - Round 1
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -1,0 +1,58 @@
+10 A - Poster
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+7 2 2
+R1
+
+21 PRINT 1
+LEFT
+PRINT R
+
+1
+1
+7 2 1
+R1
+
+22 PRINT R
+RIGHT
+PRINT 1
+
+1
+2
+11 6 4
+GO?GO!
+
+85 RIGHT
+RIGHT
+PRINT !
+LEFT
+PRINT O
+LEFT
+PRINT G
+LEFT
+PRINT ?
+LEFT
+PRINT O
+LEFT
+PRINT G
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.23
+27 Coder-Strike 2014 - Round 1
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
