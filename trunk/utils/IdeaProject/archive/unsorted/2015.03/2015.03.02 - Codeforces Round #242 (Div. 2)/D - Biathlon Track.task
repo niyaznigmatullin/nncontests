@@ -1,0 +1,33 @@
+18 D - Biathlon Track
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+96 6 7 48
+3 6 2
+5 4 8 3 3 7 9
+4 1 6 8 7 1 1
+1 6 4 6 4 8 6
+7 2 6 1 6 9 4
+1 9 8 6 3 9 2
+4 5 6 8 4 3 7
+8 4 3 6 7
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.03.02
+30 Codeforces Round #242 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
