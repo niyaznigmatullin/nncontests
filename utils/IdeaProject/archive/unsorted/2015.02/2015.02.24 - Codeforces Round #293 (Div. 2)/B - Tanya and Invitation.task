@@ -1,0 +1,42 @@
+24 B - Tanya and Invitation
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+9 AbC
+DCbA
+
+4 3 0
+
+1
+1
+8 ABC
+abc
+
+4 0 3
+
+1
+2
+16 abacaba
+AbaCaBA
+
+4 3 4
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.24
+30 Codeforces Round #293 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

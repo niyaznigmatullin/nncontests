@@ -1,0 +1,35 @@
+38 D - A and B and Interesting Substrings
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+60 1 1 -1 1 1 1 1 1 1 1 1 1 1 1 1 7 1 1 1 8 1 1 1 1 1 1
+xabcab
+
+2 2
+
+1
+1
+57 1 1 -1 1 1 1 1 1 1 1 1 1 1 1 1 7 1 1 1 8 1 1 1 1 1 1
+aaa
+
+2 2
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.03.02
+30 Codeforces Round #294 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
