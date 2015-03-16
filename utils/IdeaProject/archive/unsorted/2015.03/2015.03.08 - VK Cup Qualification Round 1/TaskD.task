@@ -1,0 +1,48 @@
+5 TaskD
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+26 5 3
+1 1 2 3 2
+1 5
+2 4
+3 5
+
+7 1
+-1
+2
+
+1
+1
+35 6 5
+1 2 1 3 2 3
+4 6
+1 3
+2 5
+2 4
+1 6
+11 2
+2
+3
+-1
+2
+
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.03.08
+28 VK Cup Qualification Round 1
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

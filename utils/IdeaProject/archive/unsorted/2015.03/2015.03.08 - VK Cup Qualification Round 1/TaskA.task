@@ -1,0 +1,45 @@
+5 TaskA
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+117 5
+tourist reposted Polycarp
+Petr reposted Tourist
+WJMZBMR reposted Petr
+sdya reposted wjmzbmr
+vepifanov reposted sdya
+1 6
+1
+1
+148 6
+Mike reposted Polycarp
+Max reposted Polycarp
+EveryOne reposted Polycarp
+111 reposted Polycarp
+VkCup reposted Polycarp
+Codeforces reposted Polycarp
+1 2
+1
+2
+34 1
+SoMeStRaNgEgUe reposted PoLyCaRp
+1 2
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.03.08
+28 VK Cup Qualification Round 1
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
