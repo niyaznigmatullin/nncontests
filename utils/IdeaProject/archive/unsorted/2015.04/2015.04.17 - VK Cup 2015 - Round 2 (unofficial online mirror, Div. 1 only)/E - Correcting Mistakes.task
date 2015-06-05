@@ -1,0 +1,45 @@
+23 E - Correcting Mistakes
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+18 7
+reading
+trading
+
+2 1
+
+1
+1
+14 5
+sweet
+sheep
+
+2 0
+
+1
+2
+10 3
+toy
+try
+
+2 2
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.04.17
+61 VK Cup 2015 - Round 2 (unofficial online mirror, Div. 1 only)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

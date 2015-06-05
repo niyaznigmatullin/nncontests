@@ -1,0 +1,71 @@
+17 DrumDecoratorHard
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+10 2
+2 4
+3 5
+
+0 
+1
+1
+82 20
+2 3
+2 4
+2 5
+2 6
+3 3
+3 4
+3 5
+3 6
+4 3
+4 4
+4 5
+4 6
+5 3
+5 4
+5 5
+5 6
+6 3
+6 4
+6 5
+6 6
+231 Case #1: 2
+Case #2: 1
+Case #3: 1
+Case #4: 3
+Case #5: 2
+Case #6: 3
+Case #7: 2
+Case #8: 2
+Case #9: 3
+Case #10: 1
+Case #11: 1
+Case #12: 5
+Case #13: 3
+Case #14: 3
+Case #15: 1
+Case #16: 5
+Case #17: 6
+Case #18: 4
+Case #19: 2
+Case #20: 19
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+24 coding.DrumDecoratorHard
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.05.30
+28 Google Code Jam 2015 Round 2
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

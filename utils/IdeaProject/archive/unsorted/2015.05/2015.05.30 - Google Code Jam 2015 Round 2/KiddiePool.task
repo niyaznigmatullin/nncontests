@@ -1,0 +1,44 @@
+10 KiddiePool
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+315 6
+1 10.0000 50.0000
+0.2000 50.0000
+2 30.0000 65.4321
+0.0001 50.0000
+100.0000 99.9000
+2 5.0000 99.9000
+30.0000 99.8999
+20.0000 99.7000
+2 0.0001 77.2831
+0.0001 97.3911
+0.0001 57.1751
+2 100.0000 75.6127
+70.0263 75.6127
+27.0364 27.7990
+4 5000.0000 75.0000
+10.0000 30.0000
+20.0000 50.0000
+300.0000 95.0000
+40.0000 2.0000
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+17 coding.KiddiePool
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.05.30
+28 Google Code Jam 2015 Round 2
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -75,7 +75,7 @@ public class MathUtils {
             a = (int) ((long) a * a % mod);
             b >>= 1;
         }
-        return ret;
+        return ret % mod;
     }
 
     public static int powerStupid(int a, int b) {

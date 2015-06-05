@@ -1,0 +1,47 @@
+10 PencilGame
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+51 4
+2 3 8
+3 3 10
+3 3 36
+1000000 1000000 1000000000000
+9 4
+-1
+9
+2
+
+0
+1
+14 1
+25 25 16000
+
+3 32
+
+0
+2
+9 1
+5 6 51
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+17 coding.PencilGame
+39 net.egork.chelper.checkers.TokenChecker
+0 
+1
+25 coding.PencilGameTestCase
+10 2015.03.24
+43 2014 ACM-ICPC Vietnam National Second Round
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
