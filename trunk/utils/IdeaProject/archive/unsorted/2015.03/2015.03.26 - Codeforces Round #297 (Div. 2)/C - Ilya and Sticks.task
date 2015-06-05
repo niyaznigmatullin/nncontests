@@ -1,0 +1,42 @@
+19 C - Ilya and Sticks
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+10 4
+2 4 4 2
+
+2 8
+
+1
+1
+10 4
+2 2 3 5
+
+2 0
+
+1
+2
+30 4
+100003 100004 100005 100006
+
+12 10000800015
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.03.26
+30 Codeforces Round #297 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

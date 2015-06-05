@@ -1,0 +1,46 @@
+9 Bilingual
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+353 4
+2
+he loves to eat baguettes
+il aime manger des baguettes
+4
+a b c d e
+f g h i j
+a b c i j
+f g h d e
+4
+he drove into a cul de sac
+elle a conduit sa voiture
+il a conduit dans un cul de sac
+il mange pendant que il conduit sa voiture
+6
+adieu joie de vivre je ne regrette rien
+adieu joie de vivre je ne regrette rien
+a b c d e
+f g h i j
+a b c i j
+f g h d e
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+16 coding.Bilingual
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.05.30
+28 Google Code Jam 2015 Round 2
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

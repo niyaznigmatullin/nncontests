@@ -1,0 +1,44 @@
+7 Packing
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+38 4 3
+180
+160
+170
+190
+2 100
+3 120
+4 250
+
+4 480
+
+1
+1
+28 2 2
+1000
+2000
+1 6666
+1 7777
+
+2 0
+
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+14 coding.Packing
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.03.16
+8 JOI 2014
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

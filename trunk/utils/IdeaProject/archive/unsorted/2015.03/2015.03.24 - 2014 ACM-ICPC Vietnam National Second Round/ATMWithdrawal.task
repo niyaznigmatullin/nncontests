@@ -1,0 +1,43 @@
+13 ATMWithdrawal
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+36 4
+1000
+1
+7000
+1
+444000
+1
+1100000
+2
+
+
+8 1 1
+2 1
+
+1
+1
+11 1
+3013000 1
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+20 coding.ATMWithdrawal
+39 net.egork.chelper.checkers.TokenChecker
+0 
+1
+28 coding.ATMWithdrawalTestCase
+10 2015.03.24
+43 2014 ACM-ICPC Vietnam National Second Round
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

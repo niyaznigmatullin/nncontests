@@ -1,0 +1,33 @@
+23 D - Om Nom and Necklace
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+12 7 2
+bcabcab
+
+7 0000011
+1
+1
+27 21 2
+ababaababaababaababaa
+
+21 000110000111111000011
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.04.04
+23 ZeptoLab Code Rush 2015
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

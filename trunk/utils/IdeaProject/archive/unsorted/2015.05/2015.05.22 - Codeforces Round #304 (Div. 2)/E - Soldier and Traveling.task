@@ -1,0 +1,44 @@
+25 E - Soldier and Traveling
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+36 4 4
+1 2 6 3
+3 5 3 1
+1 2
+2 3
+3 4
+4 2
+
+40 YES
+1 0 0 0 
+2 0 0 0 
+0 5 1 0 
+0 0 2 1 
+
+1
+1
+12 2 0
+1 2
+2 1
+
+2 NO
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.05.22
+30 Codeforces Round #304 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

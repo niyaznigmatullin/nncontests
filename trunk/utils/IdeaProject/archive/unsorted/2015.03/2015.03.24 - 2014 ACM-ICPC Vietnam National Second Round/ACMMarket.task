@@ -1,0 +1,39 @@
+9 ACMMarket
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+149 2
+6 5
+0 1 5 1000000007
+1 2 4 15
+0 1 6 8704173
+2 2 3 3
+0 1 6 1000000007
+6 6
+1 1 4 20
+1 2 6 15
+0 1 6 9704331
+2 3 6 5
+0 1 4 1000000007
+0 1 5 1000000007
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+16 coding.ACMMarket
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.03.24
+43 2014 ACM-ICPC Vietnam National Second Round
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
