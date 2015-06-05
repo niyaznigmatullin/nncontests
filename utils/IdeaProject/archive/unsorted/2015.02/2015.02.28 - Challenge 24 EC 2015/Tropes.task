@@ -1,0 +1,30 @@
+6 Tropes
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+22 1
+2
+3
+10 11 12
+2
+10 12
+1 2
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+13 coding.Tropes
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.02.28
+20 Challenge 24 EC 2015
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
