@@ -26,6 +26,10 @@ public class Circle2DDouble {
         return Math.PI * radius * radius;
     }
 
+    public boolean containsOn(Point2DDouble p, DoubleComparator comp) {
+        return comp.compare(p.distanceSquared(this.p), radius * radius) == 0;
+    }
+
     public Point2DDouble[] intersect(Circle2DDouble c, DoubleComparator dblComp) {
         double d = p.distance(c.p);
         if (dblComp.compare(d, radius + c.radius) > 0 ||
