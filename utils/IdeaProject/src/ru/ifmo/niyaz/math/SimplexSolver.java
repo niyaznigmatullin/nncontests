@@ -8,7 +8,7 @@ import java.util.Arrays;
  * User: niyaz.nigmatullin
  * Date: 09.04.13
  * Time: 13:35
- * To change this template use File | Settings | File Templates.
+ * used the idea of implementation from https://sites.google.com/site/indy256/
  */
 public class SimplexSolver {
 
