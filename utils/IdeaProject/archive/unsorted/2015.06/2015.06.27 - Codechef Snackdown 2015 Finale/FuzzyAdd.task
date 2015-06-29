@@ -1,0 +1,32 @@
+8 FuzzyAdd
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+33 7
+99999
+99999
+800001
+1
+100
+1000
+5
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+15 coding.FuzzyAdd
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.06.27
+30 Codechef Snackdown 2015 Finale
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -201,4 +201,13 @@ public class FastScanner extends BufferedReader {
         return ret;
     }
 
+    public long[][] readLong2DArray(int n, int m) {
+        long[][] ret = new long[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                ret[i][j] = nextLong();
+            }
+        }
+        return ret;
+    }
 }

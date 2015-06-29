@@ -1,0 +1,33 @@
+5 TaskA
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+37 4
+2 2
+10
+4 2
+0000
+5 2
+01010
+5 2
+10101
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+12 coding.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.06.14
+26 RCC 2015 Elimination Round
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

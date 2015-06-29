@@ -92,4 +92,8 @@ public class KuhnMatchingGraph {
         }
         return false;
     }
+
+    public void clearEdges() {
+        for (int i = 0; i < edges.length; i++) edges[i].clear();
+    }
 }

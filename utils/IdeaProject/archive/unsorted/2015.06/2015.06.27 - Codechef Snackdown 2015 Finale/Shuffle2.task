@@ -1,0 +1,36 @@
+8 Shuffle2
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+16 6 2 1
+4 6
+2 5
+4
+
+0 
+1
+1
+25 6 2 0
+4 6
+2 5
+6 5 2 1 3 4
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+15 coding.Shuffle2
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.06.27
+30 Codechef Snackdown 2015 Finale
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

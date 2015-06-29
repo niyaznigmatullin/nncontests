@@ -1,0 +1,34 @@
+15 SmoothingWindow
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+53 3
+10 2
+1 2 3 4 5 6 7 8 9
+100 100
+-100
+7 3
+0 12 0 12 0
+34 Case #1: 5
+Case #2: 0
+Case #3: 12
+
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+22 coding.SmoothingWindow
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.06.13
+28 Google Code Jam 2015 Round 3
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
