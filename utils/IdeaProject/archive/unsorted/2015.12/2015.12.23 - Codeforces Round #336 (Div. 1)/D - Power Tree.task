@@ -1,0 +1,44 @@
+14 D - Power Tree
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+33 2 5
+1 1 3
+1 2 5
+1 3 7
+1 4 11
+2 1
+
+4 344
+
+1
+1
+30 5 5
+1 1 4
+1 2 3
+2 2
+1 2 7
+2 1
+
+6 14
+94
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.12.23
+30 Codeforces Round #336 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

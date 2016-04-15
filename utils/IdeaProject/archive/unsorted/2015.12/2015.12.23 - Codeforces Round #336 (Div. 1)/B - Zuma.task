@@ -1,0 +1,42 @@
+8 B - Zuma
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+8 3
+1 2 1
+
+2 1
+
+1
+1
+8 3
+1 2 3
+
+2 3
+
+1
+2
+16 7
+1 4 4 2 3 2 1
+
+2 2
+
+1
+10 src/coding
+8 -Xmx512M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.12.23
+30 Codeforces Round #336 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

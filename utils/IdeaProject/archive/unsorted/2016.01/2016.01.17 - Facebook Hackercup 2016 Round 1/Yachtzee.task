@@ -1,0 +1,39 @@
+8 Yachtzee
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+83 5
+1 5 8
+2
+1 0 777777777
+7
+1 777777 7777777
+777777777
+2 9 20
+8 2
+5 40 140
+4 9 1 12 7
+110 Case #1: 1.166666667
+Case #2: 3.500000000
+Case #3: 4277777.000000000
+Case #4: 3.227272727
+Case #5: 4.400000000
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+15 coding.Yachtzee
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.01.17
+31 Facebook Hackercup 2016 Round 1
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

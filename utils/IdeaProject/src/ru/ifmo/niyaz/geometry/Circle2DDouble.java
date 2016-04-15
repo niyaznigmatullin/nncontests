@@ -64,7 +64,7 @@ public class Circle2DDouble {
             return null;
         }
         if (comp.compare(d, radius) == 0) {
-            return new Point2DDouble[]{p};
+            return new Point2DDouble[]{q};
         }
         double d1 = radius * radius / d;
         Point2DDouble v = q.subtract(p);

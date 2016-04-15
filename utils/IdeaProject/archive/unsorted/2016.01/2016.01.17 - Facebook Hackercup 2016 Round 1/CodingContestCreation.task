@@ -1,0 +1,39 @@
+21 CodingContestCreation
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+98 5
+4
+10 15 25 30
+4
+15 20 25 40
+3
+3 3 3
+8
+60 90 61 62 63 91 92 93
+11
+5 14 30 32 39 46 47 47 30 58 47
+54 Case #1: 0
+Case #2: 4
+Case #3: 9
+Case #4: 4
+Case #5: 9
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+28 coding.CodingContestCreation
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.01.17
+31 Facebook Hackercup 2016 Round 1
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

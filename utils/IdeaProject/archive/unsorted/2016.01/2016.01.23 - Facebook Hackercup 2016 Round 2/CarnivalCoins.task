@@ -1,0 +1,34 @@
+13 CarnivalCoins
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+55 5
+2 1 0.5
+10 5 0.9
+10 5 0.1
+3000 50 0.123
+3000 50 0.987
+105 Case #1: 1.000000000
+Case #2: 1.180980000
+Case #3: 0.001634937
+Case #4: 5.712907306
+Case #5: 56.182751225
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+20 coding.CarnivalCoins
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.01.23
+31 Facebook Hackercup 2016 Round 2
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

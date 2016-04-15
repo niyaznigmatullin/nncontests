@@ -1,0 +1,58 @@
+22 BoomerangConstellation
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+110 5
+3
+0 0
+0 1
+0 3
+5
+0 0
+0 1
+0 2
+0 3
+0 4
+4
+0 0
+0 100
+100 0
+100 100
+4
+0 0
+-3 4
+0 5
+-5 0
+6
+5 6
+6 5
+7 6
+6 7
+7 8
+8 7
+
+56 Case #1: 0
+Case #2: 4
+Case #3: 4
+Case #4: 3
+Case #5: 12
+
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+29 coding.BoomerangConstellation
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.01.09
+43 Facebook Hackercup 2016 Qualification Round
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
