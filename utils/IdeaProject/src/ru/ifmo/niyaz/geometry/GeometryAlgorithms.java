@@ -13,10 +13,10 @@ import java.util.Comparator;
 public class GeometryAlgorithms {
 
     public static long vmulFromPoint(Point2DInteger from, Point2DInteger v, Point2DInteger u) {
-        long x1 = v.x - from.x;
-        long y1 = v.y - from.y;
-        long x2 = u.x - from.x;
-        long y2 = u.y - from.y;
+        long x1 = (long) v.x - from.x;
+        long y1 = (long) v.y - from.y;
+        long x2 = (long) u.x - from.x;
+        long y2 = (long) u.y - from.y;
         return x1 * y2 - x2 * y1;
     }
 
@@ -29,10 +29,10 @@ public class GeometryAlgorithms {
     }
 
     public static long smulFromPoint(Point2DInteger from, Point2DInteger v, Point2DInteger u) {
-        long x1 = v.x - from.x;
-        long y1 = v.y - from.y;
-        long x2 = u.x - from.x;
-        long y2 = u.y - from.y;
+        long x1 = (long) v.x - from.x;
+        long y1 = (long) v.y - from.y;
+        long x2 = (long) u.x - from.x;
+        long y2 = (long) u.y - from.y;
         return x1 * x2 + y1 * y2;
     }
 
