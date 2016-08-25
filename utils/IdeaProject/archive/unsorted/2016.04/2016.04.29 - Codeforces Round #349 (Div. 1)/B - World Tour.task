@@ -1,0 +1,36 @@
+14 B - World Tour
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+40 8 9
+1 2
+2 3
+3 4
+4 1
+4 5
+5 6
+6 7
+7 8
+8 5
+
+8 2 1 8 7
+
+1
+10 src/coding
+8 -Xmx512M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.04.29
+30 Codeforces Round #349 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -1,0 +1,40 @@
+18 D - Chain Reaction
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+38 2
+1 1
+1 -1
+-1 1
+-1 -1
+1 1
+2 2
+4 4
+6 6
+
+25 0
+1 1
+1 -1
+-1 1
+-1 -1
+-1
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.04.29
+30 Codeforces Round #349 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

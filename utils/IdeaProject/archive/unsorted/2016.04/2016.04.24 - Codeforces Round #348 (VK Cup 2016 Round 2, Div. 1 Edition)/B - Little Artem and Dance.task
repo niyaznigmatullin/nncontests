@@ -1,0 +1,47 @@
+26 B - Little Artem and Dance
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+14 6 3
+1 2
+2
+1 2
+
+12 4 3 6 5 2 1
+
+1
+1
+15 2 3
+1 1
+2
+1 -2
+
+4 1 2
+
+1
+2
+10 4 2
+2
+1 3
+
+8 1 4 3 2
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.04.24
+59 Codeforces Round #348 (VK Cup 2016 Round 2, Div. 1 Edition)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

@@ -1,0 +1,58 @@
+13 BearEmptyCoin
+14 winProbability
+4 long
+2
+3 int
+1 K
+3 int
+1 S
+7
+0
+2
+int 1
+int 17
+long 2
+1
+1
+2
+int 2
+int -50
+long 4
+1
+2
+2
+int 2
+int -49
+long 2
+1
+3
+2
+int 4
+int 42
+long 8
+1
+4
+2
+int 4
+int -123456789
+long 6
+1
+5
+2
+int 18
+int 123456
+long 49870
+1
+6
+2
+int 60
+int 0
+long 1152921504606846976
+1
+10 2016.07.19
+22 Single Round Match 695
+1
+28 coding.BearEmptyCoinTestCase
+20 coding.BearEmptyCoin
+1
+4 256M

@@ -1,0 +1,40 @@
+20 C - Vasya and String
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+9 4 2
+abba
+
+2 4
+
+1
+1
+13 8 1
+aabaabaa
+
+2 5
+
+1
+2
+15 10 0
+abbbaababa
+0 
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.05.25
+30 Codeforces Round #354 (Div. 2)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

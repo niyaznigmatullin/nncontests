@@ -1,0 +1,35 @@
+24 E - Forensic Examination
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+103 suffixtree
+3
+suffixtreesareawesome
+cartesiantreeisworsethansegmenttree
+nyeeheeheee
+2
+1 2 1 10
+1 3 9 10
+
+8 1 1
+3 4
+
+1
+10 src/coding
+8 -Xmx768M
+4 Main
+12 coding.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.04.29
+30 Codeforces Round #349 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

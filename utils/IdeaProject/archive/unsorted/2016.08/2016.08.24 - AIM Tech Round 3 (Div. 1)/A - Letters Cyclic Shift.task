@@ -1,0 +1,33 @@
+24 A - Letters Cyclic Shift
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+11 codeforces
+
+11 bncdenqbdr
+
+1
+1
+8 abacaba
+
+8 aaacaba
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.08.24
+25 AIM Tech Round 3 (Div. 1)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

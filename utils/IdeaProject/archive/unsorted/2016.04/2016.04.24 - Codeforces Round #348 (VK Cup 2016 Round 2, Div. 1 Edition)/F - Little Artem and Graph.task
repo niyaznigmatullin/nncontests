@@ -1,0 +1,35 @@
+26 F - Little Artem and Graph
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+8 3 2
+1 2
+
+2 3
+
+1
+1
+10 4 3
+1 2 3
+
+3 16
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskF
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.04.24
+59 Codeforces Round #348 (VK Cup 2016 Round 2, Div. 1 Edition)
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

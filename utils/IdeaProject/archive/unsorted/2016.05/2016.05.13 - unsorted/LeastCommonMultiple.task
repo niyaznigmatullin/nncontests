@@ -1,0 +1,26 @@
+19 LeastCommonMultiple
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+13 2 1000000007
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+26 coding.LeastCommonMultiple
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.05.13
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
