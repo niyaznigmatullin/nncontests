@@ -92,7 +92,24 @@ public class FastScanner extends BufferedReader {
     }
 
     public long nextLong() {
-        return Long.parseLong(next());
+        int c = read();
+        while (isWhiteSpace(c)) {
+            c = read();
+        }
+        int sgn = 1;
+        if (c == '-') {
+            sgn = -1;
+            c = read();
+        }
+        long ret = 0;
+        while (c >= 0 && !isWhiteSpace(c)) {
+            if (c < '0' || c > '9') {
+                throw new NumberFormatException("digit expected " + (char) c + " found");
+            }
+            ret = ret * 10 + c - '0';
+            c = read();
+        }
+        return ret * sgn;
     }
 
     public double nextDouble() {
