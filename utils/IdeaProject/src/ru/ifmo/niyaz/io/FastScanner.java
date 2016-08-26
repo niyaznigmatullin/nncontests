@@ -1,7 +1,5 @@
 package ru.ifmo.niyaz.io;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
