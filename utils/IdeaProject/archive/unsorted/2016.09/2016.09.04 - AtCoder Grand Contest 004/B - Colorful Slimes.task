@@ -1,0 +1,42 @@
+19 B - Colorful Slimes
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+11 2 10
+1 100
+
+3 12
+
+1
+1
+15 3 10
+100 1 100
+
+3 23
+
+1
+2
+13 4 10
+1 2 3 4
+
+3 10
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.09.04
+25 AtCoder Grand Contest 004
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
