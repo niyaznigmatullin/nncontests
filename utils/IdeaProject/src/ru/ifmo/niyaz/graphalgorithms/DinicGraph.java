@@ -19,6 +19,7 @@ public class DinicGraph {
         public int to;
         public int flow;
         public int cap;
+        public int preflow;
         public Edge rev;
 
         public Edge(int from, int to, int flow, int cap) {
@@ -120,6 +121,74 @@ public class DinicGraph {
                     break;
                 }
                 flow += add;
+            }
+        }
+        return flow;
+    }
+
+    public long findBlockingFlowPreflow(int source, int target, boolean[] blocked, long[] excess) {
+        long flow = 0;
+        Arrays.fill(blocked, false);
+        Arrays.fill(cur, 0);
+        Arrays.fill(excess, 0);
+        excess[source] = Long.MAX_VALUE;
+        while (true) {
+            boolean changed = false;
+            for (int it = 0; it < n; it++) {
+                int v = q[it];
+                if (excess[v] == 0 || blocked[v]) continue;
+                pushFlow(blocked, excess, v, true);
+                if (excess[v] > 0) {
+                    if (v == target) {
+                        flow += excess[v];
+                    } else {
+                        blocked[v] = true;
+                        changed = true;
+                        cur[v] = 0;
+                    }
+                }
+            }
+            if (!changed) {
+                break;
+            }
+            for (int it = n - 1; it >= 0; it--) {
+                int v = q[it];
+                if (excess[v] == 0 || !blocked[v]) continue;
+                pushFlow(blocked, excess, v, false);
+                if (v != source && excess[v] > 0) throw new AssertionError();
+            }
+        }
+        return flow;
+    }
+
+    private void pushFlow(boolean[] blocked, long[] excess, int v, boolean forward) {
+        for (int i = cur[v]; i < edges[v].size(); i = ++cur[v]) {
+            Edge e = edges[v].get(i);
+            if (d[e.from] == Integer.MAX_VALUE || d[e.to] != d[e.from] + (forward ? 1 : -1) || (forward && blocked[e.to]) ||
+                    (forward ? (e.cap == e.flow + e.preflow) : e.preflow >= 0)) {
+                continue;
+            }
+            long push = Math.min(excess[v], (forward ? e.cap - e.flow - e.preflow : -e.preflow));
+            e.preflow += push;
+            e.rev.preflow -= push;
+            excess[e.to] += push;
+            excess[e.from] -= push;
+            if (excess[v] == 0) break;
+        }
+    }
+
+    public long getMaxFlowPreflow(int source, int target) {
+        long flow = 0;
+        boolean[] blocked = new boolean[n];
+        long[] excess = new long[n];
+        if (bfs(source, target)) {
+            flow += findBlockingFlowPreflow(source, target, blocked, excess);
+            for (int v = 0; v < n; v++) if (d[v] != Integer.MAX_VALUE) {
+                for (int i = 0; i < edges[v].size(); i++) {
+                    Edge e = edges[v].get(i);
+                    e.flow += e.preflow;
+                    e.preflow = 0;
+                }
             }
         }
         return flow;
