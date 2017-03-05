@@ -1,0 +1,41 @@
+9 Phiphiphi
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+4
+0
+5 12 2
+
+0 
+1
+1
+5 5 10
+
+0 
+1
+2
+6 512 5
+
+0 
+1
+3
+9 891581 1
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+16 coding.Phiphiphi
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.10.06
+18 October Clash 2016
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

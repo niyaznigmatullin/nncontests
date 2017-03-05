@@ -1,0 +1,265 @@
+18 NumberOfSubstrings
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+5
+0
+30 5 5
+aabaa
+2 2
+2 5
+2 2
+2 5
+1 3
+
+10 1
+8
+1
+8
+5
+
+1
+1
+707 100 100
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababbaabababbbaabaabababbbbbabbaaababaabbaababbb
+91 97
+14 74
+53 69
+3 97
+4 69
+12 44
+96 98
+8 11
+98 100
+95 95
+89 97
+85 85
+35 40
+84 92
+97 99
+57 71
+15 15
+78 81
+97 100
+95 98
+21 93
+15 63
+91 97
+84 87
+17 29
+26 49
+56 64
+79 92
+83 97
+74 94
+97 98
+74 90
+21 60
+94 97
+71 82
+58 59
+33 80
+50 66
+53 67
+12 36
+47 50
+32 51
+96 100
+18 83
+15 33
+71 72
+50 80
+47 49
+63 91
+98 100
+100 100
+96 100
+5 45
+78 78
+71 78
+33 50
+26 84
+8 72
+91 91
+44 77
+83 100
+99 99
+23 54
+27 44
+36 98
+9 75
+54 65
+71 72
+44 72
+97 100
+1 68
+86 88
+42 45
+1 13
+20 31
+97 99
+17 67
+1 22
+64 68
+22 74
+13 19
+6 60
+30 77
+98 98
+17 93
+64 79
+12 95
+10 15
+67 71
+19 83
+8 90
+19 57
+92 95
+52 70
+75 98
+55 62
+44 55
+31 83
+13 29
+91 92
+
+318 21
+1102
+111
+3176
+1021
+33
+5
+4
+3
+1
+31
+1
+6
+31
+5
+87
+1
+7
+7
+7
+2050
+526
+21
+7
+13
+24
+31
+79
+89
+182
+3
+117
+337
+8
+53
+2
+878
+102
+87
+25
+4
+20
+11
+1512
+19
+3
+368
+3
+349
+3
+1
+11
+41
+1
+23
+18
+1302
+1124
+1
+457
+130
+1
+119
+18
+1680
+1282
+55
+3
+332
+7
+1014
+5
+4
+13
+12
+5
+678
+22
+11
+910
+7
+487
+835
+1
+2222
+100
+2595
+6
+11
+1479
+2366
+241
+8
+136
+237
+27
+44
+1083
+17
+3
+
+1
+2
+113 100 1
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababbaabababbbaabaabababbbbbabbaaababaabbaababbb
+53 69
+
+4 111
+
+1
+3
+54 43 1
+ababbaabababbbaabaabababbbbbabbaaababaabbaa
+1 17
+
+0 
+1
+4
+28 17 1
+ababbaabababbbaab
+1 17
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+25 coding.NumberOfSubstrings
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.11.21
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

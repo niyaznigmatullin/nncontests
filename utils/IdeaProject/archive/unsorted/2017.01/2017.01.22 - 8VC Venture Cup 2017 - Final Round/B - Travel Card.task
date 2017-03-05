@@ -1,0 +1,57 @@
+15 B - Travel Card
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+11 3
+10
+20
+30
+
+9 20
+20
+10
+
+1
+1
+39 10
+13
+45
+46
+60
+103
+115
+126
+150
+256
+516
+
+27 20
+20
+10
+0
+20
+0
+0
+20
+20
+10
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.01.22
+34 8VC Venture Cup 2017 - Final Round
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

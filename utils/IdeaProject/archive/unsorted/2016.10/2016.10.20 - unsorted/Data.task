@@ -1,0 +1,33 @@
+4 Data
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+59 6 7 4
+1 2 3 4 3 2
+1 2 3
+2 3 3
+3 4 4
+1 6 4
+6 3 2
+5 4 3
+6 5 4
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+11 coding.Data
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.10.20
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

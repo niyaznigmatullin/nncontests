@@ -1,0 +1,33 @@
+13 ConvexContour
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+7 4
+TSTC
+
+0 
+1
+1
+6 3
+SCT
+
+0 
+1
+10 src/coding
+16 -Xmx256m -Xss64m
+4 Main
+20 coding.ConvexContour
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.11.27
+0 
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

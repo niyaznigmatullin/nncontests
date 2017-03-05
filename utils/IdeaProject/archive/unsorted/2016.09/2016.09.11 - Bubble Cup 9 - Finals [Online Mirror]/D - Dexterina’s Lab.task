@@ -1,0 +1,28 @@
+21 D - Dexterina’s Lab
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+31 2 2
+0.500000 0.250000 0.250000
+
+11 0.62500000
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.09.11
+37 Bubble Cup 9 - Finals [Online Mirror]
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
