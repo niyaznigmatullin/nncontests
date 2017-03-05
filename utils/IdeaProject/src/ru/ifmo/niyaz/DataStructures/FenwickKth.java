@@ -44,4 +44,8 @@ public class FenwickKth {
         return l;
     }
 
+    public int getCapacity() {
+        return a.length;
+    }
+
 }

@@ -8,20 +8,20 @@ package ru.ifmo.niyaz.DataStructures;
  * To change this template use File | Settings | File Templates.
  */
 public class FenwickRev {
-    int[] a;
+    long[] a;
 
     public FenwickRev(int n) {
-        a = new int[n];
+        a = new long[n];
     }
 
-    public void add(int x, int y) {
+    public void add(int x, long y) {
         for (int i = x; i >= 0; i = (i & (i + 1)) - 1) {
             a[i] += y;
         }
     }
 
-    public int getElement(int x) {
-        int ret = 0;
+    public long getElement(int x) {
+        long ret = 0;
         for (int i = x; i < a.length; i |= i + 1) {
             ret += a[i];
         }

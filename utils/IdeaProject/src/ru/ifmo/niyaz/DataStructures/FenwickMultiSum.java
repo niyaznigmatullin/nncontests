@@ -14,8 +14,8 @@ public class FenwickMultiSum {
     }
 
     public void add(int x, long d) {
-        f.add(x, d);
-        fX.add(x, d * (1 - x));
+        fX.add(x, d);
+        f.add(x, d * (1 - x));
     }
 
     public void add(int left, int right, long d) {
