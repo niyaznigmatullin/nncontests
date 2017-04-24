@@ -1,0 +1,43 @@
+16 C - Mice problem
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+42 4
+7 7 9 8
+3 5 7 5
+7 5 2 4
+3 3 7 8
+6 6 3 2
+
+23 0.57142857142857139685
+
+1
+1
+49 4
+7 7 9 8
+0 3 -5 4
+5 0 5 4
+9 9 -1 -6
+10 5 -7 -10
+
+3 -1
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.04.23
+37 Tinkoff Challenge - Elimination Round
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1
