@@ -161,4 +161,8 @@ public class Point2DInteger {
         return new Point2DDouble(x, y);
     }
 
+    public Point2DInteger multiply(int d) {
+        return new Point2DInteger(x * d, y * d);
+    }
+
 }
