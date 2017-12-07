@@ -1,0 +1,49 @@
+22 A - Tom Riddle's Diary
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+37 6
+tom
+lucius
+ginny
+harry
+ginny
+harry
+
+20 NO
+NO
+NO
+NO
+YES
+YES
+
+1
+1
+8 3
+a
+a
+a
+
+11 NO
+YES
+YES
+
+1
+10 src/coding
+8 -Xmx256M
+4 Main
+12 coding.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.09.24
+20 Manthan, Codefest 17
+1
+28 ru.ifmo.niyaz.io.FastScanner
+28 ru.ifmo.niyaz.io.FastPrinter
+0
+1

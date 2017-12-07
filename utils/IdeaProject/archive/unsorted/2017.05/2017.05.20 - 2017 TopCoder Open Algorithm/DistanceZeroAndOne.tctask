@@ -1,0 +1,117 @@
+18 DistanceZeroAndOne
+9 construct
+18 java.lang.String[]
+2
+5 int[]
+5 dist0
+5 int[]
+5 dist1
+6
+0
+2
+int[] 3
+0
+2
+1
+int[] 3
+2
+0
+1
+String[] 3
+3 NNY
+3 NNY
+3 YYN
+1
+1
+2
+int[] 3
+0
+2
+1
+int[] 3
+1
+0
+2
+String[] 0
+1
+2
+2
+int[] 4
+3
+1
+1
+1
+int[] 4
+1
+0
+1
+1
+String[] 0
+1
+3
+2
+int[] 4
+0
+1
+1
+1
+int[] 4
+1
+0
+1
+1
+String[] 4
+4 NYYY
+4 YNYY
+4 YYNN
+4 YYNN
+1
+4
+2
+int[] 8
+0
+3
+1
+2
+2
+3
+4
+4
+int[] 8
+3
+0
+2
+1
+2
+3
+4
+4
+String[] 8
+8 NNYNNNNN
+8 NNNYNNNN
+8 YNNYYNNN
+8 NYYNYNNN
+8 NNYYNYNN
+8 NNNNYNYY
+8 NNNNNYNN
+8 NNNNNYNN
+1
+5
+2
+int[] 2
+0
+1
+int[] 2
+1
+0
+String[] 2
+2 NY
+2 YN
+1
+10 2017.05.20
+28 2017 TopCoder Open Algorithm
+1
+33 coding.DistanceZeroAndOneTestCase
+25 coding.DistanceZeroAndOne
+1
+4 256M
