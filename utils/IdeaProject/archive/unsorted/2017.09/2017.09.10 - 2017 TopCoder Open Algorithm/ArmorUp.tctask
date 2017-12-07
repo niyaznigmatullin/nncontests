@@ -1,0 +1,45 @@
+7 ArmorUp
+13 minimalDamage
+6 double
+3
+3 int
+5 maxHP
+3 int
+9 currentHP
+3 int
+1 k
+4
+0
+3
+int 100
+int 100
+int 1
+double 100.0
+1
+1
+3
+int 100
+int 20
+int 1
+double 33.333333333333336
+1
+2
+3
+int 100
+int 100
+int 2
+double 58.57864376269047
+1
+3
+3
+int 1000000000
+int 987654321
+int 1234
+double 1113069.7492973686
+1
+10 2017.09.10
+28 2017 TopCoder Open Algorithm
+0
+14 coding.ArmorUp
+1
+4 256M
