@@ -237,7 +237,7 @@ public class MinCostMaxFlowGraph {
         return new long[]{flow, cost};
     }
 
-    public long[] getMinCostMaxFlow(int source, int target) {
+    public long[] getMinCostKFlow(int source, int target, long maxFlow) {
         long[] h = new long[n];
         for (boolean changed = true; changed; ) {
             changed = false;
@@ -252,9 +252,9 @@ public class MinCostMaxFlowGraph {
         }
         Edge[] lastEdge = new Edge[n];
         long[] d = new long[n];
-        int flow = 0;
+        long flow = 0;
         long cost = 0;
-        while (true) {
+        while (flow < maxFlow) {
             dijkstra(source, lastEdge, d, h);
             if (d[target] == Long.MAX_VALUE) {
                 break;
@@ -264,6 +264,9 @@ public class MinCostMaxFlowGraph {
                 Edge e = lastEdge[v];
                 addFlow = Math.min(addFlow, e.cap - e.flow);
                 v = e.from;
+            }
+            if (addFlow > maxFlow - flow) {
+                addFlow = (int) (maxFlow - flow);
             }
             cost += (d[target] + h[target] - h[source]) * addFlow;
             flow += addFlow;
@@ -278,6 +281,10 @@ public class MinCostMaxFlowGraph {
             }
         }
         return new long[]{flow, cost};
+    }
+
+    public long[] getMinCostMaxFlow(int source, int target) {
+        return getMinCostKFlow(source, target, Long.MAX_VALUE);
     }
 
     public long[] getMinCostMaxFlowSlow(int source, int target) {
