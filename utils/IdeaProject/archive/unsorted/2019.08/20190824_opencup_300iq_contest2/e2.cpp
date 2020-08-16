@@ -1,0 +1,130 @@
+/**
+ * Niyaz Nigmatullin
+ */
+
+#pragma GCC optimize("O3")
+#pragma GCC optimize("unroll-loops")
+#include <bits/stdc++.h>
+
+using namespace std;
+
+struct edge {
+	int v, u;
+	unsigned long long a;
+	int w;
+
+	bool operator==(edge const &e) const {
+		return v == e.v && u == e.u && a == e.a && w == e.w;
+	}
+};
+
+int const N = 65;
+int const BITS = 61;
+int was[N];
+int pv[N];
+unsigned long long up[N];
+
+
+int get(int v) {
+	if (pv[v] != v) pv[v] = get(pv[v]);
+	return pv[v];
+}
+
+vector<pair<int, unsigned long long>> edges[N];
+
+void dfs(int v, int pv, unsigned long long x) {
+	was[v] = true;
+	up[v] = x;
+	for (auto &e : edges[v]) {
+		if (e.first == pv) continue;
+		dfs(e.first, v, x ^ e.second);
+	}
+}
+
+double T() {
+	return (double) clock() / CLOCKS_PER_SEC;
+}
+
+int main() {
+	ios_base::sync_with_stdio(false), cin.tie(0);	
+	int n, q;
+	cin >> n >> q;
+	vector<edge> all, other;
+	all.reserve(200);
+	other.reserve(200);
+	vector<unsigned long long> g(BITS);
+	for (int i = 0; i < n; i++) {
+		edges[i].reserve(n);
+	}
+	long long ans = 0;
+	double tt = 0;
+	for (int ii = 0; ii < q; ii++) {
+		tt -= T();
+		int u, v, w;
+		unsigned long long a;
+		cin >> u >> v >> a >> w;
+		--u;
+		--v;
+		all.push_back({u, v, a, w});
+		ans += w;
+		int pos = (int) all.size() - 1;
+		while (pos > 0 && all[pos].w > all[pos - 1].w) {
+			swap(all[pos], all[pos - 1]);
+			pos--;
+		}
+		for (int i = 0; i < n; i++) {
+			pv[i] = i;
+			edges[i].clear();
+			was[i] = false;
+		}
+		for (int i = 0; i < BITS; i++) {
+			g[i] = 0;
+		}
+		other.clear();
+		for (int i = 0; i < (int) all.size(); i++) {
+			edge const &e = all[i];
+			int x = get(e.v);
+			int y = get(e.u);
+			if (x != y) {
+				pv[x] = y;
+				// edges[e.v].push_back({e.v, e.u, e.a, e.w});
+				// edges[e.u].push_back({e.u, e.v, e.a, e.w});
+				edges[e.v].push_back({e.u, e.a});
+				edges[e.u].push_back({e.v, e.a});
+			} else {
+				other.push_back(e);
+			}
+		}
+		tt += T();
+		for (int i = 0; i < n; i++) {
+			if (was[i]) continue;
+			dfs(i, -1, 0);
+		}
+		for (edge &e : other) {
+			unsigned long long x = up[e.v] ^ up[e.u] ^ e.a;
+			for (int bit = 0; bit < BITS && x != 0; bit++) {
+				if (((x >> bit) & 1) == 0) {
+					continue;
+				}
+				if (g[bit] != 0) {
+					x ^= g[bit];
+				} else {
+					g[bit] = x;
+					break;
+				}
+			}
+			if (x == 0) {
+				ans -= e.w;
+				for (int i = 0; i < (int) all.size(); i++) {
+					if (all[i] == e) {
+						all.erase(all.begin() + i);
+						break;
+					}
+				}
+				break;
+			}
+
+		}
+		cout << ans << '\n';
+	}
+}
