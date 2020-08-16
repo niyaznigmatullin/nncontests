@@ -126,6 +126,27 @@ public class MultiSegmentTree {
         sum[node] = getSum((node << 1) | 1) + getSum((node << 1) + 2);
     }
 
+    private int findPosMin(int node, int l, int r, int left, int right, long value) {
+        if (right <= l || r <= left) {
+            return -1;
+        }
+        if (left <= l && r <= right) {
+            if (getMin(node) != value) {
+                return -1;
+            }
+        }
+        if (l + 1 >= r) {
+            return l;
+        }
+        relax(node);
+        int m = (l + r) >> 1;
+        int fromLeft = findPosMin((node << 1) | 1, l, m, left, right, value);
+        if (fromLeft >= 0) {
+            return fromLeft;
+        }
+        return findPosMin((node << 1) + 2, m, r, left, right, value);
+    }
+
     private long getMin(int node, int l, int r, int left, int right) {
         if (right <= l || r <= left) {
             return Long.MAX_VALUE;
@@ -198,5 +219,14 @@ public class MultiSegmentTree {
             return Long.MAX_VALUE;
         }
         return getMin(0, 0, n, l, r);
+    }
+
+    public long[] getMinPos(int l, int r) {
+        if (l >= r) {
+            return new long[]{Long.MAX_VALUE, -1};
+        }
+        long value = getMin(0, 0, n, l, r);
+        int pos = findPosMin(0, 0, n, l, r, value);
+        return new long[]{value, pos};
     }
 }
