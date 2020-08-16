@@ -1,0 +1,36 @@
+{
+  "name" : "C2 - Heidi and the Turing Test (Medium)",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5 1\n1 1\n1 -1\n-1 1\n-1 -1\n2 0\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 2\n1 1\n1 -1\n-1 1\n-1 -1\n2 0\n",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskC2",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.07.07",
+  "contestName" : "Helvetic Coding Contest 2019 online mirror (teams allowed, unrated)",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false
+}

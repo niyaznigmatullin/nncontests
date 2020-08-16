@@ -1,0 +1,46 @@
+{
+  "name" : "MedianFaking",
+  "signature" : {
+    "name" : "minimize",
+    "result" : "int[]",
+    "arguments" : [ "int", "int", "int[]", "int" ],
+    "argumentNames" : [ "F", "M", "data", "goal" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "5", "5", "1 2 3 4 5 10 9 8 7 6 25 24 23 22 21 18 16 17 19 20 11 13 12 14 15", "8" ],
+    "result" : "1 5",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "5", "5", "1 2 25 24 23 3 4 22 21 20 5 6 19 18 17 7 16 15 14 13 8 12 11 10 9", "8" ],
+    "result" : "2 5",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "1", "4", "10 40 30 20", "20" ],
+    "result" : "0 0",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "4", "3", "3 8 12 3 8 12 3 8 12 8 12 17", "12" ],
+    "result" : "1 2",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "5", "1", "10 20 30 40 50", "23" ],
+    "result" : "1 1",
+    "index" : 4,
+    "active" : true
+  }, {
+    "arguments" : [ "3", "5", "1 1 1 1 3 1 1 1 1 3 1 1 1 1 3", "3" ],
+    "result" : "",
+    "index" : 5,
+    "active" : true
+  } ],
+  "date" : "2019.06.04",
+  "contestName" : "2019 Topcoder Open Algo",
+  "testClasses" : [ ],
+  "fqn" : "coding.MedianFaking",
+  "failOnOverflow" : true,
+  "memoryLimit" : "256M"
+}

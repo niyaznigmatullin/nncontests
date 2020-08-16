@@ -1,0 +1,36 @@
+{
+  "name" : "A - Tokitsukaze and Discard Items",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "10 4 5\n3 5 7 10\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "13 4 5\n7 8 9 10\n",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.07.12",
+  "contestName" : "Codeforces Round #573 (Div. 1)",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false
+}

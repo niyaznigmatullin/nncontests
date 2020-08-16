@@ -1,0 +1,46 @@
+{
+  "name" : "F - Crisp String",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "7 3\nabacaba\n0 1 1\n1 0 0\n1 0 0\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "7 3\nabacaba\n1 1 1\n1 0 0\n1 0 0\n",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7 4\nbacadab\n0 1 1 1\n1 0 0 0\n1 0 0 0\n1 0 0 0\n",
+    "output" : "",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3 3\ncbc\n0 0 0\n0 0 1\n0 1 0\n",
+    "output" : "",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskF",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.18",
+  "contestName" : "Educational Codeforces Round 60 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false
+}

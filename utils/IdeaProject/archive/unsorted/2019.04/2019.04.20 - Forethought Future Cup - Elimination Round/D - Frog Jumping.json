@@ -1,0 +1,51 @@
+{
+  "name" : "D - Frog Jumping",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "7 5 3\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1000000000 1 2019\n",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "100 100000 1\n",
+    "output" : "",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "6 4 5\n",
+    "output" : "",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "19 10 10\n",
+    "output" : "",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskD",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.20",
+  "contestName" : "Forethought Future Cup - Elimination Round",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "Ration",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n3 \n1 A\n3 B \n2 A \n2 \n2 B \n3 B\n",
+    "output" : "2\n5\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n24\n25486 A\n21774 B\n3347 A\n28185 B\n13758 B\n11967 B\n15408 A\n20287 B\n9279 A\n18634 A\n15421 B\n17636 B\n10109 B\n7181 A\n29204 B\n10145 A\n4573 B\n27389 B\n30912 A\n22499 A\n7219 B\n12832 B\n5632 A\n22123 B\n1\n26769 A",
+    "output" : "1\n26769",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "coding.Ration",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.14",
+  "contestName" : "Hackerearth November Circuits 2018",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

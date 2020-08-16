@@ -1,0 +1,35 @@
+{
+  "name" : "PurpleSubsequences",
+  "signature" : {
+    "name" : "count",
+    "result" : "long",
+    "arguments" : [ "int[]", "int" ],
+    "argumentNames" : [ "A", "L" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "4 7 4 7", "1" ],
+    "result" : "11",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "1 1 2 2 3 3", "3" ],
+    "result" : "8",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "1 2 3 1 2 3", "3" ],
+    "result" : "17",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "11 12 13 14 15 16 17 18 19 20 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10", "6" ],
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2019.02.08",
+  "contestName" : "TopCoder Open19 SRM 750",
+  "testClasses" : [ ],
+  "fqn" : "coding.PurpleSubsequences",
+  "failOnOverflow" : true,
+  "memoryLimit" : "256M"
+}

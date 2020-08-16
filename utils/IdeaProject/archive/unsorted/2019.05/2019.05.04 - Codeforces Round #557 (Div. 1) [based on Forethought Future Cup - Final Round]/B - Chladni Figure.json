@@ -1,0 +1,46 @@
+{
+  "name" : "B - Chladni Figure",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "12 6\n1 3\n3 7\n5 7\n7 11\n9 11\n11 3\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "9 6\n4 5\n5 6\n7 8\n8 9\n1 2\n2 3\n",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10 3\n1 2\n3 2\n7 2\n",
+    "output" : "",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "10 2\n1 6\n2 7\n",
+    "output" : "",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.04",
+  "contestName" : "Codeforces Round #557 (Div. 1) [based on Forethought Future Cup - Final Round]",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false
+}

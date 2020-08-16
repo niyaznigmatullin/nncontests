@@ -1,0 +1,31 @@
+{
+  "name" : "DivisorSequences",
+  "signature" : {
+    "name" : "longest",
+    "result" : "int",
+    "arguments" : [ "int" ],
+    "argumentNames" : [ "N" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "15" ],
+    "result" : "4",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "12" ],
+    "result" : "2",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "34" ],
+    "result" : "4",
+    "index" : 2,
+    "active" : true
+  } ],
+  "date" : "2019.06.04",
+  "contestName" : "2019 Topcoder Open Algo",
+  "testClasses" : [ ],
+  "fqn" : "coding.DivisorSequences",
+  "failOnOverflow" : true,
+  "memoryLimit" : "256M"
+}

@@ -1,0 +1,41 @@
+{
+  "name" : "E - Sasha and a Very Easy Test",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5 100\n4 1 2 3 5\n5\n3 1 5\n1 2 3 6\n3 1 2\n1 1 5 1\n3 2 4\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 2\n4 1 2 3 5\n7\n3 1 5\n1 2 3 6\n3 1 2\n1 1 5 1\n3 2 4\n2 3 4\n3 3 4\n",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 2100\n1 2 3 4 5\n10\n1 1 3 12\n1 1 5 10\n2 5 50\n3 2 4\n1 4 4 28\n2 4 7\n3 1 2\n3 3 4\n2 3 3\n3 1 5",
+    "output" : "",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskE",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.16",
+  "contestName" : "Codeforces Round #539 (Div. 1)",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false
+}

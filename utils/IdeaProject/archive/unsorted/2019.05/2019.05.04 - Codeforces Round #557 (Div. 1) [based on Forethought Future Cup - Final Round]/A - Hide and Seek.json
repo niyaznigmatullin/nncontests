@@ -1,0 +1,41 @@
+{
+  "name" : "A - Hide and Seek",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5 3\n5 1 4\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 8\n1 2 3 4 4 3 2 1",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "100000 1\n42\n",
+    "output" : "",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.04",
+  "contestName" : "Codeforces Round #557 (Div. 1) [based on Forethought Future Cup - Final Round]",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false
+}

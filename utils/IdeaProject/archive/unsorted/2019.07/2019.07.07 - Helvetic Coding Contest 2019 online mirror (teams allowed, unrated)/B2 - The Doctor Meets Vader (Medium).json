@@ -1,0 +1,31 @@
+{
+  "name" : "B2 - The Doctor Meets Vader (Medium)",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "6 7\n1 2\n2 3\n3 4\n4 6\n6 5\n4 4\n3 6\n4 2 7 3\n1 10 2\n3 8 2\n5 1 0\n6 5 4\n3 7\n5 2\n",
+    "output" : "12",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskB2",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.07.07",
+  "contestName" : "Helvetic Coding Contest 2019 online mirror (teams allowed, unrated)",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false
+}

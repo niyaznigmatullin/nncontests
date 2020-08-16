@@ -1,0 +1,36 @@
+{
+  "name" : "G - Zoning Restrictions",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "3 3 3\n1 1 1 1000\n2 2 3 1000\n3 3 2 1000\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 10 2\n2 3 8 76\n3 4 7 39\n",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskG",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.20",
+  "contestName" : "Forethought Future Cup - Elimination Round",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false
+}

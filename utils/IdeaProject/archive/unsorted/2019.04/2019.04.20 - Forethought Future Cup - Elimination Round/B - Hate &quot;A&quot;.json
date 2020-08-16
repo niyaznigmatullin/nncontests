@@ -1,0 +1,46 @@
+{
+  "name" : "B - Hate &quot;A&quot;",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "aaaaa\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "aacaababc\n",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "ababacacbbcc\n",
+    "output" : "",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "baba\n",
+    "output" : "",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.20",
+  "contestName" : "Forethought Future Cup - Elimination Round",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false
+}

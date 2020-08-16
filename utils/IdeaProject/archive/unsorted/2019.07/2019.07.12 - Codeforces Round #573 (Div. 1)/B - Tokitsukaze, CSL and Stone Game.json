@@ -1,0 +1,46 @@
+{
+  "name" : "B - Tokitsukaze, CSL and Stone Game",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "1\n0\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n1 0\n",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n2 2\n",
+    "output" : "",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3\n2 3 1\n",
+    "output" : "",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.07.12",
+  "contestName" : "Codeforces Round #573 (Div. 1)",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false
+}

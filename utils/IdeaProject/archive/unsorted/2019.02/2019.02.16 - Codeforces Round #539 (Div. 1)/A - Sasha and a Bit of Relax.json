@@ -1,0 +1,41 @@
+{
+  "name" : "A - Sasha and a Bit of Relax",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5\n1 2 3 4 5\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n3 2 2 3 7 6\n",
+    "output" : "3",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3\n42 4 2\n",
+    "output" : "0",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.16",
+  "contestName" : "Codeforces Round #539 (Div. 1)",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false
+}
