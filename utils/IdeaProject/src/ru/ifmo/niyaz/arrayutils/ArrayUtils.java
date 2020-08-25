@@ -339,4 +339,46 @@ public class ArrayUtils {
         return d;
     }
 
+    public static int[] merge(int[] a, int[] b) {
+        if (a == null) return b;
+        if (b == null) return a;
+        int[] ret = new int[a.length + b.length];
+        for (int i = 0, j = 0, k = 0; i + j < a.length + b.length; ) {
+            if (j >= b.length || (i < a.length && a[i] <= b[j])) {
+                ret[k++] = a[i++];
+            } else {
+                ret[k++] = b[j++];
+            }
+        }
+        return ret;
+    }
+
+    public static int lowerBound(int[] a, int x) {
+        int left = -1;
+        int right = a.length;
+        while (left < right - 1) {
+            int mid = (left + right) >>> 1;
+            if (a[mid] < x) {
+                left = mid;
+            } else {
+                right = mid;
+            }
+        }
+        return right;
+    }
+
+    public static int upperBound(int[] a, int x) {
+        int left = -1;
+        int right = a.length;
+        while (left < right - 1) {
+            int mid = (left + right) >>> 1;
+            if (a[mid] <= x) {
+                left = mid;
+            } else {
+                right = mid;
+            }
+        }
+        return right;
+    }
+
 }
