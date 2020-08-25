@@ -1,0 +1,31 @@
+{
+  "name" : "VisitALot",
+  "signature" : {
+    "name" : "travel",
+    "result" : "String",
+    "arguments" : [ "int", "int", "int[]", "int[]" ],
+    "argumentNames" : [ "R", "C", "obsr", "obsc" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "2", "3", "", "" ],
+    "result" : "SENE",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "6", "5", "1 1 4", "1 3 1" ],
+    "result" : "SSEESWWSSEENEE",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "7", "8", "", "" ],
+    "result" : "EEEEEEESWWWWWWWSEEEEEEESWWWWWWWSEEEEEEESWWWWWWWSEEEEEEE",
+    "index" : 2,
+    "active" : true
+  } ],
+  "date" : "2020.08.18",
+  "contestName" : "2020 TopCoder Open Algo",
+  "testClasses" : [ ],
+  "fqn" : "coding.VisitALot",
+  "failOnOverflow" : true,
+  "memoryLimit" : "256M"
+}

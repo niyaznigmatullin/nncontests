@@ -1,0 +1,34 @@
+{
+  "name" : "TaskD",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "9\n11 12 3\n0 8 9\n6 9 1\n1 12 0\n0 7 11\n5 8 2\n9 11 10\n5 11 9\n5 8 5\n0 10\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskD",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.08.25",
+  "contestName" : "SNSS2020 Round 2",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
