@@ -1,0 +1,34 @@
+{
+  "name" : "TaskB",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7\n2 1.0\n3 1.0\n4 1.0\n3 0.5\n5 0.678\n9 0.87\n8000 0.75",
+    "output" : "Case #1:\n1.00000000\n1.00000000\nCase #2:\n1.33333333\n1.66666667\n2.00000000\nCase #3:\n1.66666667\n1.94444444\n2.38888889\n3.00000000\nCase #4:\n1.66666667\n1.66666667\n1.66666667\nCase #5:\n2.47452857\n2.61417298\n2.77465280\n2.96047982\n3.17616583\nCase #6:\n3.64469088\n3.83725603\n4.05825232\n4.31581280\n4.62193375\n4.99526004\n5.46668555\n6.09114388\n6.96896476\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx1G -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "coding.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "ar 1e-5",
+  "testClasses" : [ ],
+  "date" : "2020.08.29",
+  "contestName" : "Facebook Hackercup 2020 Round 2",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

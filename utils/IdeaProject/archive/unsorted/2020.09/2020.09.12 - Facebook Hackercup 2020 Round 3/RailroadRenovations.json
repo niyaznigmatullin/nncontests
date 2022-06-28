@@ -1,0 +1,39 @@
+{
+  "name" : "RailroadRenovations",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7\n2 0\n1 0\n1 1\n2 0\n1 1\n1 0\n2 1\n1 1\n1 0\n3 0\n1 1\n3 1\n2 0\n3 1\n1 1\n3 1\n2 0\n6 2\n6 1\n9 1\n5 0\n3 1\n4 0\n8 1\n20 4\n7 1\n3 0\n10 0\n13 1\n4 1\n2 1\n12 1\n4 1\n3 1\n14 1\n2 0\n8 0\n13 0\n8 1\n5 1\n13 1\n12 1\n13 0\n2 0\n6 1\n",
+    "output" : "Case #1: 1\nCase #2: -1\nCase #3: 1\nCase #4: 2\nCase #5: 1\nCase #6: 1\nCase #7: 4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n2 0\n1 0\n2 0\n",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/coding",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "coding.RailroadRenovations",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.09.12",
+  "contestName" : "Facebook Hackercup 2020 Round 3",
+  "truncate" : true,
+  "inputClass" : "ru.ifmo.niyaz.io.FastScanner",
+  "outputClass" : "ru.ifmo.niyaz.io.FastPrinter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
